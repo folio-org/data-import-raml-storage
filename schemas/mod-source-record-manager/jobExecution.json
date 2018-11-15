@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Job Execution Schema",
+  "type": "object",
+  "properties": {
+    "jobExecutionId": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "jobExecutionHrId": {
+      "description": "Human readable id",
+      "type": "string"
+    },
+    "parentJobId": {
+      "description": "",
+      "type": "string"
+    },
+    "subordinationType": {
+      "description": "Type of subordination to another JobExecution entities",
+      "type": "string",
+      "enum": ["CHILD", "PARENT_SINGLE", "PARENT_MULTIPLE"]
+    },
+    "jobProfileId": {
+      "description": "Unique identifier of the JobProfile entity",
+      "type": "string"
+    },
+    "sourcePath": {
+      "description": "Path to the file",
+      "type": "string"
+    },
+    "runBy": {
+      "description": "First and last name of the user that triggered the job execution",
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "description": "First name",
+          "type": "string"
+        },
+        "lastName": {
+          "description": "Last name",
+          "type": "string"
+        }
+      }
+    },
+    "startedDate": {
+      "description": "Date and time when the job execution started",
+      "type": "string"
+    },
+    "completedDate": {
+      "description": "Date and time when the job execution completed",
+      "type": "string"
+    },
+    "status": {
+      "description": "Current status of the job execution",
+      "type": "string",
+      "enum": ["NEW", "IMPORT_IN_PROGRESS", "IMPORT_FINISHED", "PARSING_IN_PROGRESS", "PARSING_FINISHED", "PROCESSING_IN_PROGRESS", "PROCESSING_FINISHED", "COMMITED"]
+    }
+  },
+  "required": [
+    "jobExecutionId",
+    "jobExecutionHrId",
+    "jobProfileId",
+    "sourcePath",
+    "status"
+  ]
+}
