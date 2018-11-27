@@ -57,10 +57,10 @@
     }
   },
   "required": [
-    "jobExecutionId",
-    "jobExecutionHrId",
-    "jobProfileId",
-    "sourcePath",
+    "id",
+    "parentJobId",
+    "subordinationType",
+    "jobProfileName",
     "status"
   ]
 }
