@@ -1,7 +1,7 @@
 {
   "logs": [
     {
-      "id": "dc653de8-f0df-48ab-9630-13aacfe8e8f4",
+      "jobExecutionId": "dc653de8-f0df-48ab-9630-13aacfe8e8f4",
       "hrId": "13414",
       "jobProfileName": "Marc bib jobs profile",
       "fileName": "import_1.csv",
@@ -12,7 +12,7 @@
       "completedDate": "2018-10-30T12:40:01.000"
     },
     {
-      "id": "ff567j9l-f0df-48ab-9630-13aacfe8e8f4",
+      "jobExecutionId": "ff567j9l-f0df-48ab-9630-13aacfe8e8f4",
       "hrId": "23112",
       "jobProfileName": "Marc bib jobs profile",
       "fileName": "import_2.csv",
@@ -23,7 +23,7 @@
       "completedDate": "2018-10-30T12:41:31.000"
     },
     {
-      "id": "ffgny678-f0df-48ab-9630-13aacfe8e8f4",
+      "jobExecutionId": "ffgny678-f0df-48ab-9630-13aacfe8e8f4",
       "hrId": "33112",
       "jobProfileName": "Marc bib jobs profile",
       "fileName": "import_1.csv",

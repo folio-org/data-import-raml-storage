@@ -9,7 +9,7 @@
       "id": "logList",
       "items": {
         "type": "object",
-        "$ref": "log.json"
+        "$ref": "logDto.json"
       }
     },
     "totalRecords": {

@@ -3,14 +3,11 @@
   "description": "Log data transfer object Schema",
   "type": "object",
   "properties": {
-    "id": {
-      "type": "string"
-    },
     "jobExecutionId": {
       "description": "Unique identifier of the executed job",
       "type": "string"
     },
-    "jobExecutionHdId": {
+    "hrId": {
       "description": "Human readable id of the executed job",
       "type": "string"
     },
@@ -44,7 +41,7 @@
   },
   "required": [
     "jobExecutionId",
-    "jobExecutionHrId",
+    "hrId",
     "jobProfileName",
     "runBy",
     "completedDate"
