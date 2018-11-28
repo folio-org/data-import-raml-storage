@@ -10,7 +10,7 @@
       "description": "Unique identifier of the executed job",
       "type": "string"
     },
-    "jobExecutionHdId": {
+    "jobExecutionHrId": {
       "description": "Human readable id of the executed job",
       "type": "string"
     },
