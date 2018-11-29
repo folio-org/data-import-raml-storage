@@ -3,11 +3,8 @@
   "description": "Log Schema",
   "type": "object",
   "properties": {
-    "id": {
-      "type": "string"
-    },
     "jobExecutionId": {
-      "description": "Unique identifier of the executed job",
+      "description": "Id, Unique identifier of the executed job",
       "type": "string"
     },
     "jobExecutionHrId": {

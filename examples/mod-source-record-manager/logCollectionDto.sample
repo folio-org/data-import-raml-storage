@@ -1,7 +1,6 @@
 {
   "logs": [
     {
-      "id": "dc653de8-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "13414",
       "jobProfileName": "Standard BIB profile",
@@ -13,7 +12,6 @@
       "completedDate": "2018-10-30T12:41:22.000"
     },
     {
-      "id": "ff567j9l-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "klo09bvc-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "23112",
       "jobProfileName": "BIB profile with customized Holdings",
@@ -25,7 +23,6 @@
       "completedDate": "2018-10-30T12:42:18.000"
     },
     {
-      "id": "ffgny678-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "zx334gbn-1caf-4470-9ad1-d533f6360bdd",
 "jobExecutionHrId": "33112",
       "jobProfileName": "Christie's profile for CPL",
@@ -37,7 +34,6 @@
       "completedDate": "2018-10-30T12:45:33.000"
     },
     {
-      "id": "jkl04579-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "qwsxcv44-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "47906",
       "jobProfileName": "MIT Orders",
@@ -49,7 +45,6 @@
       "completedDate": "2018-11-01T10:12:51.000"
     },
     {
-      "id": "xcffgnh7-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "jj890npz-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "48906",
       "jobProfileName": "Standard BIB profile with fixes for Items (HU)",
@@ -61,7 +56,6 @@
       "completedDate": "2018-11-01T10:37:53.000"
     },
     {
-      "id": "jmssxc34-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "ccvg6fgh-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "58906",
       "jobProfileName": "Obsolete BIB profile for backward compatibility",
@@ -73,7 +67,6 @@
       "completedDate": "2018-11-02T10:20:32.000"
     },
     {
-      "id": "sdhhnmkl-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "erxdx46m-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "68551",
       "jobProfileName": "New Holdings (Beta.2 Use carefully)",
@@ -85,7 +78,6 @@
       "completedDate": "2018-11-02T10:18:44.000"
     },
     {
-      "id": "554gh1xco-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "77iklzd5-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "75671",
       "jobProfileName": "Marc BIB-001 Jonathan test",
@@ -97,7 +89,6 @@
       "completedDate": "2018-11-01T10:09:51.000"
     },
     {
-      "id": "66784gnm-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "eefgbn89-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "81123",
       "jobProfileName": "Standard BIB profile",
@@ -109,7 +100,6 @@
       "completedDate": "2018-11-01T10:18:42.000"
     },
     {
-      "id": "ggh090fg-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "ggh890fg-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "91124",
       "jobProfileName": "Standard BIB profile",
@@ -121,7 +111,6 @@
       "completedDate": "2018-11-01T11:08:21.000"
     },
     {
-      "id": "12ddvb69-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "yty49kml-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "10556",
       "jobProfileName": "Simple BIB profile (description update)",
@@ -133,7 +122,6 @@
       "completedDate": "2018-11-02T12:09:51.000"
     },
     {
-      "id": "tthjuv67-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "qqwedfv5-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "11250",
       "jobProfileName": "Standard BIB profile (Instances only)",
@@ -145,7 +133,6 @@
       "completedDate": "2018-11-03T10:01:30.000"
     },
     {
-      "id": "ffbnj890-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "aazxc45f-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "52250",
       "jobProfileName": "FOLIO Default",
@@ -157,7 +144,6 @@
       "completedDate": "2018-11-03T11:22:30.000"
     },
     {
-      "id": "zxc66hn7-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "12ffvb67-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "13250",
       "jobProfileName": "Charlotte's Core Case with Fixes",
@@ -169,7 +155,6 @@
       "completedDate": "2018-11-02T09:05:30.000"
     },
     {
-      "id": "11fgb78c-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "hkdorl60-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "14250",
       "jobProfileName": "Pearson new data",
@@ -181,7 +166,6 @@
       "completedDate": "2018-11-03T11:45:21.000"
     },
     {
-      "id": "sdvbnht6-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "asdcvbnm-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "15150",
       "jobProfileName": "Thomson Reuters standard",
@@ -193,7 +177,6 @@
       "completedDate": "2018-11-02T10:45:21.000"
     },
     {
-      "id": "ascvr542-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "ghnm781a-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "16150",
       "jobProfileName": "Standard BIB profile",
@@ -205,7 +188,6 @@
       "completedDate": "2018-11-03T11:40:21.000"
     },
     {
-      "id": "sdrtyhbn-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "rthn88mp-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "17091",
       "jobProfileName": "Annual registry update profile",
@@ -217,7 +199,6 @@
       "completedDate": "2018-11-03T14:20:21.000"
     },
     {
-      "id": "zxasdcvb-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "sdgbny65-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "18091",
       "jobProfileName": "Outdated! DO NOT USE (Just Special Cases!)",
@@ -229,7 +210,6 @@
       "completedDate": "2018-11-01T15:21:28.000"
     },
     {
-      "id": "fg667jmk-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "qwcvbn67-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "18591",
       "jobProfileName": "BIB profile with customized Holdings",
@@ -241,7 +221,6 @@
       "completedDate": "2018-11-05T13:08:12.000"
     },
     {
-      "id": "sdghnmkl-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "34thjn77-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "19091",
       "jobProfileName": "BIB profile with new Holdings & Items",
@@ -253,7 +232,6 @@
       "completedDate": "2018-11-01T19:01:41.000"
     },
     {
-      "id": "thnmjk5c-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "ascc56nm-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "20091",
       "jobProfileName": "Standard BIB profile",
@@ -265,7 +243,6 @@
       "completedDate": "2018-11-05T14:21:57.000"
     },
     {
-      "id": "zxssrgb6-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "hjmkll87-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "21091",
       "jobProfileName": "Marc bib jobs",
@@ -277,7 +254,6 @@
       "completedDate": "2018-11-05T08:59:55.000"
     },
     {
-      "id": "ghtynnm6-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "aaxcvf56-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "22091",
       "jobProfileName": "New Holdings (Beta.2 Use carefully)",
@@ -289,7 +265,6 @@
       "completedDate": "2018-10-31T17:40:44.000"
     },
     {
-      "id": "erfgbnhj-f0df-48ab-9630-13aacfe8e8f4",
       "jobExecutionId": "g6nnmklo-1caf-4470-9ad1-d533f6360bdd",
       "jobExecutionHrId": "23091",
       "jobProfileName": "Standard BIB profile (2019 Q1 Beta test)",
