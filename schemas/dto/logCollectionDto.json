@@ -3,7 +3,7 @@
   "description": "Collection of log records",
   "type": "object",
   "properties": {
-    "logs": {
+    "logDtos": {
       "description": "List of log records",
       "type": "array",
       "id": "logList",
