@@ -44,11 +44,13 @@
     },
     "startedDate": {
       "description": "Date and time when the job execution started",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "completedDate": {
       "description": "Date and time when the job execution completed",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "status": {
       "description": "Current status of the job execution",
