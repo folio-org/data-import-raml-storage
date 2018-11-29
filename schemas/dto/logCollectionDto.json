@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Collection of log records",
+  "description": "Collection of Log data transfer objects",
   "type": "object",
   "properties": {
     "logDtos": {
