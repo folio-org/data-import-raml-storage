@@ -17,7 +17,7 @@
     }
   },
   "required": [
-    "logs",
+    "logDtos",
     "totalRecords"
   ]
 }
