@@ -42,6 +42,20 @@
         }
       }
     },
+    "progress": {
+      "description": "Execution progress of the job",
+      "type": "object",
+      "properties": {
+        "current": {
+          "description": "Currently processing record",
+          "type": "integer"
+        },
+        "total": {
+          "description": "Total number of records to be processed",
+          "type": "integer"
+        }
+      }
+    },
     "startedDate": {
       "description": "Date and time when the job execution started",
       "type": "string",
@@ -55,7 +69,12 @@
     "status": {
       "description": "Current status of the job execution",
       "type": "string",
-      "enum": ["NEW", "IMPORT_IN_PROGRESS", "IMPORT_FINISHED", "PARSING_IN_PROGRESS", "PARSING_FINISHED", "PROCESSING_IN_PROGRESS", "PROCESSING_FINISHED", "COMMITTED"]
+      "$ref": "status.json"
+    },
+    "uiStatus": {
+      "description": "Status that is rendered on UI",
+      "type": "string",
+      "$ref": "uiStatus.json"
     }
   },
   "required": [
