@@ -3,6 +3,7 @@
   "description": "JobExecution error status Enum",
   "type": "string",
   "enum": [
-    "SNAPSHOT_UPDATE_ERROR"
+    "SNAPSHOT_UPDATE_ERROR",
+    "RECORD_UPDATE_ERROR"
   ]
 }
