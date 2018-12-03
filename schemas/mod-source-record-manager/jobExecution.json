@@ -75,6 +75,11 @@
       "description": "Status that is rendered on UI",
       "type": "string",
       "$ref": "uiStatus.json"
+    },
+    "errorStatus": {
+      "description": "Status that describe error state of job execution",
+      "type": "string",
+      "$ref": "errorStatus.json"
     }
   },
   "required": [
