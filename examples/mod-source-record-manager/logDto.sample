@@ -7,5 +7,7 @@
      "firstName": "DIKU",
      "lastName": "ADMINISTRATOR"
   },
-  "completedDate": "2018-10-30T12:40:01.000"
+  "completedDate": "2018-10-30T12:40:01.000",
+  "status": "COMMITTED",
+  "uiStatus": "RUNNING_COMPLETE"
 }

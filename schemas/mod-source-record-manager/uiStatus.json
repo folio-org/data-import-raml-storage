@@ -3,6 +3,7 @@
   "description": "JobExecution UI status Enum",
   "type": "string",
   "enum": [
+    "INITIALIZATION",
     "PREPARING_FOR_PREVIEW",
     "READY_FOR_PREVIEW",
     "RUNNING",
