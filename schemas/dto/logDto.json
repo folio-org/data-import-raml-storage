@@ -37,6 +37,16 @@
       "description": "Date and time when completed the job execution",
       "type": "string",
       "format": "date-time"
+    },
+    "status": {
+      "description": "Current status of the job execution",
+      "type": "string",
+      "$ref": "../mod-source-record-manager/status.json"
+    },
+    "uiStatus": {
+      "description": "Status that is rendered on UI",
+      "type": "string",
+      "$ref": "../mod-source-record-manager/uiStatus.json"
     }
   },
   "required": [

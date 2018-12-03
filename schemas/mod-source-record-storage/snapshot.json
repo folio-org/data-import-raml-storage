@@ -10,7 +10,7 @@
     "status": {
       "description": "Current status",
       "type": "string",
-      "enum": ["NEW", "IMPORT_IN_PROGRESS", "IMPORT_FINISHED", "PARSING_IN_PROGRESS", "PARSING_FINISHED", "PROCESSING_IN_PROGRESS", "PROCESSING_FINISHED", "COMMITTED"]
+      "$ref": "../mod-source-record-manager/status.json"
     },
     "metadata": {
       "description": "Metadata provided by the server",

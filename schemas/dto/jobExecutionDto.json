@@ -60,7 +60,12 @@
     "status": {
       "description": "Current status of the job execution",
       "type": "string",
-      "enum": ["NEW", "IMPORT_IN_PROGRESS", "IMPORT_FINISHED", "PARSING_IN_PROGRESS", "PARSING_FINISHED", "PROCESSING_IN_PROGRESS", "PROCESSING_FINISHED", "COMMITTED"]
+      "$ref": "../mod-source-record-manager/status.json"
+    },
+    "uiStatus": {
+      "description": "Status that is rendered on UI",
+      "type": "string",
+      "$ref": "../mod-source-record-manager/uiStatus.json"
     }
   },
   "required": [
