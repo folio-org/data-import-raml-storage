@@ -16,6 +16,7 @@
   "startedDate": "2018-10-30T12:36:55.000",
   "completedDate": "2018-10-30T12:40:01.000",
   "status": "COMMITTED",
-  "uiStatus": "RUNNING_COMPLETE"
+  "uiStatus": "RUNNING_COMPLETE",
+  "userId": "c9db5d7a-e1d4-11e8-9f32-f2801f1b9fd1"
   }
 }
