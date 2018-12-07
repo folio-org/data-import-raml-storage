@@ -3,7 +3,6 @@
   "description": "JobExecution status Enum",
   "type": "string",
   "enum": [
-    "DRAFT",
     "NEW",
     "IMPORT_IN_PROGRESS",
     "IMPORT_FINISHED",
