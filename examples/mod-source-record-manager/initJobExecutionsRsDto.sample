@@ -14,7 +14,9 @@
       },
       "startedDate": "2018-10-30T12:36:55.000",
       "completedDate": "2018-10-30T12:40:01.000",
-      "status": "COMMITTED"
+      "status": "COMMITTED",
+      "uiStatus": "RUNNING_COMPLETE",
+      "userId": "27dfac11-1caf-4470-9ad1-d533f6360bdd"
     },
     {
       "id": "dc6jm9a1-1caf-4470-9ad1-d533f6360bdd",
@@ -29,7 +31,9 @@
       },
       "startedDate": "2018-10-30T13:06:15.000",
       "completedDate": "2018-10-30T13:07:01.000",
-      "status": "COMMITTED"
+      "status": "COMMITTED",
+      "uiStatus": "RUNNING_COMPLETE",
+      "userId": "27dfac11-1caf-4470-9ad1-d533f6360bdd"
     }
   ]
 }

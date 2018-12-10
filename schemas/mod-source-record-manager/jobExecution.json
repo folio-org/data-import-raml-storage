@@ -80,6 +80,10 @@
       "description": "Status that describe error state of job execution",
       "type": "string",
       "$ref": "errorStatus.json"
+    },
+    "userId": {
+      "description": "ID of the user who created the JobExecution",
+      "type": "string"
     }
   },
   "required": [
@@ -87,6 +91,8 @@
     "parentJobId",
     "subordinationType",
     "jobProfileName",
-    "status"
+    "status",
+    "uiStatus",
+    "userId"
   ]
 }
