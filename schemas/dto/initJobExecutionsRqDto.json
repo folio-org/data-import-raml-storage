@@ -11,6 +11,14 @@
         "type": "object",
         "$ref": "fileDto.json"
       }
+    },
+    "userId": {
+      "description": "ID of the user initializing JobExecutions",
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "files",
+    "userId"
+  ]
 }

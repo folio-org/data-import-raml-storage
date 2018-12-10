@@ -4,6 +4,7 @@
   "type": "string",
   "enum": [
     "NEW",
+    "DRAFT",
     "IMPORT_IN_PROGRESS",
     "IMPORT_FINISHED",
     "PARSING_IN_PROGRESS",
