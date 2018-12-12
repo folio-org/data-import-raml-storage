@@ -2,11 +2,11 @@
   {
     "id": "34vh8ml4-fvb7-45n0-23c0-13n8gbkl7091",
     "name": "Profile for bib files",
-    "status": "COMMITTED"
+    "state": "COMMITTED"
   },
   {
     "id": "cv5n89s1-fvb7-45n0-23c0-13n8gbkl7091",
     "name": "Profile for mrc files",
-    "status": "DIRTY"
+    "state": "DIRTY"
   }
 ]
