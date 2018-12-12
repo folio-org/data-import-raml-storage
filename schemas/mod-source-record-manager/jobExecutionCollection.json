@@ -13,6 +13,7 @@
       }
     },
     "totalRecords": {
+      "description": "Total number of profile records",
       "type": "integer"
     }
   },
