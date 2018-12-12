@@ -8,6 +8,7 @@
     "READY_FOR_PREVIEW",
     "RUNNING",
     "RUNNING_COMPLETE",
-    "ERROR"
+    "ERROR",
+    "DISCARDED"
   ]
 }

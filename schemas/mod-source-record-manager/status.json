@@ -13,6 +13,7 @@
     "PROCESSING_FINISHED",
     "COMMIT_IN_PROGRESS",
     "COMMITTED",
-    "ERROR"
+    "ERROR",
+    "DISCARDED"
   ]
 }
