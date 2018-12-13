@@ -90,7 +90,6 @@
     "id",
     "parentJobId",
     "subordinationType",
-    "jobProfileName",
     "status",
     "uiStatus",
     "userId"
