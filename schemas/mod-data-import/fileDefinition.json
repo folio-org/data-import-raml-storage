@@ -33,6 +33,11 @@
       "description": "Date and time when the file definition was created",
       "type": "string",
       "format": "date-time"
+    },
+    "uploadedDate": {
+      "description": "Date and time when the file was uploaded",
+      "type": "string",
+      "format": "date-time"
     }
   },
   "required": [
