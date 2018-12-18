@@ -3,8 +3,9 @@
   "description": "JobExecution status Enum",
   "type": "string",
   "enum": [
+    "PARENT",
     "NEW",
-    "DRAFT",
+    "FILE_UPLOADED",
     "IMPORT_IN_PROGRESS",
     "IMPORT_FINISHED",
     "PARSING_IN_PROGRESS",
