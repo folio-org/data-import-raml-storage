@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Necessary data to start file dividing process",
+  "type": "object",
+  "properties": {
+    "uploadDefinition": {
+      "description": "Upload definition",
+      "type": "object",
+      "$ref": "../mod-data-import/uploadDefinition.json"
+    },
+    "profile": {
+      "description": "Job profile",
+      "type": "object",
+      "$ref": "jobExecutionProfileDto.json"
+    }
+  },
+  "required": [
+    "uploadDefinition",
+    "profile"
+  ]
+}
