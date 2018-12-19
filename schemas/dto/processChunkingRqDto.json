@@ -11,7 +11,7 @@
     "profile": {
       "description": "Job profile",
       "type": "object",
-      "$ref": "jobExecutionProfileDto.json"
+      "$ref": "jobExecutionProfile.json"
     }
   },
   "required": [

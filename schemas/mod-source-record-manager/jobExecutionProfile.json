@@ -10,11 +10,6 @@
     "name": {
       "description": "Profile caption",
       "type": "string"
-    },
-    "state": {
-      "description": "Current state of the job profile",
-      "type": "string",
-      "enum": ["DIRTY", "COMMITTED"]
     }
   },
   "required": [
