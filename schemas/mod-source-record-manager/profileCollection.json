@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Collection of profiles",
+  "type": "object",
+  "properties": {
+    "profiles": {
+      "description": "List of profiles",
+      "type": "array",
+      "id": "profileList",
+      "items": {
+        "type": "object",
+        "$ref": "profile.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of profile records",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "profiles",
+    "totalRecords"
+  ]
+}
