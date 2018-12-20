@@ -5,8 +5,7 @@
       "hrId": "13414",
       "profile": {
         "id": "fgbnukl5-1caf-4470-9ad1-d533f6360bdd",
-        "name": "Profile for marc files",
-        "state": "COMMITTED"
+        "name": "Profile for marc files"
       },
       "parentJobId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
       "subordinationType: "PARENT_SINGLE",
@@ -30,8 +29,7 @@
       "hrId": "11844",
       "profile": {
         "id": "22fgbthj-1caf-4470-9ad1-d533f6360bdd",
-        "name": "Profile for marc files",
-        "state": "COMMITTED"
+        "name": "Profile for marc files"
       },
       "parentJobId": "981oklm8-lkmn-mnds-za98-d533f6360bdd",
       "subordinationType: "PARENT_SINGLE",
