@@ -23,7 +23,7 @@
     "profile": {
       "description": "Related JobProfile information",
       "type": "object",
-      "$ref": "jobExecutionProfile.json"
+      "$ref": "jobProfile.json"
     },
     "sourcePath": {
       "description": "Path to the file",
