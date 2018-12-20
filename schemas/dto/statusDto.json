@@ -11,7 +11,7 @@
     "errorStatus": {
       "description": "Status that describe error state of job execution",
       "type": "string",
-      "$ref": "errorStatus.json"
+      "$ref": "../mod-source-record-manager/errorStatus.json"
     }
   },
   "required": [
