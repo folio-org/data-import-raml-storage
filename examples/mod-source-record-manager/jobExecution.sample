@@ -3,8 +3,7 @@
   "hrId": "10000",
   "profile": {
      "id": "zxsrt6hm-1caf-4470-9ad1-d533f6360bdd",
-     "name": "Profile for marc files",
-     "state": "COMMITTED"
+     "name": "Profile for marc files"
   },
   "parentJobId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
   "subordinationType": "PARENT_SINGLE",
