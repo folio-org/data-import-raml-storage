@@ -11,7 +11,7 @@
     "profile": {
       "description": "Job profile",
       "type": "object",
-      "$ref": "../mod-source-record-manager/jobExecutionProfile.json"
+      "$ref": "../mod-source-record-manager/jobProfile.json"
     }
   },
   "required": [
