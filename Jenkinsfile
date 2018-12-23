@@ -21,9 +21,9 @@ pipeline {
       }
     }
 
-    stage('Lint raml-cop') {
+    stage('Lint raml schema') {
       steps {
-        runLintRamlCop()
+        runLintRamlSchema()
       }
     }
 
