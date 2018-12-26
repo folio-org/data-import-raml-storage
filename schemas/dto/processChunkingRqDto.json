@@ -8,7 +8,7 @@
       "type": "object",
       "$ref": "../mod-data-import/uploadDefinition.json"
     },
-    "profile": {
+    "jobProfile": {
       "description": "Job profile",
       "type": "object",
       "$ref": "../mod-source-record-manager/jobProfile.json"
@@ -16,6 +16,6 @@
   },
   "required": [
     "uploadDefinition",
-    "profile"
+    "jobProfile"
   ]
 }
