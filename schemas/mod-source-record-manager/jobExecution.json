@@ -20,7 +20,7 @@
       "type": "string",
       "enum": ["CHILD", "PARENT_SINGLE", "PARENT_MULTIPLE"]
     },
-    "profile": {
+    "jobProfile": {
       "description": "Related JobProfile information",
       "type": "object",
       "$ref": "jobProfile.json"
