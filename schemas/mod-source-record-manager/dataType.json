@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Data Types Enum",
+  "type": "string",
+  "enum": [
+    "MARC",
+    "EDIFACT",
+    "Delimited"
+  ]
+}

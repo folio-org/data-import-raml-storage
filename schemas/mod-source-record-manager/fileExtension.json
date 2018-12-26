@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "File Extension Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "extension": {
+      "description": "File extension",
+      "type": "string"
+    },
+    "dataTypes": {
+      "description": "Set of data types",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "dataType.json"
+      }
+    },
+    "importBlocked": {
+      "description": "Flag indicating if import is blocked",
+      "type": "boolean"
+    },
+    "metadata": {
+      "description": "Metadata provided by the server",
+      "type": "object",
+      "$ref": "../../raml-util/schemas/metadata.schema",
+      "readonly": true
+    }
+  },
+  "required": [
+    "extension",
+    "importBlocked"
+  ]
+}
