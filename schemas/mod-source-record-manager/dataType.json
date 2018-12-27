@@ -5,6 +5,6 @@
   "enum": [
     "MARC",
     "EDIFACT",
-    "Delimited"
+    "DELIMITED"
   ]
 }
