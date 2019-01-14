@@ -41,7 +41,7 @@
     },
     "size": {
       "description": "Size of the file in Kbyte",
-      "type": "number"
+      "type": "integer"
     }
   },
   "required": [
