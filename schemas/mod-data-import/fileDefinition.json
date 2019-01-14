@@ -40,7 +40,7 @@
       "format": "date-time"
     },
     "size": {
-      "description": "size of the file in Kbyte",
+      "description": "Size of the file in Kbyte",
       "type": "number"
     }
   },
