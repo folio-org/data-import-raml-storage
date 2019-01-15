@@ -42,6 +42,10 @@
     "size": {
       "description": "Size of the file in Kbyte",
       "type": "integer"
+    },
+    "uiKey": {
+      "description": "Unique key for the file definition on ui before entity saved",
+      "type": "string"
     }
   },
   "required": [
