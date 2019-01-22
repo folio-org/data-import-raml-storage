@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Marc records collection for testing",
+  "type": "object",
+  "properties": {
+    "sourceRecords": {
+      "description": "List of raw marc records",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "sourceRecord.json"
+      }
+    }
+  }
+}
