@@ -15,7 +15,13 @@
     "status": {
       "description": "Status of upload",
       "type": "string",
-      "enum": ["NEW", "IN_PROGRESS", "LOADED", "COMPLETED"]
+      "enum": [
+        "NEW",
+        "IN_PROGRESS",
+        "LOADED",
+        "COMPLETED",
+        "ERROR"
+      ]
     },
     "createDate": {
       "description": "Date and time when the upload definition was created",
