@@ -35,10 +35,6 @@
       "description": "Link to UploadDefinition entity",
       "type": "string"
     },
-    "loaded": {
-      "description": "Flag that indicates whether the file is loaded",
-      "type": "boolean"
-    },
     "createDate": {
       "description": "Date and time when the file definition was created",
       "type": "string",
