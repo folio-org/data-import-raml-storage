@@ -17,6 +17,16 @@
       "description": "Name of the file with extension",
       "type": "string"
     },
+    "status": {
+      "description": "Status of files upload",
+      "type": "string",
+      "enum": [
+        "NEW",
+        "UPLOADING",
+        "UPLOADED",
+        "ERROR"
+      ]
+    },
     "jobExecutionId": {
       "description": "Link to JobExecution entity",
       "type": "string"
