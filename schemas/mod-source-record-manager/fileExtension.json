@@ -23,11 +23,10 @@
       "description": "Flag indicating if import is blocked",
       "type": "boolean"
     },
-    "metadata": {
-      "description": "Metadata provided by the server",
+    "userInfo": {
+      "description": "User brief info",
       "type": "object",
-      "$ref": "../../raml-util/schemas/metadata.schema",
-      "readonly": true
+      "$ref": "fileExtensionUserInfo.json"
     }
   },
   "required": [
