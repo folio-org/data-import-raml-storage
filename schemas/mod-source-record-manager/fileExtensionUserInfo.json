@@ -8,7 +8,7 @@
       "type": "string"
     },
     "lastName": {
-      "description": "User second name",
+      "description": "User last name",
       "type": "string"
     },
     "userName": {
