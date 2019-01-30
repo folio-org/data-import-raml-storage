@@ -4,5 +4,10 @@
   "dataTypes": [
     "MARC"
     ],
-  "importBlocked": false
+  "importBlocked": false,
+  "userInfo": {
+    "firstName": "DIKU",
+    "lastName": "ADMINISTRATOR",
+    "userName": "diku_admin"
+  }
 }
