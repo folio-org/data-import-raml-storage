@@ -7,6 +7,10 @@
       "description": "Unique identifier",
       "type": "string"
     },
+    "description": {
+      "description": "Description field for the extension",
+      "type": "string"
+    },
     "extension": {
       "description": "File extension",
       "type": "string"
@@ -22,6 +26,11 @@
     "importBlocked": {
       "description": "Flag indicating if import is blocked",
       "type": "boolean"
+    },
+    "userInfo": {
+      "description": "User brief info, who updated the File Extension",
+      "type": "object",
+      "$ref": "../common/userInfo.json"
     },
     "metadata": {
       "description": "Metadata provided by the server",
