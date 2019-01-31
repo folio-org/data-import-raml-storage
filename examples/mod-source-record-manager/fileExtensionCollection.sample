@@ -8,9 +8,17 @@
         ],
       "importBlocked": false,
       "userInfo": {
-        "firstName": "DIKU",
-        "lastName": "ADMINISTRATOR",
-        "userName": "diku_admin"
+        "firstName": "",
+        "lastName": "",
+        "userName": "SYSTEM"
+      },
+      "metadata" {
+        "createdDate": "2019-01-01T11:550:09Z",
+        "createdByUserId": "",
+        "createdByUsername": "",
+        "updatedDate": "",
+        "updatedByUserId": "",
+        "updatedByUsername": ""
       }
     }
   ],
