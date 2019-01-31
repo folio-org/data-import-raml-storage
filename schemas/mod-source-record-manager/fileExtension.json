@@ -7,6 +7,10 @@
       "description": "Unique identifier",
       "type": "string"
     },
+    "description": {
+      "description": "Description field for the extension",
+      "type": "string"
+    },
     "extension": {
       "description": "File extension",
       "type": "string"
@@ -24,9 +28,9 @@
       "type": "boolean"
     },
     "userInfo": {
-      "description": "User brief info",
+      "description": "User brief info, who updated the File Extension",
       "type": "object",
-      "$ref": "fileExtensionUserInfo.json"
+      "$ref": "../common/userInfo.json"
     },
     "metadata": {
       "description": "Metadata provided by the server",
