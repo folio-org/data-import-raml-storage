@@ -1,0 +1,19 @@
+{
+  "jobProfiles": [
+    {
+      "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
+      "name": "Profile for bib files",
+      "tags": {
+        "tagList": [
+          "lorem", "ipsum", "dolor"
+        ]
+      },
+      "userInfo": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "userName": "@janedoe"
+      }
+    }
+  ],
+  "totalRecords": 1
+}
