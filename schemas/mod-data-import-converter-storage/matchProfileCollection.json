@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Collection of Match Profiles",
+  "type": "object",
+  "properties": {
+    "matchProfiles": {
+      "description": "List of Match Profiles",
+      "type": "array",
+      "id": "matchProfileList",
+      "items": {
+        "type": "object",
+        "$ref": "matchProfile.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of Match Profiles",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "matchProfiles",
+    "totalRecords"
+  ]
+}
