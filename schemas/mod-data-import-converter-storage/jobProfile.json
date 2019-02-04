@@ -11,6 +11,18 @@
       "description": "Job Profile name",
       "type": "string"
     },
+    "description": {
+      "description": "Job Profile description",
+      "type": "string"
+    },
+    "dataTypes": {
+      "description": "Set of data types",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "../common/dataType.json"
+      }
+    },
     "tags": {
       "description": "Set of tags assigned to the current Job Profile",
       "type": "object",
