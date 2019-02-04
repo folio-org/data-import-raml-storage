@@ -20,7 +20,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "$ref": "dataType.json"
+        "$ref": "../common/dataType.json"
       }
     },
     "importBlocked": {

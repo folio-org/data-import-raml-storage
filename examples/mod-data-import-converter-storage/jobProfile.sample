@@ -1,14 +1,26 @@
 {
-  "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
-  "name": "Profile for bib files",
+  "id": "448ae575-daec-49c1-8041-d64c8ed8e5b1",
+  "name": "Load vendor order records",
+  "description": "Ordered on vendor site; load MARC to create bib, holdings, item, and order; keep MARC",
+  "dataTypes": [
+    "MARC"
+  ],
   "tags": {
     "tagList": [
-      "lorem", "ipsum", "dolor"
+      "acq", "daily"
     ]
   },
   "userInfo": {
-    "firstName": "Jane",
-    "lastName": "Doe",
-    "userName": "@janedoe"
+    "firstName": "DIKU",
+    "lastName": "ADMINISTRATOR",
+    "userName": "diku_admin"
+  },
+  "metadata": {
+    "createdDate": "2018-10-30T12:41:22.000",
+    "createdByUserId": "",
+    "createdByUsername": "",
+    "updatedDate": "2018-11-02T12:09:51.000",
+    "updatedByUserId": "",
+    "updatedByUsername": ""
   }
 }
