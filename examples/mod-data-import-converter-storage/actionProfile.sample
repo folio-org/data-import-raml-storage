@@ -1,0 +1,17 @@
+{
+  "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
+  "name": "Dolor sit",
+  "description": "Lorem ipsum dolor sit amet",
+  "action": "Create order",
+  "mapping": "EDI orders",
+  "tags": {
+    "tagList": [
+      "lorem", "ipsum", "dolor"
+    ]
+  },
+  "userInfo": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "userName": "@janedoe"
+  }
+}

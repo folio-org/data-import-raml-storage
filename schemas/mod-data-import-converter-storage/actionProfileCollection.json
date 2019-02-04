@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Collection of Action Profiles",
+  "type": "object",
+  "properties": {
+    "actionProfiles": {
+      "description": "List of Action Profiles",
+      "type": "array",
+      "id": "actionProfileList",
+      "items": {
+        "type": "object",
+        "$ref": "actionProfile.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of Action Profiles",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "actionProfiles",
+    "totalRecords"
+  ]
+}
