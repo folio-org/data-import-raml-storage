@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Action Profile schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "name": {
+      "description": "Action Profile name",
+      "type": "string"
+    },
+    "description": {
+      "description": "Action Profile description",
+      "type": "string"
+    },
+    "action": {
+      "description": "Action description",
+      "type": "string"
+    },
+    "mapping": {
+      "description": "Mapping description",
+      "type": "string"
+    },
+    "tags": {
+      "description": "Set of tags assigned to the current Action Profile",
+      "type": "object",
+      "$ref": "../../raml-util/schemas/tags.schema"
+    },
+    "userInfo": {
+      "description": "First name, last name and username of the user, who updated the Action Profile",
+      "type": "object",
+      "$ref": "../common/userInfo.json"
+    },
+    "metadata": {
+      "description": "Metadata provided by the server",
+      "type": "object",
+      "$ref": "../../raml-util/schemas/metadata.schema",
+      "readonly": true
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
