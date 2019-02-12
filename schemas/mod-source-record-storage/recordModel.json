@@ -28,8 +28,8 @@
       "type": "string",
       "$ref": "recordType.json"
     },
-    "sourceRecordId": {
-      "description": "Reference to the corresponding source record",
+    "rawRecordId": {
+      "description": "Reference to the corresponding raw record",
       "type": "string"
     },
     "parsedRecordId": {
@@ -50,6 +50,6 @@
   "required": [
     "snapshotId",
     "recordType",
-    "sourceRecordId"
+    "rawRecordId"
   ]
 }

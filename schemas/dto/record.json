@@ -28,10 +28,10 @@
       "type": "string",
       "$ref": "../mod-source-record-storage/recordType.json"
     },
-    "sourceRecord": {
-      "description": "Source record",
+    "rawRecord": {
+      "description": "Raw record",
       "type": "object",
-      "$ref": "../mod-source-record-storage/sourceRecord.json"
+      "$ref": "../mod-source-record-storage/rawRecord.json"
     },
     "parsedRecord": {
       "description": "Parsed record",
@@ -53,6 +53,6 @@
   "required": [
     "snapshotId",
     "recordType",
-    "sourceRecord"
+    "rawRecord"
   ]
 }

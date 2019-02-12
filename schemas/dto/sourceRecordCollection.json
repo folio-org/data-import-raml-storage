@@ -1,24 +1,24 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Collection of result DTO",
+  "description": "Collection of Source record DTO",
   "type": "object",
   "properties": {
-    "results": {
-      "description": "List of results",
+    "sourceRecords": {
+      "description": "List of Source records",
       "type": "array",
-      "id": "resultList",
+      "id": "sourceRecordList",
       "items": {
         "type": "object",
-        "$ref": "result.json"
+        "$ref": "sourceRecord.json"
       }
     },
     "totalRecords": {
-      "description": "Total number of results",
+      "description": "Total number of Source records",
       "type": "integer"
     }
   },
   "required": [
-    "results",
+    "sourceRecords",
     "totalRecords"
   ]
 }

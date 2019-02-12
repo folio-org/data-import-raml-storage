@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Result DTO Schema",
+  "description": "Source record DTO Schema",
   "type": "object",
   "properties": {
     "recordId": {
@@ -15,6 +15,11 @@
       "description": "Type of record, e.g. MARC",
       "type": "string",
       "$ref": "../mod-source-record-storage/recordType.json"
+    },
+    "rawRecord": {
+      "description": "Raw record",
+      "type": "object",
+      "$ref": "../mod-source-record-storage/rawRecord.json"
     },
     "parsedRecord": {
       "description": "Parsed record",
@@ -32,6 +37,7 @@
     "recordId",
     "snapshotId",
     "recordType",
+    "rawRecord",
     "parsedRecord"
   ]
 }
