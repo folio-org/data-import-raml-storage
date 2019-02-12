@@ -3,7 +3,7 @@
   "description": "Marc records collection for testing",
   "type": "object",
   "properties": {
-    "sourceRecords": {
+    "rawRecords": {
       "description": "List of raw marc records",
       "type": "array",
       "items": {
