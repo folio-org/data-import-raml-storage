@@ -8,7 +8,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "$ref": "sourceRecord.json"
+        "$ref": "rawRecord.json"
       }
     }
   }
