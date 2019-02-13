@@ -1,0 +1,11 @@
+{
+  "id": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
+  "jobExecutionId": "zxsrt6hm-1caf-4470-9ad1-d533f6360bdd",
+  "last": False,
+  "state": "ERROR",
+  "chunkSize": 10,
+  "processedAmount": 42,
+  "createdDate": "2018-10-30T12:36:55.000",
+  "completedDate": "2018-10-30T12:40:01.000",
+  "error": "Connection refused"
+}
