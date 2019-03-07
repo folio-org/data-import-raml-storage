@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "This schema represents m2m association between profiles, one kind of profile 'master' profiles can be associated to another kind of 'detail' profiles",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "masterProfileId": {
+      "description": "Unique identifier of the 'master' profile",
+      "type": "string"
+    },
+    "detailProfileId": {
+      "description": "Unique identifier of the 'detail' profile",
+      "type": "string"
+    },
+    "order": {
+      "description": "The run order of the 'detail' profile",
+      "type": "number"
+    },
+    "triggered": {
+      "description": "Boolean flag identifies if the 'detail' profile has triggered by the 'master' profile",
+      "type": "boolean",
+      "default": "false"
+    }
+  },
+  "required": [
+    "id",
+    "masterProfileId",
+    "detailProfileId",
+    "order"
+  ]
+}
