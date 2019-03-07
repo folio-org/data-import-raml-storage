@@ -15,6 +15,10 @@
       "description": "Mapping Profile description",
       "type": "string"
     },
+    "mapped": {
+      "description": "Mapped field",
+      "type": "string"
+    },
     "tags": {
       "description": "Set of tags assigned to the current Job Profile",
       "type": "object",
