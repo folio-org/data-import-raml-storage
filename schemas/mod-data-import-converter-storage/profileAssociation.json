@@ -16,7 +16,7 @@
       "type": "string"
     },
     "order": {
-      "description": "The run order of the 'detail' profile",
+      "description": "The execution order of the 'detail' profile. Job, Action and Matching profiles have an execution order, but this field can be empty for Mapping profiles",
       "type": "number"
     },
     "triggered": {
