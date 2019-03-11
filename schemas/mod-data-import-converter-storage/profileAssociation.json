@@ -16,8 +16,9 @@
       "type": "string"
     },
     "order": {
-      "description": "The execution order of the 'detail' profile. Job, Action and Matching profiles have an execution order, but this field can be empty for Mapping profiles",
-      "type": "number"
+      "description": "The execution order of the 'detail' profile. Job, Action and Matching profiles have an execution order, but this field is always 0 for Mapping profiles because of o2o relationship",
+      "type": "number",
+      "default": 0
     },
     "triggered": {
       "description": "Boolean flag identifies if the 'detail' profile has triggered by the 'master' profile",
