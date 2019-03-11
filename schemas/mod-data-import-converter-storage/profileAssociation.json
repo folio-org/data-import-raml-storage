@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "This schema represents m2m association between profiles, one kind of profile 'master' profiles can be associated to another kind of 'detail' profiles",
+  "description": "This schema represents m2m association between profiles. One kind of 'master' profiles can be associated to another kind of 'detail' profiles",
   "type": "object",
   "properties": {
     "id": {
