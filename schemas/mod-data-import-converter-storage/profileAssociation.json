@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "This schema represents m2m association between profiles. One kind of 'master' profiles can be associated to another kind of 'detail' profiles",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "masterProfileId": {
+      "description": "Unique identifier of the 'master' profile",
+      "type": "string"
+    },
+    "detailProfileId": {
+      "description": "Unique identifier of the 'detail' profile",
+      "type": "string"
+    },
+    "order": {
+      "description": "The execution order of the 'detail' profile. Job, Action and Matching profiles have an execution order, but this field is always 0 for Mapping profiles because of o2o relationship",
+      "type": "number",
+      "default": 0
+    },
+    "triggered": {
+      "description": "Boolean flag identifies if the 'detail' profile has triggered by the 'master' profile",
+      "type": "boolean",
+      "default": "false"
+    }
+  },
+  "required": [
+    "id",
+    "masterProfileId",
+    "detailProfileId",
+    "order"
+  ]
+}
