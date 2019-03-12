@@ -21,7 +21,8 @@
     },
     "generation": {
       "description": "Generation from the last record with the same matchedId incremented by 1. Starts from 0.",
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "recordType": {
       "description": "Type of record, e.g. MARC",
