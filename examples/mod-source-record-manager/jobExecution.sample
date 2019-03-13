@@ -1,10 +1,7 @@
 {
   "id": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
   "hrId": "10000",
-  "jobProfile": {
-     "id": "zxsrt6hm-1caf-4470-9ad1-d533f6360bdd",
-     "name": "Profile for marc files"
-  },
+  "jobProfileId": "zxsrt6hm-1caf-4470-9ad1-d533f6360bdd",
   "parentJobId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
   "subordinationType": "PARENT_SINGLE",
   "sourcePath": "C:\import\files\import_1.csv",

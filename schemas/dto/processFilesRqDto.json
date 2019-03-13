@@ -8,14 +8,13 @@
       "type": "object",
       "$ref": "../mod-data-import/uploadDefinition.json"
     },
-    "jobProfile": {
-      "description": "Job profile",
-      "type": "object",
-      "$ref": "../mod-source-record-manager/jobProfile.json"
+    "jobProfileId": {
+      "description": "Related Job profile UUID",
+      "type": "string",
     }
   },
   "required": [
     "uploadDefinition",
-    "jobProfile"
+    "jobProfileId"
   ]
 }
