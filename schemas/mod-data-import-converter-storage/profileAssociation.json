@@ -27,7 +27,6 @@
     }
   },
   "required": [
-    "id",
     "masterProfileId",
     "detailProfileId",
     "order"
