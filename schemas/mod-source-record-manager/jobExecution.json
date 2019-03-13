@@ -20,10 +20,9 @@
       "type": "string",
       "enum": ["CHILD", "PARENT_SINGLE", "PARENT_MULTIPLE"]
     },
-    "jobProfile": {
+    "jobProfileId": {
       "description": "Related JobProfile information",
-      "type": "object",
-      "$ref": "jobProfile.json"
+      "type": "string"
     },
     "sourcePath": {
       "description": "Path to the file",
