@@ -10,7 +10,7 @@
     },
     "jobProfileId": {
       "description": "Related Job profile UUID",
-      "type": "string",
+      "type": "string"
     }
   },
   "required": [
