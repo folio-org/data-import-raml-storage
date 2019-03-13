@@ -22,7 +22,7 @@
     },
     "jobProfileId": {
       "description": "Related JobProfile information",
-      "type": "string",
+      "type": "string"
     },
     "sourcePath": {
       "description": "Path to the file",
