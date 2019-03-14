@@ -8,13 +8,14 @@
       "type": "object",
       "$ref": "../mod-data-import/uploadDefinition.json"
     },
-    "jobProfileId": {
-      "description": "Related Job profile UUID",
-      "type": "string"
+    "jobProfileInfo": {
+      "description": "Related Job profile info",
+      "type": "object",
+      "$ref": "../common/profileInfo.json"
     }
   },
   "required": [
     "uploadDefinition",
-    "jobProfileId"
+    "jobProfileInfo"
   ]
 }
