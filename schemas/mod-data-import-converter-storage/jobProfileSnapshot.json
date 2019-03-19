@@ -68,7 +68,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "$ref": "profileSnapshot.json"
+        "$ref": "jobProfileSnapshot.json"
       }
     },
     "metadata": {

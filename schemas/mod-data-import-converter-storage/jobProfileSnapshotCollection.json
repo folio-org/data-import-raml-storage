@@ -3,13 +3,13 @@
   "description": "Collection of Profile snapshots",
   "type": "object",
   "properties": {
-    "profileSnapshots": {
+    "snapshots": {
       "description": "Profile snapshot collection",
       "type": "array",
-      "id": "profileSnapshotList",
+      "id": "snapshotList",
       "items": {
         "type": "object",
-        "$ref": "profileSnapshot.json"
+        "$ref": "jobProfileSnapshot.json"
       }
     },
     "totalRecords": {
@@ -18,7 +18,7 @@
     }
   },
   "required": [
-    "profileSnapshots",
+    "snapshots",
     "totalRecords"
   ]
 }
