@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Collection of Profile snapshots",
+  "type": "object",
+  "properties": {
+    "profileSnapshots": {
+      "description": "Profile snapshot collection",
+      "type": "array",
+      "id": "profileSnapshotList",
+      "items": {
+        "type": "object",
+        "$ref": "profileSnapshot.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of Profile snapshots",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "profileSnapshots",
+    "totalRecords"
+  ]
+}

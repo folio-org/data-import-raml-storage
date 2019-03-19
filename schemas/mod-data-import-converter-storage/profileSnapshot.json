@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "This schema describes an instant snapshot of profiles. Snapshot comprises all details about profiles starting from the JobProfile (Match profiles, Action profiles, Mapping profiles)",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "parentId": {
+      "description": "Unique identifier of parent profile",
+      "type": "string"
+    },
+    "name": {
+      "description": "Profile name",
+      "type": "string"
+    },
+    "description": {
+      "description": "Profile description",
+      "type": "string"
+    },
+    "dataTypes": {
+      "description": "Set of data types",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "../common/dataType.json"
+      }
+    },
+    "tags": {
+      "description": "Set of tags assigned to the current Profile",
+      "type": "object",
+      "$ref": "../../raml-util/schemas/tags.schema"
+    },
+    "userInfo": {
+      "description": "First name, last name and username of the user, who updated the Profile",
+      "type": "object",
+      "$ref": "../common/userInfo.json"
+    },
+    "action": {
+      "description": "Action info belongs to action profile",
+      "type": "string"
+    },
+    "mapping": {
+      "description": "Mapping info belongs to action profile",
+      "type": "string"
+    },
+    "match": {
+      "description": "Match info belongs to matching profile",
+      "type": "string"
+    },
+    "mapped": {
+      "description": "Mapped info belongs to mapping profile",
+      "type": "string"
+    },
+    "type": {
+      "description": "Type of the profile",
+      "type": "string",
+      "enum": [
+        "JOB",
+        "ACTION",
+        "MATCH",
+        "MAPPING"
+      ]
+    },
+    "children": {
+      "description": "Set of children profiles",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "profileSnapshot.json"
+      }
+    },
+    "metadata": {
+      "description": "Metadata provided by the server",
+      "type": "object",
+      "$ref": "../../raml-util/schemas/metadata.schema",
+      "readonly": true
+    }
+  },
+  "required": [
+  ]
+}
