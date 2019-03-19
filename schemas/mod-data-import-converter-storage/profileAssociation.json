@@ -17,7 +17,7 @@
     },
     "order": {
       "description": "The execution order of the 'detail' profile. Job, Action and Matching profiles have an execution order, but this field is always 0 for Mapping profiles because of o2o relationship",
-      "type": "number",
+      "type": "integer",
       "default": 0
     },
     "triggered": {
@@ -27,7 +27,6 @@
     }
   },
   "required": [
-    "id",
     "masterProfileId",
     "detailProfileId",
     "order"
