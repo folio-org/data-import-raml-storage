@@ -12,6 +12,11 @@
       "type": "string",
       "$ref": "../mod-source-record-manager/status.json"
     },
+    "processingStartedDate": {
+      "description": "Date and time when parsing of records started, set when status is updated to PARSING_IN_PROGRESS",
+      "type": "string",
+      "format": "date-time"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",
