@@ -57,10 +57,10 @@
       "description": "Type of the profile",
       "type": "string",
       "enum": [
-        "JOB",
-        "ACTION",
-        "MATCH",
-        "MAPPING"
+        "JOB_PROFILE",
+        "ACTION_PROFILE",
+        "MATCHING_PROFILE",
+        "MAPPING_PROFILE"
       ]
     },
     "children": {
