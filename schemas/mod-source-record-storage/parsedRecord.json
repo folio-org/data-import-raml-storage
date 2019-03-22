@@ -8,7 +8,8 @@
       "type": "string"
     },
     "content": {
-      "description": "Parsed record content, e.g. MARC record"
+      "description": "Parsed record content, e.g. MARC record",
+      "type": "string"
     }
   },
   "required": [
