@@ -41,7 +41,7 @@
     "status": {
       "description": "Current status of the job execution",
       "type": "string",
-      "$ref": "../mod-source-record-manager/status.json"
+      "$ref": "../common/status.json"
     },
     "uiStatus": {
       "description": "Status that is rendered on UI",

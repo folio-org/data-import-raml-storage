@@ -6,7 +6,7 @@
     "status": {
       "description": "Current status of the job execution",
       "type": "string",
-      "$ref": "../mod-source-record-manager/status.json"
+      "$ref": "../common/status.json"
     },
     "errorStatus": {
       "description": "Status that describe error state of job execution",
