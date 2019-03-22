@@ -10,7 +10,7 @@
     "status": {
       "description": "Current status",
       "type": "string",
-      "$ref": "../mod-source-record-manager/status.json"
+      "$ref": "../common/status.json"
     },
     "processingStartedDate": {
       "description": "Date and time when parsing of records started, set when status is updated to PARSING_IN_PROGRESS",
