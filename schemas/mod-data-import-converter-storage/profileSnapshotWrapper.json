@@ -16,7 +16,7 @@
       "description": "Profile content (plain Object)"
     },
     "childSnapshotWrappers": {
-      "description": "Set of children profiles",
+      "description": "Set of children profile snapshots",
       "type": "array",
       "items": {
         "$ref": "profileSnapshotWrapper.json"
