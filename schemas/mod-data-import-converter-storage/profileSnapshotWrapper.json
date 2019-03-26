@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "This schema describes Job Profile snapshot entity",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "type": "string"
+    },
+    "contentType": {
+      "description": "Type of the content",
+      "type": "string",
+      "$ref": "profileSnapshotType.json"
+    },
+    "content": {
+      "description": "Profile content (plain Object)"
+    },
+    "childSnapshotWrappers": {
+      "description": "Set of children profile snapshots",
+      "type": "array",
+      "items": {
+        "$ref": "profileSnapshotWrapper.json"
+      }
+    }
+  },
+  "required": [
+    "contentType",
+    "content"
+  ]
+}
