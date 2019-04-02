@@ -8,8 +8,5 @@
       "type": "boolean",
       "default": false
     }
-  },
-  "required": [
-    "suppressDiscovery"
-  ]
+  }
 }
