@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Auxiliary data which does not related with MARC type record",
+  "description": "Auxiliary data which is not related to MARC type record",
   "type": "object",
   "properties": {
     "suppressDiscovery": {

@@ -27,7 +27,7 @@
       "$ref": "../mod-source-record-storage/parsedRecord.json"
     },
     "additionalInfo": {
-      "description": "Auxiliary data which does not related with MARC type record",
+      "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
       "$ref": "../mod-source-record-storage/additionalInfo.json",
       "readonly": true
