@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "suppressDiscovery": {
-      "description": "Flag indicating if this record will be displayed during a search",
+      "description": "Flag indicates if the record is displayed during a search",
       "type": "boolean",
       "default": false
     }
