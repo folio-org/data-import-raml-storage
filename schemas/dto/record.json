@@ -44,6 +44,12 @@
       "type": "object",
       "$ref": "../mod-source-record-storage/errorRecord.json"
     },
+    "additionalInfo": {
+      "description": "Auxiliary data which does not related with MARC type record",
+      "type": "object",
+      "$ref": "../mod-source-record-storage/additionalInfo.json",
+      "readonly": true
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",

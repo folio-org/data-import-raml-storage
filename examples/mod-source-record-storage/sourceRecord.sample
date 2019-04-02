@@ -441,5 +441,8 @@
         }
       ]
     }
+  },
+  "additionalInfo": {
+    "suppressDiscovery": false
   }
 }

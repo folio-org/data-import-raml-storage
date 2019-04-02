@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Auxiliary data which does not related with MARC type record",
+  "type": "object",
+  "properties": {
+    "suppressDiscovery": {
+      "description": "Flag indicating if this record will be displayed during a search",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
