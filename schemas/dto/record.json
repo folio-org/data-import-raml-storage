@@ -47,8 +47,7 @@
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
-      "$ref": "../mod-source-record-storage/additionalInfo.json",
-      "readonly": true
+      "$ref": "../mod-source-record-storage/additionalInfo.json"
     },
     "metadata": {
       "description": "Metadata provided by the server",
