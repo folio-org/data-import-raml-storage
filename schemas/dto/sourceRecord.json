@@ -26,6 +26,11 @@
       "type": "object",
       "$ref": "../mod-source-record-storage/parsedRecord.json"
     },
+    "deleted": {
+      "description": "Flag indicates that the record marked as deleted",
+      "type": "boolean",
+      "default": false
+    },
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
@@ -43,6 +48,7 @@
     "snapshotId",
     "recordType",
     "rawRecord",
-    "parsedRecord"
+    "parsedRecord",
+    "deleted"
   ]
 }

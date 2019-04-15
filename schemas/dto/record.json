@@ -44,6 +44,11 @@
       "type": "object",
       "$ref": "../mod-source-record-storage/errorRecord.json"
     },
+    "deleted": {
+      "description": "Flag indicates that the record marked as deleted",
+      "type": "boolean",
+      "default": false
+    },
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
@@ -60,6 +65,7 @@
     "snapshotId",
     "matchedId",
     "recordType",
-    "rawRecord"
+    "rawRecord",
+    "deleted"
   ]
 }
