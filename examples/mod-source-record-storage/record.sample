@@ -445,6 +445,7 @@
       ]
     }
   },
+  "deleted": false,
   "additionalInfo": {
     "suppressDiscovery": false
   }

@@ -41,6 +41,11 @@
       "description": "Reference to the corresponding error record",
       "type": "string"
     },
+    "deleted": {
+      "description": "Flag indicates that the record marked as deleted",
+      "type": "boolean",
+      "default": false
+    },
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
@@ -57,6 +62,7 @@
     "snapshotId",
     "matchedId",
     "recordType",
-    "rawRecordId"
+    "rawRecordId",
+    "deleted"
   ]
 }
