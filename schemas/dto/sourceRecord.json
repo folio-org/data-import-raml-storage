@@ -48,7 +48,6 @@
     "snapshotId",
     "recordType",
     "rawRecord",
-    "parsedRecord",
-    "deleted"
+    "parsedRecord"
   ]
 }

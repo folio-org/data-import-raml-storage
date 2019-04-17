@@ -65,7 +65,6 @@
     "snapshotId",
     "matchedId",
     "recordType",
-    "rawRecord",
-    "deleted"
+    "rawRecord"
   ]
 }
