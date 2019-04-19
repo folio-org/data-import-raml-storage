@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Action Profile schema",
+  "additionalProperties": false,
   "type": "object",
   "properties": {
     "id": {
