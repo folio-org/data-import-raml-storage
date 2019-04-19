@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "File Extension Schema",
+  "additionalProperties": false,
   "type": "object",
   "properties": {
     "id": {

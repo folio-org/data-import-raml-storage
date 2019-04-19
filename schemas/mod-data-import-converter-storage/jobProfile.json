@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Job Profile schema",
+  "additionalProperties": false,
   "type": "object",
   "properties": {
     "id": {
@@ -38,6 +39,7 @@
     }
   },
   "required": [
-    "name"
+    "name",
+    "dataType"
   ]
 }
