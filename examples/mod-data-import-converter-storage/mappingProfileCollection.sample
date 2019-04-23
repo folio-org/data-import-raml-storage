@@ -10,6 +10,7 @@
         ]
       },
       "description": "Description for mapping profile",
+      "entityType": "MAPPING_PROFILE",
       "userInfo": {
         "firstName": "Jane",
         "lastName": "Doe",

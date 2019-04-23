@@ -25,6 +25,11 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
+    "entityType": {
+      "description": "Entity type",
+      "type": "string",
+      "$ref": "profileSnapshotType.json"
+    },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Job Profile",
       "type": "object",

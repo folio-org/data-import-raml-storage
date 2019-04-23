@@ -10,6 +10,7 @@
          "lorem", "ipsum", "dolor"
        ]
      },
+     "entityType": "MATCH_PROFILE",
      "userInfo": {
        "firstName": "Jane",
        "lastName": "Doe",

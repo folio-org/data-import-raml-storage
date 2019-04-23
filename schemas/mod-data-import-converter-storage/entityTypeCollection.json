@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Collection of entity types",
+  "type": "object",
+  "properties": {
+    "entityTypes": {
+      "description": "Set of entity types",
+      "type": "array",
+      "id": "entityTypeList",
+      "items": {
+        "type": "object",
+        "$ref": "profileSnapshotType.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of entity types",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "entityTypes",
+    "totalRecords"
+  ]
+}

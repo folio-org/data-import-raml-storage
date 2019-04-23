@@ -1,0 +1,9 @@
+{
+  "entityTypes": [
+    "JOB_PROFILE",
+    "ACTION_PROFILE",
+    "MATCH_PROFILE",
+    "MAPPING_PROFILE"
+  ],
+  "totalRecords": 4
+}
