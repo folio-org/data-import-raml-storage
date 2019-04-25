@@ -8,7 +8,7 @@
     ]
   },
   "description": "Description for mapping profile",
-  "entityType": "MAPPING_PROFILE",
+  "entityType": "INVENTORY_ITEM",
   "userInfo": {
     "firstName": "Jane",
     "lastName": "Doe",

@@ -31,8 +31,7 @@
     },
     "entityType": {
       "description": "Entity type",
-      "type": "string",
-      "$ref": "profileSnapshotType.json"
+      "type": "string"
     },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Action Profile",

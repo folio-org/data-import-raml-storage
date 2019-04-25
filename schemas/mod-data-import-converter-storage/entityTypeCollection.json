@@ -8,8 +8,7 @@
       "type": "array",
       "id": "entityTypeList",
       "items": {
-        "type": "object",
-        "$ref": "profileSnapshotType.json"
+        "type": "string"
       }
     },
     "totalRecords": {

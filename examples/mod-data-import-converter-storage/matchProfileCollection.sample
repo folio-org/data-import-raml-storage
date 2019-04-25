@@ -10,7 +10,7 @@
          "lorem", "ipsum", "dolor"
        ]
      },
-     "entityType": "MATCH_PROFILE",
+     "entityType": "INVENTORY_ITEM",
      "userInfo": {
        "firstName": "Jane",
        "lastName": "Doe",
