@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Types enum of matching degrees",
+  "type": "string",
+  "enum": [
+    "COMPLETE_STRING",
+    "BEGINS_WITH",
+    "NUMBERS_ONLY"
+  ]
+}

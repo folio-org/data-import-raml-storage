@@ -2,16 +2,52 @@
   "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
   "name": "Dolor sit",
   "description": "Lorem ipsum dolor sit amet",
-  "match": "Order 998",
   "tags": {
     "tagList": [
       "lorem", "ipsum", "dolor"
     ]
   },
   "entityType": "INVENTORY_ITEM",
+  "incomingRecordType": "MARC",
+  "existingRecordType": "ORDER",
+  "incomingDataValueType": "VALUE_FROM_INCOMING_RECORD",
+  "field": "990",
+  "incomingIndicator1": " ",
+  "incomingIndicator2": " ",
+  "incomingRecordSubfield": "p",
+  "incomingStaticValueType": "",
+  "incomingText": "",
+  "incomingNumber": "",
+  "incomingDateType": "",
+  "incomingFromDate": "",
+  "incomingToDate": "",
+  "incomingDate": "",
+  "incomingInclude": "MATCH_ON",
+  "incomingHowMuch": "COMPLETE_STRING",
+  "matchingCriteria": "EXACTLY_MATCHES",
+  "existingDataValueType": "VALUE_IN_EXISTING_RECORD",
+  "fieldMarc": "",
+  "existingIndicator1": "",
+  "existingIndicator2": "",
+  "existingRecordSubfield": "",
+  "fieldNonMarc": "PO_LINE_NUMBER",
+  "existingStaticValueType": "",
+  "existingText": "",
+  "existingNumber": "",
+  "existingDateType": "",
+  "existingFromDate": "",
+  "existingToDate": "",
+  "existingDate": "",
+  "existingInclude": "MATCH_ON",
+  "existingHowMuch": "COMPLETE_STRING",
+  "booleanOperation": "",
   "userInfo": {
     "firstName": "Jane",
     "lastName": "Doe",
     "userName": "@janedoe"
+  },
+  "metadata": {
+    "createdDate": "2018-11-02T12:09:51.000",
+    "updatedDate": "2018-10-30T12:41:22.000"
   }
 }
