@@ -220,8 +220,6 @@
   },
   "required": [
     "name",
-    "userInfo.lastName",
-    "userInfo.firstName",
     "incomingRecordType",
     "existingRecordType",
     "incomingDataValueType"
