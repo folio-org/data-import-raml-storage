@@ -1,10 +1,10 @@
 {
   "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
-  "name": "Dolor sit",
-  "description": "Lorem ipsum dolor sit amet",
+  "name": "POL-MARC",
+  "description": "Use for POL in 990 $p",
   "tags": {
     "tagList": [
-      "lorem", "ipsum", "dolor"
+      "pol"
     ]
   },
   "entityType": "INVENTORY_ITEM",
@@ -47,7 +47,11 @@
     "userName": "@janedoe"
   },
   "metadata": {
-    "createdDate": "2018-11-02T12:09:51.000",
-    "updatedDate": "2018-10-30T12:41:22.000"
+    "createdDate": "2018-10-30T12:41:22.000",
+    "createdByUserId": "",
+    "createdByUsername": "@janedoe",
+    "updatedDate": "2018-11-02T12:09:51.000",
+    "updatedByUserId": "",
+    "updatedByUsername": "@janedoe"
   }
 }

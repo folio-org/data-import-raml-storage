@@ -33,7 +33,16 @@
     "existingRecordType": {
       "description": "Existing record type to match",
       "type": "string",
-      "$ref": "existingRecordType.json"
+      "enum": [
+        "INSTANCE",
+        "HOLDINGS",
+        "ITEM",
+        "ORDER",
+        "INVOICE",
+        "MARC_BIBLIOGRAPHIC",
+        "MARC_HOLDINGS",
+        "MARC_AUTHORITY"
+      ]
     },
     "incomingDataValueType": {
       "description": "Incoming data value type",
