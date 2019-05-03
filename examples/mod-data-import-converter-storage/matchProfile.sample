@@ -1,7 +1,7 @@
 {
   "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
   "name": "POL-MARC",
-  "description": "Use for POL in 990 $p",
+  "description": "Use for POL in 990 p",
   "tags": {
     "tagList": [
       "pol"
