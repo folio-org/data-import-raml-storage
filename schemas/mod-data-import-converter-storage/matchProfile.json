@@ -115,7 +115,7 @@
       "description": "Matching criteria",
       "type": "string",
       "enum": [
-        "EXACTLY_MATCHES,",
+        "EXACTLY_MATCHES",
         "CONTAINS",
         "BEGINS_WITH",
         "ENDS_WITH"
@@ -151,7 +151,7 @@
       "enum": [
         "PO_LINE_NUMBER",
         "ISBN",
-        "INSTANCE_HRID, LOCATION_CODE"
+        "INSTANCE_HRID", "LOCATION_CODE"
       ]
     },
     "existingStaticValueType": {
@@ -202,7 +202,7 @@
       "type": "string",
       "enum": [
         "AND",
-        "NOT AND",
+        "AND NOT",
         "OR"
       ]
     },
