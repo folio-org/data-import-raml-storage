@@ -12,6 +12,7 @@
         ]
       },
       "entityType": "INVENTORY_ITEM",
+      "deleted": false,
       "userInfo": {
         "firstName": "Jane",
         "lastName": "Doe",
