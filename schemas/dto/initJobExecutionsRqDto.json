@@ -12,13 +12,23 @@
         "$ref": "fileDto.json"
       }
     },
+    "sourceType": {
+      "description": "Raw records source type",
+      "type": "string",
+      "$ref": "./sourceType.json"
+    },
+    "jobProfileInfo": {
+      "description": "Related JobProfile information",
+      "type": "object",
+      "$ref": "../common/profileInfo.json"
+    },
     "userId": {
       "description": "ID of the user initializing JobExecutions",
       "type": "string"
     }
   },
   "required": [
-    "files",
+    "sourceType",
     "userId"
   ]
 }
