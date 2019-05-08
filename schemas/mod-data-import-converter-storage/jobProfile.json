@@ -26,6 +26,11 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
+    "deleted": {
+      "description": "Flag indicates that the Job Profile marked as deleted",
+      "type": "boolean",
+      "default": false
+    },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Job Profile",
       "type": "object",
