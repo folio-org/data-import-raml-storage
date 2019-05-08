@@ -38,6 +38,7 @@
         "existingDate": "",
         "existingInclude": "MATCH_ON",
         "existingHowMuch": "COMPLETE_STRING",
+        "deleted": false,
         "userInfo": {
           "firstName": "Jane",
           "lastName": "Doe",
