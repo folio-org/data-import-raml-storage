@@ -4,6 +4,7 @@
   "type": "string",
   "enum": [
     "SNAPSHOT_UPDATE_ERROR",
-    "RECORD_UPDATE_ERROR"
+    "RECORD_UPDATE_ERROR",
+    "FILE_PROCESSING_ERROR"
   ]
 }
