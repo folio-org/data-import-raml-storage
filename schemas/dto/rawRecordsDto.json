@@ -17,11 +17,21 @@
       "items": {
         "type": "string"
       }
+    },
+    "contentType": {
+      "description": "Describes type of records and format of record representation",
+      "type": "string",
+      "enum": [
+        "MARC_RAW",
+        "MARC_JSON",
+        "MARC_XML"
+      ]
     }
   },
   "required": [
     "last",
     "counter",
-    "records"
+    "records",
+    "contentType"
   ]
 }
