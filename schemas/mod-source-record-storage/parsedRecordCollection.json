@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Collection of parsed records",
+  "type": "object",
+  "properties": {
+    "parsedRecords": {
+      "description": "List of parsed records",
+      "type": "array",
+      "id": "parsedRecordList",
+      "items": {
+        "type": "object",
+        "$ref": "parsedRecord.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of parsed records",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "parsedRecords",
+    "totalRecords"
+  ]
+}
