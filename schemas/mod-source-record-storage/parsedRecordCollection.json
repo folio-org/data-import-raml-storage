@@ -3,6 +3,11 @@
   "description": "Collection of parsed records",
   "type": "object",
   "properties": {
+    "recordType": {
+      "description": "Type of parsed records, e.g. MARC",
+      "type": "string",
+      "$ref": "recordType.json"
+    },
     "parsedRecords": {
       "description": "List of parsed records",
       "type": "array",
@@ -18,6 +23,7 @@
     }
   },
   "required": [
+    "recordType",
     "parsedRecords",
     "totalRecords"
   ]
