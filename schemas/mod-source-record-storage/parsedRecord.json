@@ -9,6 +9,10 @@
     },
     "content": {
       "description": "Parsed record content, e.g. MARC record"
+    },
+    "formattedContent": {
+      "description": "Parsed content represented in human readable form",
+      "type": "string"
     }
   },
   "required": [

@@ -442,7 +442,8 @@
             "ind2": " "
           }
         }
-      ]
+      ],
+      "formattedContent": "LEADER 01542ccm a2200361   4500\n001 393893\n005 20141107001016.0\n008 830419m19559999gw mua   hiz   n    lat  \n010   $a   55001156/M \n035   $a(OCoLC)63611770\n035   $a393893\n040   $cUPB$dUPB$dNIC$dNIC\n041 0 $alatitager$gger\n045   $av6v9\n047   $acn$act$aco$adf$adv$aft$afg$ams$ami$anc$aop$aov$arq$asn$asu$asy$avr$azz\n050 0 $aM3$b.M896\n100 1 $aMozart, Wolfgang Amadeus,$d1756-1791.\n240 10$aWorks\n245 10$aNeue Ausgabe sämtlicher Werke,$bin Verbindung mit den Mozartstädten, Augsburg, Salzburg und Wien.$cHrsg. von der Internationalen Stiftung Mozarteum, Salzburg.\n246 33$aNeue Mozart-Ausgabe\n260   $aKassel,$bBärenreiter,$cc1955-\n300   $av.$bfacsims.$c33 cm.\n505 0 $aSer. I. Geistliche Gesangswerke -- Ser. II. Opern -- Ser. III. Lieder, mehrstimmige Gesänge, Kanons -- Ser. IV. Orchesterwerke -- Ser. V. Konzerte -- Ser. VI. Kirchensonaten -- Ser. VII. Ensemblemusik für grössere Solobesetzungen -- Ser. VIII. Kammermusik -- Ser. IX. Klaviermusik -- Ser. X. Supplement.\n650  0$aVocal music\n650  0$aInstrumental music\n650  7$aInstrumental music$2fast$0(OCoLC)fst00974414\n650  7$aVocal music$2fast$0(OCoLC)fst01168379\n902   $apfnd$bAustin Music\n905   $a19980728120000.0\n948 1 $a20100622$bs$dlap11$elts$xToAddCatStat\n948 0 $a20110818$br$dnp55$elts\n948 2 $a20130128$bm$dbmt1$elts\n948 2 $a20141106$bm$dbatch$elts$xaddfast"
     }
   },
   "deleted": false,
