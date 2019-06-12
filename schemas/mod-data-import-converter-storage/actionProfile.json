@@ -16,22 +16,43 @@
       "description": "Action Profile description",
       "type": "string"
     },
-    "action": {
-      "description": "Action description",
-      "type": "string"
-    },
-    "mapping": {
-      "description": "Mapping description",
-      "type": "string"
-    },
     "tags": {
       "description": "Set of tags assigned to the current Action Profile",
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
-    "entityType": {
-      "description": "Entity type",
-      "type": "string"
+    "reactTo": {
+      "description": "Non-match also used when there is no match profile in the job",
+      "type": "string",
+      "enum": [
+        "MATCH",
+        "NON-MATCH"
+      ]
+    },
+    "action": {
+      "description": "Action type. CREATE allowed for all record types. COMBINE allowed for Inventory, MARC, Invoice records only. REPLACE allowed for Inventory and MARC records only. DELETE allowed for all records types. MODIFY allowed for MARC records only",
+      "type": "string",
+      "enum": [
+        "CREATE",
+        "COMBINE",
+        "REPLACE",
+        "DELETE",
+        "MODIFY"
+      ]
+    },
+    "folioRecord": {
+      "description": "Record type",
+      "type": "string",
+      "enum": [
+        "INSTANCE",
+        "HOLDINGS",
+        "ITEM",
+        "ORDER",
+        "INVOICE",
+        "MARC_BIBLIOGRAPHIC",
+        "MARC_HOLDINGS",
+        "MARC_AUTHORITY"
+      ]
     },
     "deleted": {
       "description": "Flag indicates that the Action Profile marked as deleted",
@@ -51,6 +72,8 @@
     }
   },
   "required": [
-    "name"
+    "name",
+    "action",
+    "folioRecord"
   ]
 }

@@ -337,25 +337,25 @@
               "902": {
                 "subfields": [
                   {
-                    "a":"pfnd"
+                    "a": "pfnd"
                   },
                   {
-                    "b":"Austin Music"
+                    "b": "Austin Music"
                   }
                 ],
-                "ind1":" ",
-                "ind2":" "
+                "ind1": " ",
+                "ind2": " "
               }
             },
             {
               "905": {
                 "subfields": [
                   {
-                    "a":"19980728120000.0"
+                    "a": "19980728120000.0"
                   }
                 ],
-                "ind1":" ",
-                "ind2":" "
+                "ind1": " ",
+                "ind2": " "
               }
             },
             {
@@ -405,16 +405,16 @@
               "948": {
                 "subfields": [
                   {
-                     "a": "20130128"
+                    "a": "20130128"
                   },
                   {
-                     "b": "m"
+                    "b": "m"
                   },
                   {
-                     "d": "bmt1"
+                    "d": "bmt1"
                   },
                   {
-                     "e": "lts"
+                    "e": "lts"
                   }
                 ],
                 "ind1": "2",
@@ -425,19 +425,19 @@
               "948": {
                 "subfields": [
                   {
-                     "a": "20141106"
+                    "a": "20141106"
                   },
                   {
-                     "b": "m"
+                    "b": "m"
                   },
                   {
-                     "d": "batch"
+                    "d": "batch"
                   },
                   {
-                     "e": "lts"
+                    "e": "lts"
                   },
                   {
-                     "x": "addfast"
+                    "x": "addfast"
                   }
                 ],
                 "ind1": "2",
@@ -453,5 +453,6 @@
       }
     }
   ],
+  "errorMessages": "Couldn't find snapshot with id 42acadce-7cda-4d0e-9a8a-92cccb6bc682",
   "totalRecords": 1
 }

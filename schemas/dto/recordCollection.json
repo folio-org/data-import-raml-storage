@@ -2,6 +2,9 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of record DTO",
   "type": "object",
+  "excludedFromEqualsAndHashCode": [
+    "additionalProperties"
+  ],
   "properties": {
     "records": {
       "description": "List of records",
@@ -10,6 +13,13 @@
       "items": {
         "type": "object",
         "$ref": "record.json"
+      }
+    },
+    "errorMessages": {
+      "description": "List of error messages",
+      "type": "array",
+      "items": {
+        "type": "string"
       }
     },
     "totalRecords": {
