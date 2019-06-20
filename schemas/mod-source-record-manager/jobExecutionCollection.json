@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of execution jobs",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "jobExecutions": {
       "description": "List of execution jobs",
@@ -17,6 +18,10 @@
     }
   },
   "required": [
+    "jobExecutions",
+    "totalRecords"
+  ],
+  "excludedFromEqualsAndHashCode": [
     "jobExecutions",
     "totalRecords"
   ]

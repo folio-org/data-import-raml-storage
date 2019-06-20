@@ -94,5 +94,10 @@
     "status",
     "uiStatus",
     "userId"
+  ],
+  "excludedFromEqualsAndHashCode": [
+    "hrId",
+    "progress",
+    "runBy"
   ]
 }

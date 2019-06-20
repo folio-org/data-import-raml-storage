@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Log Schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "jobExecutionId": {
       "description": "Id, Unique identifier of the executed job",

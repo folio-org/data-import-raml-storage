@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of entity types",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "entityTypes": {
       "description": "Set of entity types",
@@ -16,6 +17,10 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "entityTypes",
+    "totalRecords"
+  ],
   "required": [
     "entityTypes",
     "totalRecords"

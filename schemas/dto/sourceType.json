@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Raw records source type Enum",
   "type": "string",
+  "additionalProperties": false,
   "enum": [
     "FILES",
     "ONLINE"

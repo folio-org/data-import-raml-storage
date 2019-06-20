@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of log data transfer objects",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "logDtos": {
       "description": "List of log data transfer objects",
@@ -16,6 +17,10 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "logDtos",
+    "totalRecords"
+  ],
   "required": [
     "logDtos",
     "totalRecords"

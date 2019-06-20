@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of Mapping Profiles",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "mappingProfiles": {
       "description": "List of Mapping Profiles",
@@ -17,6 +18,10 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "mappingProfiles",
+    "totalRecords"
+  ],
   "required": [
     "mappingProfiles",
     "totalRecords"

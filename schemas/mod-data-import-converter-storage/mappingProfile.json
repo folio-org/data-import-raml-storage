@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Mapping Profile schema",
-  "additionalProperties": false,
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "Unique identifier",
@@ -46,6 +46,10 @@
       "readonly": true
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "userInfo",
+    "metadata"
+  ],
   "required": [
     "name"
   ]

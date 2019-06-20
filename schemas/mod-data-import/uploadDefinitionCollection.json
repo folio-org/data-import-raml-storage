@@ -1,7 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
   "description": "Collection of upload definitions",
+  "type": "object",
+  "additionalProperties": false,
   "properties": {
     "uploadDefinitions": {
       "description": "Array of upload definitions",
@@ -16,6 +17,10 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "uploadDefinitions",
+    "totalRecords"
+  ],
   "required": [
     "uploadDefinitions",
     "totalRecords"
