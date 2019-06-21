@@ -49,8 +49,5 @@
     "jobExecutionId",
     "last",
     "state"
-  ],
-  "excludedFromEqualsAndHashCode": [
-    "error"
   ]
 }
