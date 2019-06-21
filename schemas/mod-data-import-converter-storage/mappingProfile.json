@@ -46,10 +46,6 @@
       "readonly": true
     }
   },
-  "excludedFromEqualsAndHashCode": [
-    "userInfo",
-    "metadata"
-  ],
   "required": [
     "name"
   ]
