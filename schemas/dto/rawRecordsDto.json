@@ -29,9 +29,6 @@
       ]
     }
   },
-  "excludedFromEqualsAndHashCode": [
-    "records"
-  ],
   "required": [
     "last",
     "counter",

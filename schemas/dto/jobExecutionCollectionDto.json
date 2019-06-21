@@ -18,7 +18,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "jobExecutionDtos",
     "totalRecords"
   ],
   "required": [

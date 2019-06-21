@@ -19,7 +19,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "jobProfiles",
     "totalRecords"
   ],
   "required": [

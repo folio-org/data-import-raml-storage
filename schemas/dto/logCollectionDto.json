@@ -18,7 +18,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "logDtos",
     "totalRecords"
   ],
   "required": [

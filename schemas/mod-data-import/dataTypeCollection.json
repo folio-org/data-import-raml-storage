@@ -19,7 +19,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "dataTypes",
     "totalRecords"
   ],
   "required": [

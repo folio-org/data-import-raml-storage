@@ -19,7 +19,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "fileExtensions",
     "totalRecords"
   ],
   "required": [

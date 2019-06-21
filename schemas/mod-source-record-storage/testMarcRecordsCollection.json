@@ -12,8 +12,5 @@
         "$ref": "rawRecord.json"
       }
     }
-  },
-  "excludedFromEqualsAndHashCode": [
-    "rawRecords"
-  ]
+  }
 }

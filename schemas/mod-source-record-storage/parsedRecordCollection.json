@@ -31,9 +31,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "recordType",
-    "parsedRecords",
-    "errorMessages",
     "totalRecords"
   ],
   "required": [

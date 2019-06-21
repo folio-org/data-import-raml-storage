@@ -19,7 +19,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "profileAssociations",
     "totalRecords"
   ],
   "required": [

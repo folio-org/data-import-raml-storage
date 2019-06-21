@@ -19,7 +19,6 @@
     }
   },
   "excludedFromEqualsAndHashCode": [
-    "actionProfiles",
     "totalRecords"
   ],
   "required": [
