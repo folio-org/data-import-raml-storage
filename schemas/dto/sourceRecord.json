@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Source record DTO Schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "recordId": {
       "description": "UUID",

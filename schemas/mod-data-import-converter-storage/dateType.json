@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Date types enum",
   "type": "string",
+  "additionalProperties": false,
   "enum": [
     "RANGE",
     "EXACT_DATE"

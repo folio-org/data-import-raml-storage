@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Job Execution data transfer object Schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "Unique identifier",
@@ -68,6 +69,9 @@
       "$ref": "../mod-source-record-manager/uiStatus.json"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "progress"
+  ],
   "required": [
     "jobProfileName",
     "fileName",

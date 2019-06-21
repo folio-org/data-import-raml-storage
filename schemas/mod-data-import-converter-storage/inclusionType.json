@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Inclusion types enum",
   "type": "string",
+  "additionalProperties": false,
   "enum": [
     "MATCH_ON",
     "IGNORE"

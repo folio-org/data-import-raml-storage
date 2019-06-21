@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Parsed Record Schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "UUID",
@@ -15,6 +16,10 @@
       "type": "string"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "content",
+    "formattedContent"
+  ],
   "required": [
     "content"
   ]

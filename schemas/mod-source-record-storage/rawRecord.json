@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Raw Record data model",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "UUID",
@@ -12,6 +13,9 @@
       "type": "string"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "content"
+  ],
   "required": [
     "content"
   ]

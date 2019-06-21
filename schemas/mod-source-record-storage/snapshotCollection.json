@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Snapshot collection",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "snapshots": {
       "description": "List of snapshots",
@@ -17,6 +18,9 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "snapshots",
     "totalRecords"

@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Marc records collection for testing",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "rawRecords": {
       "description": "List of raw marc records",

@@ -2,9 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of record DTO",
   "type": "object",
-  "excludedFromEqualsAndHashCode": [
-    "additionalProperties"
-  ],
+  "additionalProperties": false,
   "properties": {
     "records": {
       "description": "List of records",
@@ -27,6 +25,9 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "records",
     "totalRecords"

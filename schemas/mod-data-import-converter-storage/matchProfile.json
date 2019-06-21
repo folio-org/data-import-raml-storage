@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Match Profile schema",
-  "additionalProperties": false,
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "Unique identifier",
