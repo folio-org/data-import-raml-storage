@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of Match Profiles",
-  "additionalProperties": false,
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "matchProfiles": {
       "description": "List of Match Profiles",
