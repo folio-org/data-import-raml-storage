@@ -17,10 +17,10 @@
       "type": "integer"
     }
   },
-  "required": [
+  "excludedFromEqualsAndHashCode": [
     "totalRecords"
   ],
-  "excludedFromEqualsAndHashCode": [
+  "required": [
     "jobExecutions",
     "totalRecords"
   ]
