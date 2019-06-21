@@ -44,10 +44,6 @@
       "readonly": true
     }
   },
-  "excludedFromEqualsAndHashCode": [
-    "rawRecord",
-    "parsedRecord"
-  ],
   "required": [
     "recordId",
     "snapshotId",
