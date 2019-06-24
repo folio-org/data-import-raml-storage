@@ -151,7 +151,10 @@
       "enum": [
         "PO_LINE_NUMBER",
         "ISBN",
-        "INSTANCE_HRID", "LOCATION_CODE"
+        "INSTANCE_HRID",
+        "LOCATION_CODE",
+        "VENDOR_INVOICE_NUMBER",
+        "ITEM_BARCODE"
       ]
     },
     "existingStaticValueType": {
