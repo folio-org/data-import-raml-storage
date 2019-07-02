@@ -18,7 +18,11 @@
     "subordinationType": {
       "description": "Type of subordination to another JobExecution entities",
       "type": "string",
-      "enum": ["CHILD", "PARENT_SINGLE", "PARENT_MULTIPLE"]
+      "enum": [
+        "CHILD",
+        "PARENT_SINGLE",
+        "PARENT_MULTIPLE"
+      ]
     },
     "jobProfileInfo": {
       "description": "Related JobProfile information",
@@ -46,58 +50,50 @@
     "progress": {
       "description": "Execution progress of the job",
       "type": "object",
-      "properties": {
-        "current": {
-          "description": "Currently processing record",
-          "type": "integer"
-        },
-        "total": {
-          "description": "Total number of records to be processed",
-          "type": "integer"
-        }
-      }
-    },
-    "startedDate": {
-      "description": "Date and time when the job execution started",
-      "type": "string",
-      "format": "date-time"
-    },
-    "completedDate": {
-      "description": "Date and time when the job execution completed",
-      "type": "string",
-      "format": "date-time"
-    },
-    "status": {
-      "description": "Current status of the job execution",
-      "type": "string",
-      "$ref": "../common/status.json"
-    },
-    "uiStatus": {
-      "description": "Status that is rendered on UI",
-      "type": "string",
-      "$ref": "uiStatus.json"
-    },
-    "errorStatus": {
-      "description": "Status that describe error state of job execution",
-      "type": "string",
-      "$ref": "errorStatus.json"
-    },
-    "userId": {
-      "description": "ID of the user who created the JobExecution",
-      "type": "string"
+      "$ref": "./progress.json"
     }
   },
-  "required": [
-    "id",
-    "parentJobId",
-    "subordinationType",
-    "status",
-    "uiStatus",
-    "userId"
-  ],
-  "excludedFromEqualsAndHashCode": [
-    "hrId",
-    "progress",
-    "runBy"
-  ]
+  "startedDate": {
+    "description": "Date and time when the job execution started",
+    "type": "string",
+    "format": "date-time"
+  },
+  "completedDate": {
+    "description": "Date and time when the job execution completed",
+    "type": "string",
+    "format": "date-time"
+  },
+  "status": {
+    "description": "Current status of the job execution",
+    "type": "string",
+    "$ref": "../common/status.json"
+  },
+  "uiStatus": {
+    "description": "Status that is rendered on UI",
+    "type": "string",
+    "$ref": "uiStatus.json"
+  },
+  "errorStatus": {
+    "description": "Status that describe error state of job execution",
+    "type": "string",
+    "$ref": "errorStatus.json"
+  },
+  "userId": {
+    "description": "ID of the user who created the JobExecution",
+    "type": "string"
+  }
+},
+"required": [
+"id",
+"parentJobId",
+"subordinationType",
+"status",
+"uiStatus",
+"userId"
+],
+"excludedFromEqualsAndHashCode": [
+"hrId",
+"progress",
+"runBy"
+]
 }
