@@ -37,16 +37,7 @@
     "progress": {
       "description": "Execution progress of the job",
       "type": "object",
-      "properties": {
-        "current": {
-          "description": "Currently processing record",
-          "type": "integer"
-        },
-        "total": {
-          "description": "Total number of records to be processed",
-          "type": "integer"
-        }
-      }
+      "$ref": "../mod-source-record-manager/progress.json"
     },
     "startedDate": {
       "description": "Date and time when the job execution started",
