@@ -2,15 +2,15 @@
   "mappingProfiles": [
     {
       "id": "1kl9m60r-fvb7-45n0-23c0-13n8gbkl7091",
-      "name": "Profile for mapping",
-      "mapped": "Order - 3 fields",
+      "name": "MARC brief instance 1",
+      "description": "Preliminary instance from CoolVendor MARC order record",
       "tags": {
         "tagList": [
-          "lorem", "ipsum", "dolor"
+          "cool-vendor"
         ]
       },
-      "description": "Description for mapping profile",
-      "entityType": "INVENTORY_ITEM",
+      "incomingRecordType": "MARC_BIBLIOGRAPHIC",
+      "folioRecord": "INSTANCE",
       "deleted": false,
       "userInfo": {
         "firstName": "Jane",
