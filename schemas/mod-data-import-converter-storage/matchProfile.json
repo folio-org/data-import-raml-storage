@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Match Profile schema",
-  "additionalProperties": false,
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "Unique identifier",
@@ -151,7 +151,10 @@
       "enum": [
         "PO_LINE_NUMBER",
         "ISBN",
-        "INSTANCE_HRID", "LOCATION_CODE"
+        "INSTANCE_HRID",
+        "LOCATION_CODE",
+        "VENDOR_INVOICE_NUMBER",
+        "ITEM_BARCODE"
       ]
     },
     "existingStaticValueType": {

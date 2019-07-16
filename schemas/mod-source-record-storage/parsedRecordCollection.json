@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of parsed records",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "recordType": {
       "description": "Type of parsed records, e.g. MARC",
@@ -17,11 +18,21 @@
         "$ref": "parsedRecord.json"
       }
     },
+    "errorMessages": {
+      "description": "List of error messages",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "totalRecords": {
       "description": "Total number of parsed records",
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "recordType",
     "parsedRecords",

@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "User information",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "firstName": {
       "description": "User first name",

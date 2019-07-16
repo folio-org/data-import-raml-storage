@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
   "description": "Initialized JobExecution entities",
+  "type": "object",
   "additionalProperties": false,
   "properties": {
     "parentJobExecutionId": {

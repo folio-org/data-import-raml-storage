@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of Action Profiles",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "actionProfiles": {
       "description": "List of Action Profiles",
@@ -17,6 +18,9 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "actionProfiles",
     "totalRecords"

@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Collection of Match Profiles",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "matchProfiles": {
       "description": "List of Match Profiles",
@@ -17,6 +18,9 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "matchProfiles",
     "totalRecords"

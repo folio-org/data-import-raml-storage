@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Mapping Profile schema",
-  "additionalProperties": false,
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "id": {
       "description": "Unique identifier",
@@ -16,18 +16,35 @@
       "description": "Mapping Profile description",
       "type": "string"
     },
-    "mapped": {
-      "description": "Mapped field",
-      "type": "string"
-    },
     "tags": {
       "description": "Set of tags assigned to the current Job Profile",
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
-    "entityType": {
-      "description": "Entity type",
-      "type": "string"
+    "incomingRecordType": {
+      "description": "Incoming record type",
+      "type": "string",
+      "enum": [
+        "MARC_BIBLIOGRAPHIC",
+        "MARC_HOLDINGS",
+        "MARC_AUTHORITY",
+        "EDIFACT_INVOICE",
+        "DELIMITED"
+      ]
+    },
+    "folioRecord": {
+      "description": "FOLIO record type to mapping",
+      "type": "string",
+      "enum": [
+        "INSTANCE",
+        "HOLDINGS",
+        "ITEM",
+        "ORDER",
+        "INVOICE",
+        "MARC_BIBLIOGRAPHIC",
+        "MARC_HOLDINGS",
+        "MARC_AUTHORITY"
+      ]
     },
     "deleted": {
       "description": "Flag indicates that the Mapping Profile marked as deleted",
@@ -47,6 +64,8 @@
     }
   },
   "required": [
-    "name"
+    "name",
+    "incomingRecordType",
+    "folioRecord"
   ]
 }

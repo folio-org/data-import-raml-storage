@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Status DTO Schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "status": {
       "description": "Current status of the job execution",
