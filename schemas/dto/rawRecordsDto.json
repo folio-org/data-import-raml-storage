@@ -4,14 +4,6 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "last": {
-      "description": "Indicates if the current chunk is the last one associated with the same JobExecution",
-      "type": "boolean"
-    },
-    "counter": {
-      "description": "Counter of records associated with the same JobExecution, the last counter number is a total number of records",
-      "type": "integer"
-    },
     "records": {
       "description": "List of raw records",
       "type": "array",
@@ -19,20 +11,14 @@
         "type": "string"
       }
     },
-    "contentType": {
-      "description": "Describes type of records and format of record representation",
-      "type": "string",
-      "enum": [
-        "MARC_RAW",
-        "MARC_JSON",
-        "MARC_XML"
-      ]
+    "metadata" : {
+      "description": "List of raw records",
+      "type": "object",
+      "$ref": "./rawRecordsMetadata.json"
     }
   },
   "required": [
-    "last",
-    "counter",
-    "records",
-    "contentType"
+    "metadata",
+    "records"
   ]
 }
