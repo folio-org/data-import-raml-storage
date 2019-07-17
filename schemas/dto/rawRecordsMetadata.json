@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Schema that describes payload for receiving a chunk of raw records",
+  "description": "Schema that describes metadata for receiving a chunk of raw records",
   "type": "object",
   "additionalProperties": false,
   "properties": {
