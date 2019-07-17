@@ -29,7 +29,6 @@
   "required": [
     "last",
     "counter",
-    "records",
     "contentType"
   ]
 }
