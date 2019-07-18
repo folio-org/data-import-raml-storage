@@ -11,7 +11,7 @@
         "type": "string"
       }
     },
-    "metadata" : {
+    "recordsMetadata" : {
       "description": "Metadata with info about records",
       "type": "object",
       "$ref": "./rawRecordsMetadata.json"
