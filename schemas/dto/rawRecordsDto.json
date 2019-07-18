@@ -12,7 +12,7 @@
       }
     },
     "metadata" : {
-      "description": "List of raw records",
+      "description": "Metadata with info about records",
       "type": "object",
       "$ref": "./rawRecordsMetadata.json"
     }
