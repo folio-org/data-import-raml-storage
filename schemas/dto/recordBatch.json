@@ -5,7 +5,7 @@
   "additionalProperties": false,
   "properties": {
     "records": {
-      "description": "List of records",
+      "description": "List of successfully processed records",
       "type": "array",
       "id": "recordList",
       "items": {
