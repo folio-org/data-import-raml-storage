@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Matching criterion types enum",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "EXACTLY_MATCHES",
+    "EXISTING_VALUE_CONTAINS_INCOMING_VALUE",
+    "INCOMING_VALUE_CONTAINS_EXISTING_VALUE",
+    "EXISTING_VALUE_BEGINS_WITH_INCOMING_VALUE",
+    "INCOMING_VALUE_BEGINS_WITH_EXISTING_VALUE",
+    "EXISTING_VALUE_ENDS_WITH_INCOMING_VALUE",
+    "INCOMING_VALUE_ENDS_WITH_EXISTING_VALUE"
+  ]
+}

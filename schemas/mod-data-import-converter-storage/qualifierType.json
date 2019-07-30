@@ -1,10 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Inclusion types enum",
+  "description": "Enum of qualifier types",
   "type": "string",
   "additionalProperties": false,
   "enum": [
-    "MATCH_ON",
-    "IGNORE"
+    "BEGINS_WITH",
+    "ENDS_WITH",
+    "CONTAINS"
   ]
 }
