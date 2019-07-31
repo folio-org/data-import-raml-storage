@@ -40,7 +40,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "$ref": "./matchDetail.json"
+        "$ref": "match-profile-detail/matchDetail.json"
       }
     },
     "deleted": {
