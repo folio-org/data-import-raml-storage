@@ -63,9 +63,6 @@
   "required": [
     "name",
     "incomingRecordType",
-    "existingRecordType",
-    "incomingDataValueType",
-    "existingDataValueType",
-    "matchCriterion"
+    "existingRecordType"
   ]
 }
