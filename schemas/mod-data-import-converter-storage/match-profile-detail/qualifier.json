@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Match expression qualifier",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "qualifierType": {
+      "description": "Qualifier type",
+      "type": "string",
+      "$ref": "qualifierType.json"
+    },
+    "qualifierValue": {
+      "description": "Qualifier value, only if qualifierType is specified",
+      "type": "string"
+    },
+    "comparisonPart": {
+      "description": "Part of the value to compare",
+      "type": "string",
+      "$ref": "comparisonPartType.json"
+    }
+  }
+}

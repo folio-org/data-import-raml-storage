@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Record field definition for marc and non marc records",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "label": {
+      "description": "Label from UI form which describes field or subfield in record",
+      "type": "string"
+    },
+    "value": {
+      "description": "Field or subfield name in record",
+      "type": "string"
+    }
+  },
+  "required": [
+    "label",
+    "value"
+  ]
+}

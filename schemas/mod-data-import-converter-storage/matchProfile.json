@@ -33,181 +33,15 @@
     "existingRecordType": {
       "description": "Existing record type to match",
       "type": "string",
-      "enum": [
-        "INSTANCE",
-        "HOLDINGS",
-        "ITEM",
-        "ORDER",
-        "INVOICE",
-        "MARC_BIBLIOGRAPHIC",
-        "MARC_HOLDINGS",
-        "MARC_AUTHORITY"
-      ]
+      "$ref": "./existingRecordType.json"
     },
-    "incomingDataValueType": {
-      "description": "Incoming data value type",
-      "type": "string",
-      "enum": [
-        "VALUE_FROM_INCOMING_RECORD",
-        "STATIC_VALUE"
-      ]
-    },
-    "field": {
-      "description": "Only if incomingDataValueType = VALUE_FROM_INCOMING_RECORD only including options for MARC incoming records for now",
-      "type": "string"
-    },
-    "incomingIndicator1": {
-      "description": "Indicator 1",
-      "type": "string"
-    },
-    "incomingIndicator2": {
-      "description": "Indicator 2",
-      "type": "string"
-    },
-    "incomingRecordSubfield": {
-      "description": "incomingRecordSubfield",
-      "type": "string"
-    },
-    "incomingStaticValueType": {
-      "description": "Static value type",
-      "type": "string",
-      "$ref": "staticValueType.json"
-    },
-    "incomingText": {
-      "description": "Only if incomingStaticValueType = TEXT",
-      "type": "string"
-    },
-    "incomingNumber": {
-      "description": "Only if incomingStaticValueType = NUMBER",
-      "type": "number"
-    },
-    "incomingDateType": {
-      "description": "Only if incomingStaticValueType = DATE",
-      "type": "string",
-      "$ref": "dateType.json"
-    },
-    "incomingFromDate": {
-      "description": "Only if incomingStaticValueType = DATE and incomingDateType = RANGE",
-      "type": "string",
-      "format": "date-time"
-    },
-    "incomingToDate": {
-      "description": "Only if incomingStaticValueType = DATE and incomingDateType = RANGE",
-      "type": "string",
-      "format": "date-time"
-    },
-    "incomingDate": {
-      "description": "Only if incomingStaticValueType = DATE and incomingDateType = EXACT_DATE",
-      "type": "string",
-      "format": "date-time"
-    },
-    "incomingInclude": {
-      "description": "incomingInclude",
-      "type": "string",
-      "$ref": "inclusionType.json"
-    },
-    "incomingHowMuch": {
-      "description": "incoming how much",
-      "type": "string",
-      "$ref": "matchingDegreeType.json"
-    },
-    "matchingCriteria": {
-      "description": "Matching criteria",
-      "type": "string",
-      "enum": [
-        "EXACTLY_MATCHES",
-        "CONTAINS",
-        "BEGINS_WITH",
-        "ENDS_WITH"
-      ]
-    },
-    "existingDataValueType": {
-      "description": "Existing data value type",
-      "type": "string",
-      "enum": [
-        "VALUE_IN_EXISTING_RECORD",
-        "STATIC_VALUE"
-      ]
-    },
-    "fieldMarc": {
-      "description": "Only if existingDataValueType = VALUE_IN_EXISTING_RECORD and existingRecordType = one of the MARC formats",
-      "type": "string"
-    },
-    "existingIndicator1": {
-      "description": "existing record indicator 1",
-      "type": "string"
-    },
-    "existingIndicator2": {
-      "description": "existing record indicator 2",
-      "type": "string"
-    },
-    "existingRecordSubfield": {
-      "description": "existing record subfield",
-      "type": "string"
-    },
-    "fieldNonMarc": {
-      "description": "Only if existingDataValueType = VALUE_IN_EXISTING_RECORD and existingRecordType is NOT one of the MARC formats Acceptable values: list of FOLIO fields for whichever record types is chosen as the existing record type",
-      "type": "string",
-      "enum": [
-        "PO_LINE_NUMBER",
-        "ISBN",
-        "INSTANCE_HRID",
-        "LOCATION_CODE",
-        "VENDOR_INVOICE_NUMBER",
-        "ITEM_BARCODE"
-      ]
-    },
-    "existingStaticValueType": {
-      "description": "existing static value type",
-      "type": "string",
-      "$ref": "staticValueType.json"
-    },
-    "existingText": {
-      "description": "Only if existingStaticValueType = TEXT",
-      "type": "string"
-    },
-    "existingNumber": {
-      "description": "Only if existingStaticValueType = NUMBER",
-      "type": "number"
-    },
-    "existingDateType": {
-      "description": "Only if existingStaticValueType = DATE",
-      "type": "string",
-      "$ref": "dateType.json"
-    },
-    "existingFromDate": {
-      "description": "Only if existingStaticValueType = DATE and existingDateType = RANGE",
-      "type": "string",
-      "format": "date-time"
-    },
-    "existingToDate": {
-      "description": "Only if existingStaticValueType = DATE and existingDateType = RANGE",
-      "type": "string",
-      "format": "date-time"
-    },
-    "existingDate": {
-      "description": "Only if existingStaticValueType = DATE and existingDateType = EXACT_DATE",
-      "type": "string",
-      "format": "date-time"
-    },
-    "existingInclude": {
-      "description": "include",
-      "type": "string",
-      "$ref": "inclusionType.json"
-    },
-    "existingHowMuch": {
-      "description": "existingHowMuch",
-      "type": "string",
-      "$ref": "matchingDegreeType.json"
-    },
-    "booleanOperation": {
-      "description": "Used to add sub-matches to an existing match profile",
-      "type": "string",
-      "enum": [
-        "AND",
-        "AND NOT",
-        "OR"
-      ]
+    "matchDetails": {
+      "description": "Match profile details list",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "match-profile-detail/matchDetail.json"
+      }
     },
     "deleted": {
       "description": "Flag indicates that the Match Profile marked as deleted",
@@ -229,7 +63,6 @@
   "required": [
     "name",
     "incomingRecordType",
-    "existingRecordType",
-    "incomingDataValueType"
+    "existingRecordType"
   ]
 }

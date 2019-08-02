@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Match profile detail",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "incomingRecordType": {
+      "description": "Incoming record type",
+      "type": "string",
+      "$ref": "../../common/dataType.json"
+    },
+    "existingRecordType": {
+      "description": "Existing record type to match",
+      "type": "string",
+      "$ref": "../existingRecordType.json"
+    },
+    "incomingMatchExpression": {
+      "description": "Incoming data match expression definition",
+      "type": "object",
+      "$ref": "matchExpression.json"
+    },
+    "matchCriterion": {
+      "description": "Matching criteria",
+      "type": "string",
+      "$ref": "criterionType.json"
+    },
+    "existingMatchExpression": {
+      "description": "Existing data match expression definition",
+      "type": "object",
+      "$ref": "matchExpression.json"
+    },
+    "booleanOperation": {
+      "description": "Used to add sub-matches to an existing match profile",
+      "type": "string",
+      "enum": [
+        "AND",
+        "AND NOT",
+        "OR"
+      ]
+    }
+  },
+  "required": [
+    "incomingRecordType",
+    "existingRecordType",
+    "incomingMatchExpression",
+    "matchCriterion",
+    "existingMatchExpression"
+  ]
+}

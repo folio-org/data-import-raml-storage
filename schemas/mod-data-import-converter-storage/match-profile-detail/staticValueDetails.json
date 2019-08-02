@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Match Profile static value details",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "staticValueType": {
+      "description": "Static value type",
+      "type": "string",
+      "$ref": "staticValueType.json"
+    },
+    "text": {
+      "description": "Only if incomingStaticValueType = TEXT",
+      "type": "string"
+    },
+    "number": {
+      "description": "Only if incomingStaticValueType = NUMBER",
+      "type": "integer"
+    },
+    "dateType": {
+      "description": "Only if incomingStaticValueType = DATE",
+      "type": "string",
+      "$ref": "dateType.json"
+    },
+    "fromDate": {
+      "description": "Only if incomingStaticValueType = DATE and incomingDateType = RANGE",
+      "type": "string",
+      "format": "date-time"
+    },
+    "toDate": {
+      "description": "Only if incomingStaticValueType = DATE and incomingDateType = RANGE",
+      "type": "string",
+      "format": "date-time"
+    },
+    "exactDate": {
+      "description": "Only if incomingStaticValueType = DATE and incomingDateType = EXACT_DATE",
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

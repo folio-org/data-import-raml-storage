@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Enum of existing record types to match",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "INSTANCE",
+    "HOLDINGS",
+    "ITEM",
+    "ORDER",
+    "INVOICE",
+    "MARC_BIBLIOGRAPHIC",
+    "MARC_HOLDINGS",
+    "MARC_AUTHORITY"
+  ]
+}
