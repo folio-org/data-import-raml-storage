@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Collection of record DTO",
+  "description": "Response schema for Records batch requests",
   "type": "object",
   "additionalProperties": false,
   "properties": {
