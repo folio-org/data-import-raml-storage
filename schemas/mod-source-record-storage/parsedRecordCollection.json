@@ -18,13 +18,6 @@
         "$ref": "parsedRecord.json"
       }
     },
-    "errorMessages": {
-      "description": "List of error messages",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "totalRecords": {
       "description": "Total number of parsed records",
       "type": "integer"
