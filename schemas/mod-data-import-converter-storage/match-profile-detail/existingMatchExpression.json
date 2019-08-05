@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Match expression",
+  "description": "Existing match expression",
   "type": "object",
   "additionalProperties": false,
   "properties": {
