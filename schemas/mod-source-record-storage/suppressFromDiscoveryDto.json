@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Dto with value for updating records suppress from discovery flag",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "recordId": {
+      "description": "UUID",
+      "type": "string"
+    },
+    "suppressFromDiscovery": {
+      "description": "Value of suppressFromDiscovery flag",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "suppressFromDiscovery",
+    "recordId"
+  ]
+}
