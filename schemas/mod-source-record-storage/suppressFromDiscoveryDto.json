@@ -4,9 +4,14 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "recordId": {
+    "id": {
       "description": "UUID",
       "type": "string"
+    },
+    "incomingIdType":{
+      "description": "Incoming UUID Type Enum",
+      "type": "string",
+      "$ref": "./incomingIdType.json"
     },
     "suppressFromDiscovery": {
       "description": "Value of suppressFromDiscovery flag",
@@ -15,6 +20,7 @@
   },
   "required": [
     "suppressFromDiscovery",
-    "recordId"
+    "recordId",
+    "incomingIdType"
   ]
 }
