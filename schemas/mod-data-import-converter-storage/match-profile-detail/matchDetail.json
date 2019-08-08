@@ -17,7 +17,7 @@
     "incomingMatchExpression": {
       "description": "Incoming data match expression definition",
       "type": "object",
-      "$ref": "incomingMatchExpression.json"
+      "$ref": "matchExpression.json"
     },
     "matchCriterion": {
       "description": "Matching criteria",
@@ -27,7 +27,7 @@
     "existingMatchExpression": {
       "description": "Existing data match expression definition",
       "type": "object",
-      "$ref": "existingMatchExpression.json"
+      "$ref": "matchExpression.json"
     },
     "booleanOperation": {
       "description": "Used to add sub-matches to an existing match profile",
