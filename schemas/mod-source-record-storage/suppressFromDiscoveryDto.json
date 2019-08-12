@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "incomingIdType":{
       "description": "Incoming UUID Type Enum",

@@ -6,11 +6,11 @@
   "properties": {
     "recordId": {
       "description": "UUID",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "snapshotId": {
       "description": "Corresponding snapshot id, which is the same as jobExecutionId",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "recordType": {
       "description": "Type of record, e.g. MARC",

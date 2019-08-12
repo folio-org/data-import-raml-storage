@@ -6,7 +6,7 @@
   "properties": {
     "jobExecutionId": {
       "description": "Id, Unique identifier of the executed job",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "jobExecutionHrId": {
       "description": "Human readable id of the executed job",

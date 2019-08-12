@@ -6,19 +6,19 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "snapshotId": {
       "description": "Corresponding snapshot id, which is the same as jobExecutionId",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "matchedProfileId": {
       "description": "Id of the matcher profile which is applied for the record",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "matchedId": {
       "description": "Represents relations with another matched records, necessary for saving the history of applying changes for inventory/holding/etc records",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "generation": {
       "description": "Generation from the last record with the same matchedId incremented by 1. Starts from 0.",

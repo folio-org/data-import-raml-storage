@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "sourcePath": {
       "description": "The path to the file location",
@@ -29,11 +29,11 @@
     },
     "jobExecutionId": {
       "description": "Link to JobExecution entity",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "uploadDefinitionId": {
       "description": "Link to UploadDefinition entity",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "createDate": {
       "description": "Date and time when the file definition was created",

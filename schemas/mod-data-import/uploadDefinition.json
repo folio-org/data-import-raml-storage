@@ -6,11 +6,11 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "metaJobExecutionId": {
       "description": "Link to the metajob execution",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "status": {
       "description": "Status of upload",

@@ -6,11 +6,11 @@
   "properties": {
     "id": {
       "description": "Unique identifier",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "jobExecutionId": {
       "description": "Foreign Key to the Job Execution this chunk belongs to",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "last": {
       "description": "True if this is the last chunk False otherwise",

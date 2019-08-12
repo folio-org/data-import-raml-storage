@@ -6,7 +6,7 @@
   "properties": {
     "jobExecutionId": {
       "description": "Corresponding jobExecution id",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "status": {
       "description": "Current status",
