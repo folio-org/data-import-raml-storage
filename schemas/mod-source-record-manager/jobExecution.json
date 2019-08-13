@@ -5,7 +5,7 @@
   "properties": {
     "id": {
       "description": "Unique identifier",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "hrId": {
       "description": "Human readable id",
@@ -13,7 +13,7 @@
     },
     "parentJobId": {
       "description": "Id of the parent JobExecution entity",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "subordinationType": {
       "description": "Type of subordination to another JobExecution entities",
@@ -79,7 +79,7 @@
     },
     "userId": {
       "description": "ID of the user who created the JobExecution",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     }
   },
   "required": [

@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "Unique identifier",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "description": {
       "description": "Description field for the extension",

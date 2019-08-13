@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "Unique identifier",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "hrId": {
       "description": "Human readable id",
