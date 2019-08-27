@@ -3,6 +3,7 @@
   "jobExecutionHrId": "10000",
   "jobProfileName": "Marc jobs profile",
   "fileName": "import_1.csv"
+  "totalRecords": 15,
   "runBy": {
      "firstName": "DIKU",
      "lastName": "ADMINISTRATOR"
