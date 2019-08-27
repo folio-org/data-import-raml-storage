@@ -20,6 +20,10 @@
       "description": "File name with extension",
       "type": "string"
     },
+    "totalRecords": {
+      "description": "Total number of processed records",
+      "type": "integer"
+    },
     "runBy": {
       "description": "First and last name of the user that triggered the job execution",
       "type": "object",
