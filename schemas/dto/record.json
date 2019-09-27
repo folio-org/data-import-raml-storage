@@ -50,6 +50,11 @@
       "type": "boolean",
       "default": false
     },
+    "externalIdsHolder": {
+      "description": "Container for identifiers of external entities",
+      "type": "object",
+      "$ref": "../common/externalIdsHolder.json"
+    },
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",

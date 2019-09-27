@@ -42,6 +42,11 @@
       "description": "Reference to the corresponding error record",
       "$ref": "../common/uuid.json"
     },
+    "externalIdsHolder": {
+      "description": "Container for identifiers of external entities",
+      "type": "object",
+      "$ref": "../common/externalIdsHolder.json"
+    },
     "deleted": {
       "description": "Flag indicates that the record marked as deleted",
       "type": "boolean",

@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Contains identifiers of external entities (instance, holding)",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "instanceId": {
+      "description": "instance id",
+      "$ref": "uuid.json"
+    }
+  },
+  "required": []
+}
