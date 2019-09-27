@@ -71,7 +71,6 @@
     "snapshotId",
     "matchedId",
     "recordType",
-    "externalIdsHolder",
     "rawRecord"
   ]
 }

@@ -9,7 +9,5 @@
       "$ref": "uuid.json"
     }
   },
-  "required": [
-    "instanceId"
-  ]
+  "required": []
 }
