@@ -8,6 +8,5 @@
       "description": "instance id",
       "$ref": "uuid.json"
     }
-  },
-  "required": []
+  }
 }
