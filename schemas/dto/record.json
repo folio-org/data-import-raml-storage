@@ -50,6 +50,10 @@
       "type": "boolean",
       "default": false
     },
+    "order": {
+      "description": "Order of the record in imported file",
+      "type": "positiveInteger"
+    },
     "externalIdsHolder": {
       "description": "Container for identifiers of external entities",
       "type": "object",

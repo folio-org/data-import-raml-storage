@@ -32,6 +32,10 @@
       "type": "boolean",
       "default": false
     },
+    "order": {
+      "description": "Order of the record in imported file",
+      "type": "positiveInteger"
+    },
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
