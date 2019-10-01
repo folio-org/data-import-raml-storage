@@ -10,7 +10,7 @@
     },
     "order": {
       "description": "Order of the record in incoming file",
-      "type": "integer"
+      "type": "positiveInteger"
     }
   },
   "required": [
