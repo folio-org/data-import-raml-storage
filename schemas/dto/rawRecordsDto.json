@@ -4,7 +4,7 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "records": {
+    "initialRecords": {
       "description": "List of raw records",
       "type": "array",
       "items": {
@@ -20,6 +20,6 @@
   },
   "required": [
     "recordsMetadata",
-    "records"
+    "initialRecords"
   ]
 }
