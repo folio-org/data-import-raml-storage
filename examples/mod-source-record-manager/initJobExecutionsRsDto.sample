@@ -8,6 +8,7 @@
       "parentJobId": "fgb8qq21-1caf-4470-9ad1-fgbmiu77lmaq",
       "subordinationType": "CHILD",
       "sourcePath": "C:\import\files\import.marc",
+      "fileName": "import_1.csv"
       "runBy": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR"
@@ -25,6 +26,7 @@
       "parentJobId": "fgb8qq21-1caf-4470-9ad1-fgbmiu77lmaq",
       "subordinationType": "CHILD",
       "sourcePath": "C:\import\files\import_1.csv",
+      "fileName": "import_1.csv"
       "runBy": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR"

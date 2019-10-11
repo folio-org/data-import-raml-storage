@@ -9,6 +9,7 @@
       },
       "parentJobId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
       "subordinationType: "PARENT_SINGLE",
+      "sourcePath":"C:\import\files\import_1.csv",
       "fileName": "import_1.csv",
       "runBy": {
         "firstName": "Paolo",
@@ -34,6 +35,7 @@
       },
       "parentJobId": "981oklm8-lkmn-mnds-za98-d533f6360bdd",
       "subordinationType: "PARENT_SINGLE",
+      "sourcePath":"C:\import\files\import_1.csv",
       "fileName": "import_11.csv",
       "runBy": {
         "firstName": "Brad",
