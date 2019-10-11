@@ -33,6 +33,10 @@
       "description": "Path to the file",
       "type": "string"
     },
+    "fileName": {
+      "description": "File name",
+      "type": "string"
+    },
     "runBy": {
       "description": "First and last name of the user that triggered the job execution",
       "type": "object",
