@@ -5,7 +5,11 @@
   "additionalProperties": false,
   "properties": {
     "id": {
-      "description": "Unique identifier",
+      "description": "Snapshot wrapper unique identifier",
+      "$ref": "../common/uuid.json"
+    },
+    "profileId": {
+      "description": "Profile unique identifier",
       "$ref": "../common/uuid.json"
     },
     "contentType": {
