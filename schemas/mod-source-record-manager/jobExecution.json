@@ -9,7 +9,7 @@
     },
     "hrId": {
       "description": "Human readable id",
-      "type": "string"
+      "type": "integer"
     },
     "parentJobId": {
       "description": "Id of the parent JobExecution entity",
