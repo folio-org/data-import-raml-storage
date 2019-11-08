@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Journal record data model",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "jobExecutionId": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "sourceId": {
+      "description": "SRS record identifier, UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "entityType": {
+      "description": "Type of entity",
+      "type": "string",
+      "additionalProperties": false,
+      "enum": [
+        "RECORD",
+        "INSTANCE",
+        "HOLDINGS",
+        "ITEM",
+        "ORDER",
+        "INVOICE"
+      ]
+    },
+    "entityId": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "entityHrId": {
+      "description": "Entity human readable id",
+      "type": "string"
+    },
+    "actionType": {
+      "description": "Type of action",
+      "type": "string",
+      "additionalProperties": false,
+      "enum": [
+        "CREATE",
+        "COMBINE",
+        "REPLACE",
+        "DELETE",
+        "MODIFY",
+        "ERROR"
+      ]
+    },
+    "actionStatus": {
+      "description": "Type of action",
+      "type": "string",
+      "enum": [
+        "COMPLETED",
+        "ERROR"
+      ]
+    },
+    "actionDate": {
+      "description": "Date and time when action was performed during record processing",
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "jobExecutionId"
+  ]
+}
