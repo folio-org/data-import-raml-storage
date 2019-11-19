@@ -21,12 +21,14 @@
       "type": "string",
       "additionalProperties": false,
       "enum": [
-        "RECORD",
         "INSTANCE",
         "HOLDINGS",
         "ITEM",
         "ORDER",
-        "INVOICE"
+        "INVOICE",
+        "MARC_BIBLIOGRAPHIC",
+        "MARC_HOLDINGS",
+        "MARC_AUTHORITY"
       ]
     },
     "entityId": {

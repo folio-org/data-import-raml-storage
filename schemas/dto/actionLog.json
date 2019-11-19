@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Action log schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "entityType": {
+      "description": "type of entity",
+      "type": "string"
+    },
+    "actionType": {
+      "description": "type of action",
+      "type": "string"
+    },
+    "totalCompleted": {
+      "description": "number of successfully processed entities",
+      "type": "integer"
+    },
+    "totalFailed": {
+      "description": "number of failed processing",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "entityType",
+    "actionType",
+    "totalCompleted",
+    "totalFailed"
+  ]
+}
