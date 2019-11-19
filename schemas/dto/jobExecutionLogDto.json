@@ -8,7 +8,7 @@
       "description": "UUID",
       "$ref": "../common/uuid.json"
     },
-    "actionLogs": {
+    "jobExecutionResultLogs": {
       "description": "Set of action logs",
       "type": "array",
       "items": {

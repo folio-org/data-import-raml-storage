@@ -1,6 +1,6 @@
 {
   "jobExecutionId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
-  "actionLogs": [
+  "jobExecutionResultLogs": [
     {
       "entityType": "MARC_BIBLIOGRAPHIC",
       "actionType": "CREATE",
