@@ -6,19 +6,19 @@
   "additionalProperties": false,
   "properties": {
     "entityType": {
-      "description": "type of entity",
+      "description": "Type of entity",
       "type": "string"
     },
     "actionType": {
-      "description": "type of action",
+      "description": "Type of action",
       "type": "string"
     },
     "totalCompleted": {
-      "description": "number of successfully processed entities",
+      "description": "Number of successfully processed entities",
       "type": "integer"
     },
     "totalFailed": {
-      "description": "number of failed processing",
+      "description": "Number of failed processing",
       "type": "integer"
     }
   },
