@@ -1,0 +1,12 @@
+{
+  "id": "138823e7-3adf-40a5-8424-f83a447312fb",
+  "jobExecutionId": "940ca0ad-39db-4059-87e7-982368e15c1b",
+  "sourceId": "44420188-e8fe-4ae3-b162-2383350e469f",
+  "sourceRecordOrder": 0,
+  "entityType": "MARC_BIBLIOGRAPHIC",
+  "entityId": "44420188-e8fe-4ae3-b162-2383350e469f",
+  "entityHrId": "",
+  "actionType": "CREATE",
+  "actionStatus": "COMPLETED",
+  "actionDate": "2019-12-03T15:26:57.921+0000"
+}
