@@ -21,6 +21,14 @@
       "type": "integer",
       "default": 0
     },
+    "reactTo": {
+      "description": "Non-match also used when there is no match profile in the job",
+      "type": "string",
+      "enum": [
+        "MATCH",
+        "NON-MATCH"
+      ]
+    },
     "triggered": {
       "description": "Boolean flag identifies if the 'detail' profile has triggered by the 'master' profile",
       "type": "boolean",
