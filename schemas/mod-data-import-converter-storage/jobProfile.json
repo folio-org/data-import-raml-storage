@@ -21,6 +21,14 @@
       "type": "string",
       "$ref": "../common/dataType.json"
     },
+    "reactTo": {
+      "description": "Non-match also used when there is no match profile in the job",
+      "type": "string",
+      "enum": [
+        "MATCH",
+        "NON-MATCH"
+      ]
+    },
     "tags": {
       "description": "Set of tags assigned to the current Job Profile",
       "type": "object",
@@ -38,7 +46,7 @@
     },
     "parentProfiles": {
       "description": "Associated parent profiles. Not required field that uses only for batch update/create",
-      "type": "array",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
       "items": {
         "type": "object",
         "$ref": "./profileSnapshotWrapper.json"
@@ -46,7 +54,7 @@
     },
     "childProfiles": {
       "description": "Associated children profiles. Not required field that uses only for batch update/create",
-      "type": "array",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
       "items": {
         "type": "object",
         "$ref": "./profileSnapshotWrapper.json"
