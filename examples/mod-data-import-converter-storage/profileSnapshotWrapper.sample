@@ -2,6 +2,7 @@
   "id": "0fc0ba76-d560-4541-826f-f8bdd3b09841",
   "profileId": "dc4ac439-57ae-4779-872e-1892b163bb47",
   "contentType": "JOB_PROFILE",
+  "reactTo":"NON-MATCH",
   "content": {
     "id": "dc4ac439-57ae-4779-872e-1892b163bb47",
     "name": "Load vendor order records",
