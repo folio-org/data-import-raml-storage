@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Action Profile Update/Create schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "profile": {
+      "description": "Action Profile object",
+      "type": "object",
+      "$ref": "./actionProfile.json"
+    },
+    "addedRelations": {
+      "description": "Action profile added relations",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "items": {
+        "type": "object",
+        "$ref": "profileAssociation.json"
+      }
+    },
+    "deletedRelations": {
+      "description": "Action profile deleted relations",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "items": {
+        "type": "object",
+        "$ref": "profileAssociation.json"
+      }
+    }
+  },
+  "required": [
+    "profile"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Mapping Profile Update/Create schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "profile": {
+      "description": "Mapping Profile object",
+      "type": "object",
+      "$ref": "./mappingProfile.json"
+    },
+    "addedRelations": {
+      "description": "Mapping profile added relations",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "items": {
+        "type": "object",
+        "$ref": "profileAssociation.json"
+      }
+    },
+    "deletedRelations": {
+      "description": "Mapping profile deleted relations",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "items": {
+        "type": "object",
+        "$ref": "profileAssociation.json"
+      }
+    }
+  },
+  "required": [
+    "profile"
+  ]
+}
