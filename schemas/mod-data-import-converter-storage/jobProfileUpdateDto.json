@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Job Profile Update/Create schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "profile": {
+      "description": "Job Profile object",
+      "type": "object",
+      "$ref": "./jobProfile.json"
+    },
+    "addedRelations": {
+      "description": "Job profile added relations",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "items": {
+        "type": "object",
+        "$ref": "profileAssociation.json"
+      }
+    },
+    "deletedRelations": {
+      "description": "Job profile deleted relations",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "items": {
+        "type": "object",
+        "$ref": "profileAssociation.json"
+      }
+    }
+  },
+  "required": [
+    "profile"
+  ]
+}
