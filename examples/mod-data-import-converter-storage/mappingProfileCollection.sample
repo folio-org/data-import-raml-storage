@@ -10,7 +10,7 @@
         ]
       },
       "incomingRecordType": "MARC_BIBLIOGRAPHIC",
-      "folioRecord": "INSTANCE",
+      "existingRecordType": "INSTANCE",
       "deleted": false,
       "userInfo": {
         "firstName": "Jane",
