@@ -28,12 +28,12 @@
     "incomingRecordType": {
       "description": "Incoming record type",
       "type": "string",
-      "$ref": "../common/dataType.json"
+      "$ref": "entityType.json"
     },
     "existingRecordType": {
       "description": "Existing record type to match",
       "type": "string",
-      "$ref": "./existingRecordType.json"
+      "$ref": "entityType.json"
     },
     "matchDetails": {
       "description": "Match profile details list",

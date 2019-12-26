@@ -17,34 +17,19 @@
       "type": "string"
     },
     "tags": {
-      "description": "Set of tags assigned to the current Job Profile",
+      "description": "Set of tags assigned to the current Mapping Profile",
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
     "incomingRecordType": {
       "description": "Incoming record type",
       "type": "string",
-      "enum": [
-        "MARC_BIBLIOGRAPHIC",
-        "MARC_HOLDINGS",
-        "MARC_AUTHORITY",
-        "EDIFACT_INVOICE",
-        "DELIMITED"
-      ]
+      "$ref": "./entityType.json"
     },
-    "folioRecord": {
+    "existingRecordType": {
       "description": "FOLIO record type to mapping",
       "type": "string",
-      "enum": [
-        "INSTANCE",
-        "HOLDINGS",
-        "ITEM",
-        "ORDER",
-        "INVOICE",
-        "MARC_BIBLIOGRAPHIC",
-        "MARC_HOLDINGS",
-        "MARC_AUTHORITY"
-      ]
+      "$ref": "./entityType.json"
     },
     "deleted": {
       "description": "Flag indicates that the Mapping Profile marked as deleted",
