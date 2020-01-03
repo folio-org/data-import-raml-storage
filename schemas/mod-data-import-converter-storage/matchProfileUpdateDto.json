@@ -6,8 +6,7 @@
   "properties": {
     "profile": {
       "description": "Match Profile object",
-      "type": "object",
-      "$ref": "./matchProfile.json"
+      "javaType": "org.folio.rest.jaxrs.model.MatchProfile"
     },
     "addedRelations": {
       "description": "Match profile added relations",

@@ -6,8 +6,7 @@
   "properties": {
     "profile": {
       "description": "Mapping Profile object",
-      "type": "object",
-      "$ref": "./mappingProfile.json"
+      "javaType": "org.folio.rest.jaxrs.model.MappingProfile"
     },
     "addedRelations": {
       "description": "Mapping profile added relations",
