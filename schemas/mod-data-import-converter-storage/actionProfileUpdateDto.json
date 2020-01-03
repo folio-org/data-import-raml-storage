@@ -6,8 +6,7 @@
   "properties": {
     "profile": {
       "description": "Action Profile object",
-      "type": "object",
-      "$ref": "./actionProfile.json"
+      "javaType": "org.folio.rest.jaxrs.model.ActionProfile"
     },
     "addedRelations": {
       "description": "Action profile added relations",

@@ -6,8 +6,7 @@
   "properties": {
     "profile": {
       "description": "Job Profile object",
-      "type": "object",
-      "$ref": "./jobProfile.json"
+      "javaType": "org.folio.rest.jaxrs.model.JobProfile"
     },
     "addedRelations": {
       "description": "Job profile added relations",
