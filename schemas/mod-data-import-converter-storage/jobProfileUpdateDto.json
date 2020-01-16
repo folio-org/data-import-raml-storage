@@ -4,6 +4,10 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "id": {
+      "description": "Profile identifier",
+      "$ref": "../common/uuid.json"
+    },
     "profile": {
       "description": "Job Profile object",
       "javaType": "org.folio.rest.jaxrs.model.JobProfile"
