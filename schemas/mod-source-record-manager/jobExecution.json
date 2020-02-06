@@ -29,6 +29,10 @@
       "type": "object",
       "$ref": "../common/profileInfo.json"
     },
+    "jobProfileSnapshotWrapperId": {
+      "description": "Snapshot wrapper id of related JobProfile",
+      "$ref": "../common/uuid.json"
+    },
     "sourcePath": {
       "description": "Path to the file",
       "type": "string"
