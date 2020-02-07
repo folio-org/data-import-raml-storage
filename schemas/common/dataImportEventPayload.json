@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Payload for data-import process",
+  "type": "object",
+  "properties": {
+    "eventType": {
+      "description": "Unique Event type, human-readable String, not UUID",
+      "type": "string"
+    },
+    "profileSnapshot": {
+      "description": "Job Profile snapshot entity with all relations",
+      "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotWrapper"
+    },
+    "currentNode": {
+      "description": "Current profile that should be processed",
+      "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotWrapper"
+    },
+    "currentNodePath": {
+      "description": "List of processed profile ids",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "eventsChain": {
+      "description": "List of processed event types",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tenant": {
+      "description": "Tenant id",
+      "type": "string"
+    },
+    "token": {
+      "description": "Okapi token",
+      "type": "string"
+    },
+    "context": {
+      "description": "HashMap with objects. Key - entity type, Value - object in json representation",
+      "javaType": "java.util.HashMap<String, String>"
+    }
+  }
+}
