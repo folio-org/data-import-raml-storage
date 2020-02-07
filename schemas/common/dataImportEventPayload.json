@@ -9,11 +9,11 @@
     },
     "profileSnapshot": {
       "description": "Job Profile snapshot entity with all relations",
-      "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotWrapper"
+      "javaType": "org.folio.ProfileSnapshotWrapper"
     },
     "currentNode": {
       "description": "Current profile that should be processed",
-      "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotWrapper"
+      "javaType": "org.folio.ProfileSnapshotWrapper"
     },
     "currentNodePath": {
       "description": "List of processed profile ids",
