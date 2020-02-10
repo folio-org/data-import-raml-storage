@@ -29,9 +29,9 @@
       "type": "object",
       "$ref": "../common/profileInfo.json"
     },
-    "jobProfileSnapshotWrapperId": {
-      "description": "Snapshot wrapper id of related JobProfile",
-      "$ref": "../common/uuid.json"
+    "jobProfileSnapshotWrapper": {
+      "description": "Snapshot wrapper of related JobProfile",
+      "$ref": "../mod-data-import-converter-storage/profileSnapshotWrapper.json"
     },
     "sourcePath": {
       "description": "Path to the file",
