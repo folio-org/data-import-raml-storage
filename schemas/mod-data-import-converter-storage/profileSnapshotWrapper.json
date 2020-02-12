@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "This schema describes Job Profile snapshot entity",
+  "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotWrapper",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -22,7 +23,7 @@
       "type": "string",
       "enum": [
         "MATCH",
-        "NON-MATCH"
+        "NON_MATCH"
       ]
     },
     "content": {
