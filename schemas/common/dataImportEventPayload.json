@@ -9,11 +9,11 @@
     },
     "profileSnapshot": {
       "description": "Job Profile snapshot entity with all relations",
-      "javaType": "org.folio.ProfileSnapshotWrapper"
+      "$ref": "../mod-data-import-converter-storage/profileSnapshotWrapper.json"
     },
     "currentNode": {
       "description": "Current profile that should be processed",
-      "javaType": "org.folio.ProfileSnapshotWrapper"
+      "$ref": "../mod-data-import-converter-storage/profileSnapshotWrapper.json"
     },
     "currentNodePath": {
       "description": "List of processed profile ids",
