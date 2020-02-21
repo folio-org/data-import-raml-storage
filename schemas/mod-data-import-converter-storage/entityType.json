@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Enum of entity (record) types",
+  "javaType": "org.folio.rest.jaxrs.model.EntityType",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "MARC_BIBLIOGRAPHIC",
+    "MARC_HOLDINGS",
+    "MARC_AUTHORITY",
+    "EDIFACT_INVOICE",
+    "DELIMITED",
+    "INSTANCE",
+    "HOLDINGS",
+    "ITEM",
+    "ORDER",
+    "INVOICE",
+    "STATIC_VALUE"
+  ]
+}

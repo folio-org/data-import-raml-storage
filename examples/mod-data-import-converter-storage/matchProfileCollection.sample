@@ -10,11 +10,11 @@
         ]
       },
       "entityType": "INVENTORY_ITEM",
-      "incomingRecordType": "MARC",
+      "incomingRecordType": "MARC_BIBLIOGRAPHIC",
       "existingRecordType": "ORDER",
       "matchDetails": [
         {
-          "incomingRecordType": "MARC",
+          "incomingRecordType": "MARC_BIBLIOGRAPHIC",
           "existingRecordType": "ORDER",
           "incomingMatchExpression": {
             "dataValueType": "VALUE_FROM_RECORD",

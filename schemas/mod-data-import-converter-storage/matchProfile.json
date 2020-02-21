@@ -28,12 +28,12 @@
     "incomingRecordType": {
       "description": "Incoming record type",
       "type": "string",
-      "$ref": "../common/dataType.json"
+      "$ref": "entityType.json"
     },
     "existingRecordType": {
       "description": "Existing record type to match",
       "type": "string",
-      "$ref": "./existingRecordType.json"
+      "$ref": "entityType.json"
     },
     "matchDetails": {
       "description": "Match profile details list",
@@ -52,6 +52,22 @@
       "description": "First name, last name and username of the user, who updated the Match Profile",
       "type": "object",
       "$ref": "../common/userInfo.json"
+    },
+    "parentProfiles": {
+      "description": "Associated parent profiles. Not required field that uses only for batch update/create",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "items": {
+        "type": "object",
+        "$ref": "./profileSnapshotWrapper.json"
+      }
+    },
+    "childProfiles": {
+      "description": "Associated children profiles. Not required field that uses only for batch update/create",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "items": {
+        "type": "object",
+        "$ref": "./profileSnapshotWrapper.json"
+      }
     },
     "metadata": {
       "description": "Metadata provided by the server",

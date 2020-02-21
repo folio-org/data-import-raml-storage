@@ -17,34 +17,19 @@
       "type": "string"
     },
     "tags": {
-      "description": "Set of tags assigned to the current Job Profile",
+      "description": "Set of tags assigned to the current Mapping Profile",
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
     "incomingRecordType": {
       "description": "Incoming record type",
       "type": "string",
-      "enum": [
-        "MARC_BIBLIOGRAPHIC",
-        "MARC_HOLDINGS",
-        "MARC_AUTHORITY",
-        "EDIFACT_INVOICE",
-        "DELIMITED"
-      ]
+      "$ref": "./entityType.json"
     },
-    "folioRecord": {
+    "existingRecordType": {
       "description": "FOLIO record type to mapping",
       "type": "string",
-      "enum": [
-        "INSTANCE",
-        "HOLDINGS",
-        "ITEM",
-        "ORDER",
-        "INVOICE",
-        "MARC_BIBLIOGRAPHIC",
-        "MARC_HOLDINGS",
-        "MARC_AUTHORITY"
-      ]
+      "$ref": "./entityType.json"
     },
     "deleted": {
       "description": "Flag indicates that the Mapping Profile marked as deleted",
@@ -55,6 +40,22 @@
       "description": "First name, last name and username of the user, who updated the Mapping Profile",
       "type": "object",
       "$ref": "../common/userInfo.json"
+    },
+    "parentProfiles": {
+      "description": "Associated parent profiles. Not required field that uses only for batch update/create",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "items": {
+        "type": "object",
+        "$ref": "./profileSnapshotWrapper.json"
+      }
+    },
+    "childProfiles": {
+      "description": "Associated children profiles. Not required field that uses only for batch update/create",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "items": {
+        "type": "object",
+        "$ref": "./profileSnapshotWrapper.json"
+      }
     },
     "metadata": {
       "description": "Metadata provided by the server",

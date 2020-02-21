@@ -29,6 +29,10 @@
       "type": "object",
       "$ref": "../common/profileInfo.json"
     },
+    "jobProfileSnapshotWrapper": {
+      "description": "Snapshot wrapper of related JobProfile",
+      "$ref": "../mod-data-import-converter-storage/profileSnapshotWrapper.json"
+    },
     "sourcePath": {
       "description": "Path to the file",
       "type": "string"
