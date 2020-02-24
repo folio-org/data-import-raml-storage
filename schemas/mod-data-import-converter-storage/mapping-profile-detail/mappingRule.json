@@ -9,7 +9,7 @@
       "type": "string"
     },
     "enabled": {
-      "description": "Is field should be mapped and available on UI",
+      "description": "Indicates whether field should be mapped and be available on UI",
       "type": "string"
     },
     "path": {
