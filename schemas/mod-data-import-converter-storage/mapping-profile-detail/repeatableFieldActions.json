@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "List of possible actions for repeatable fields",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "EXTEND_EXISTING",
+    "DELETE_EXISTING",
+    "EXCHANGE_EXISTING",
+    "DELETE_INCOMING"
+  ]
+}
