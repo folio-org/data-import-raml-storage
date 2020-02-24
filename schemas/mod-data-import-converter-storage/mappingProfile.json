@@ -57,6 +57,10 @@
         "$ref": "./profileSnapshotWrapper.json"
       }
     },
+    "mappingDetails": {
+      "description": "Mapping details with mapping rules",
+      "javaType": "org.folio.rest.jaxrs.model.MappingDetail"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",

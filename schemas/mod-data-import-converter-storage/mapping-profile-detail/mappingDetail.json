@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Mapping profile detail",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "description": "name of  mapping detail entity",
+      "type": "string"
+    },
+    "recordType": {
+      "description": "Incoming record type",
+      "type": "string",
+      "$ref": "../entityType.json"
+    },
+    "mappingFields": {
+      "description": "List of fields to be mapped",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MappingRule>",
+      "items": {
+        "type": "object",
+        "$ref": "./mappingRule.json"
+      }
+    }
+  },
+  "required": [
+    "name",
+    "recordType",
+    "incomingMatchExpression"
+  ]
+}

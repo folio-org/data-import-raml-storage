@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Mapping rule detail",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "description": "Name of field",
+      "type": "string"
+    },
+    "enabled": {
+      "description": "Is field should be mapped and available on UI",
+      "type": "string"
+    },
+    "path": {
+      "description": "JSON path to set mapped value",
+      "type": "string"
+    },
+    "value": {
+      "description": "Mapping expression",
+      "type": "string"
+    },
+    "booleanFieldAction": {
+      "description": "Action for boolean field",
+      "type": "string",
+      "$ref": "./booleanFieldActions.json"
+    },
+    "repeatableFieldAction": {
+      "description": "Action for repeatable field",
+      "type": "string",
+      "$ref": "./repeatableFieldActions.json"
+    },
+    "subfields": {
+      "description": "List of repeatable subfields",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MappingRule>",
+      "items": {
+        "type": "object",
+        "$ref": "./mappingRule.json"
+      }
+    },
+    "acceptedValues": {
+      "description": "HashMap with objects. Key - UUID, Value - name value",
+      "javaType": "java.util.HashMap<String, String>"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

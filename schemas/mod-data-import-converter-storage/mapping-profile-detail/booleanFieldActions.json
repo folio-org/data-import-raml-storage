@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "List of possible actions for boolean fields",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "ALL_TRUE",
+    "ALL_FALSE",
+    "AS_IS",
+    "IGNORE"
+  ]
+}
