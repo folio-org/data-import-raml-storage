@@ -37,6 +37,10 @@
       "description": "Okapi token",
       "type": "string"
     },
+    "okapiUrl": {
+      "description": "Okapi URL",
+      "type": "string"
+    },
     "context": {
       "description": "HashMap with objects. Key - entity type, Value - object in json representation",
       "javaType": "java.util.HashMap<String, String>"
