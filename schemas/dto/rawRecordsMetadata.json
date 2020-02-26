@@ -4,6 +4,10 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "first": {
+      "description": "Indicates if the current chunk is the first one associated with the same JobExecution",
+      "type": "boolean"
+    },
     "last": {
       "description": "Indicates if the current chunk is the last one associated with the same JobExecution",
       "type": "boolean"
@@ -27,6 +31,7 @@
     }
   },
   "required": [
+    "first",
     "last",
     "counter",
     "contentType"
