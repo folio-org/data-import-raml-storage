@@ -1,0 +1,24 @@
+{
+  "id": "zx5thml9-6hnq-45n0-23c0-13n8gbkl7091",
+  "formName": "matchProfilesForm",
+  "config": {
+    "id": "form-match-profiles",
+    "name": "matchProfilesForm",
+    "caption": "ui-data-import.summary",
+    "template": "simple",
+    "dataAttributes": {},
+    "childControls": [
+      {
+        "controlType": "Headline",
+        "staticControlType": "Fragment",
+        "id": "profile-headline",
+        "size": "xx-large",
+        "tag": "h2",
+        "dataAttributes": {
+          "data-test-header-title": true
+        },
+        "childControls": []
+      }
+    ]
+  }
+}
