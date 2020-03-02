@@ -59,7 +59,7 @@
     },
     "mappingDetails": {
       "description": "Mapping details with mapping rules",
-      "javaType": "org.folio.rest.jaxrs.model.MappingDetail"
+      "$ref": "mapping-profile-detail/mappingDetail.json"
     },
     "metadata": {
       "description": "Metadata provided by the server",
