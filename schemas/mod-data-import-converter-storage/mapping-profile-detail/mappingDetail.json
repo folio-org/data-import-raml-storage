@@ -16,7 +16,6 @@
     },
     "mappingFields": {
       "description": "List of fields to be mapped",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MappingRule>",
       "items": {
         "$ref": "mappingRule.json"
       }
