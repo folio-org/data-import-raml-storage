@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Mapping rule detail",
   "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.MappingRule",
   "additionalProperties": false,
   "properties": {
     "name": {
@@ -23,19 +24,17 @@
     "booleanFieldAction": {
       "description": "Action for boolean field",
       "type": "string",
-      "$ref": "./booleanFieldActions.json"
+      "$ref": "booleanFieldActions.json"
     },
     "repeatableFieldAction": {
       "description": "Action for repeatable field",
       "type": "string",
-      "$ref": "./repeatableFieldActions.json"
+      "$ref": "repeatableFieldActions.json"
     },
     "subfields": {
       "description": "List of repeatable subfields",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MappingRule>",
       "items": {
-        "type": "object",
-        "$ref": "./mappingRule.json"
+        "$ref": "mappingRule.json"
       }
     },
     "acceptedValues": {

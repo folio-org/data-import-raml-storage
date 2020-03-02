@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Mapping profile detail",
   "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.MappingDetail",
   "additionalProperties": false,
   "properties": {
     "name": {
@@ -17,8 +18,7 @@
       "description": "List of fields to be mapped",
       "javaType": "java.util.List<org.folio.rest.jaxrs.model.MappingRule>",
       "items": {
-        "type": "object",
-        "$ref": "./mappingRule.json"
+        "$ref": "mappingRule.json"
       }
     }
   },
