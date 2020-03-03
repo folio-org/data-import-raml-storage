@@ -21,10 +21,6 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
-    "entityType": {
-      "description": "Entity type",
-      "type": "string"
-    },
     "incomingRecordType": {
       "description": "Incoming record type",
       "type": "string",
