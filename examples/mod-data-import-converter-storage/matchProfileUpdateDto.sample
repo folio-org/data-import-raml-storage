@@ -9,7 +9,6 @@
         "pol"
       ]
     },
-    "entityType": "INVENTORY_ITEM",
     "incomingRecordType": "MARC",
     "existingRecordType": "ORDER",
     "matchDetails": [

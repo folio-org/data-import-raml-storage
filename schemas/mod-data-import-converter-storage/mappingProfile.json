@@ -70,7 +70,6 @@
   },
   "required": [
     "name",
-    "incomingRecordType",
-    "folioRecord"
+    "incomingRecordType"
   ]
 }

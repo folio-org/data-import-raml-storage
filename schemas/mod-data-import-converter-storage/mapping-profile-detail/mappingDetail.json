@@ -16,6 +16,7 @@
     },
     "mappingFields": {
       "description": "List of fields to be mapped",
+      "type": "array",
       "items": {
         "$ref": "mappingRule.json"
       }
