@@ -3,6 +3,7 @@
   "profileId": "dc4ac439-57ae-4779-872e-1892b163bb47",
   "contentType": "JOB_PROFILE",
   "reactTo":"NON_MATCH",
+  "order": "0",
   "content": {
     "id": "dc4ac439-57ae-4779-872e-1892b163bb47",
     "name": "Load vendor order records",
