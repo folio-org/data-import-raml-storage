@@ -29,6 +29,10 @@
         "type": "string"
       }
     },
+    "jobExecutionId": {
+      "description": "Corresponding jobExecution id",
+      "$ref": "../common/uuid.json"
+    },
     "tenant": {
       "description": "Tenant id",
       "type": "string"
