@@ -9,7 +9,7 @@
     {
       "order": 0,
       "path": "instanceName1.fieldName3",
-      "subfields": [
+      "fields": [
         {
           "name": "subfieldName1",
           "path": "instanceName1.fieldName3[].subfieldName1",
