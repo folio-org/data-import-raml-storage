@@ -1,0 +1,28 @@
+{
+  "order": 0,
+  "path": "instanceName1.fieldName3",
+  "fields": [
+    {
+      "name": "subfieldName1",
+      "path": "instanceName1.fieldName3[].subfieldName1",
+      "value": "$010|b",
+      "booleanFieldAction": "ALL_TRUE",
+      "acceptedValues": [],
+    },
+    {
+      "name": "subfieldName2",
+      "path": "instanceName1.fieldName3[].subfieldName1",
+      "value": "value1",
+      "acceptedValues": [
+        {
+          "id": "02b6bf0c-56fc-11ea-8e2d-0242ac130003",
+          "value": "value1",
+        },
+        {
+          "id": "02b6c178-56fc-11ea-8e2d-0242ac130003",
+          "value": "value2",
+        }
+      ],
+    }
+  ],
+}

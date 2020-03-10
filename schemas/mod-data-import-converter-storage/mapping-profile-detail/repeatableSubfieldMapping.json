@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Subfield entity that contains list of mapping rules",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.RepeatableSubfieldMapping.json",
+  "additionalProperties": false,
+  "properties": {
+    "order": {
+      "description": "Order of subfield",
+      "type": "integer"
+    },
+    "path": {
+      "description": "JSON path to set mapped value",
+      "type": "string"
+    },
+    "fields": {
+      "description": "List of fields for repeatable subfield",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MappingRule>",
+      "items": {
+        "$ref": "mappingRule.json"
+      }
+    }
+  },
+  "required": [
+    "order",
+    "path"
+  ]
+}
