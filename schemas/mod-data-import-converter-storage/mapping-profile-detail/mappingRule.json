@@ -32,9 +32,10 @@
       "$ref": "repeatableFieldActions.json"
     },
     "subfields": {
-      "description": "List of repeatable subfields",
+      "description": "List of fields for repeatable subfield",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.RepeatableSubfieldMapping>",
       "items": {
-        "$ref": "mappingRule.json"
+        "$ref": "repeatableSubfieldMapping.json"
       }
     },
     "acceptedValues": {
