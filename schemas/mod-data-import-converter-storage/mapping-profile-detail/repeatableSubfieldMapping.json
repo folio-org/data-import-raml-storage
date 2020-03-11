@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Subfield entity that contains list of mapping rules",
   "type": "object",
-  "javaType": "org.folio.rest.jaxrs.model.RepeatableSubfieldMapping.json",
+  "javaType": "org.folio.rest.jaxrs.model.RepeatableSubfieldMapping",
   "additionalProperties": false,
   "properties": {
     "order": {

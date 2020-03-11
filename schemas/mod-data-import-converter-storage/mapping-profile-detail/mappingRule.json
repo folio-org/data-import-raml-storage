@@ -33,7 +33,7 @@
     },
     "subfields": {
       "description": "List of fields for repeatable subfield",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.RepeatableSubfieldMapping>",
+      "type": "array",
       "items": {
         "$ref": "repeatableSubfieldMapping.json"
       }
