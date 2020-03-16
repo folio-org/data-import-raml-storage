@@ -6,6 +6,7 @@
   "enum": [
     "TEXT",
     "NUMBER",
-    "DATE"
+    "DATE_RANGE",
+    "EXACT_DATE"
   ]
 }
