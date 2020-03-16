@@ -10,30 +10,25 @@
       "$ref": "staticValueType.json"
     },
     "text": {
-      "description": "Only if incomingStaticValueType = TEXT",
+      "description": "Only if staticValueType = TEXT",
       "type": "string"
     },
     "number": {
-      "description": "Only if incomingStaticValueType = NUMBER",
+      "description": "Only if staticValueType = NUMBER",
       "type": "integer"
     },
-    "dateType": {
-      "description": "Only if incomingStaticValueType = DATE",
-      "type": "string",
-      "$ref": "dateType.json"
-    },
     "fromDate": {
-      "description": "Only if incomingStaticValueType = DATE and incomingDateType = RANGE",
+      "description": "Only if staticValueType = DATE_RANGE",
       "type": "string",
       "format": "date-time"
     },
     "toDate": {
-      "description": "Only if incomingStaticValueType = DATE and incomingDateType = RANGE",
+      "description": "Only if staticValueType = DATE_RANGE",
       "type": "string",
       "format": "date-time"
     },
     "exactDate": {
-      "description": "Only if incomingStaticValueType = DATE and incomingDateType = EXACT_DATE",
+      "description": "Only if staticValueType = EXACT_DATE",
       "type": "string",
       "format": "date-time"
     }
