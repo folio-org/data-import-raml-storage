@@ -15,7 +15,7 @@
     },
     "number": {
       "description": "Only if staticValueType = NUMBER",
-      "type": "integer"
+      "type": "string"
     },
     "fromDate": {
       "description": "Only if staticValueType = DATE_RANGE",
