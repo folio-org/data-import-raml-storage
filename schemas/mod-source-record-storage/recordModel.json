@@ -67,6 +67,17 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
+    },
+    "state": {
+      "description": "This field represents the actual state of a particular SRS record. Can be: ACTUAL, OLD, DRAFT, DELETED. ",
+      "type": "string",
+      "enum": [
+        "ACTUAL",
+        "OLD",
+        "DRAFT",
+        "DELETED"
+      ],
+      "default": "ACTUAL"
     }
   },
   "required": [
