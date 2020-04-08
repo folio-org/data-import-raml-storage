@@ -64,6 +64,10 @@
       "type": "object",
       "$ref": "../mod-source-record-storage/additionalInfo.json"
     },
+    "state": {
+      "description": "This field represents the actual state of a particular SRS record. Can be: ACTUAL, OLD, DRAFT, DELETED. ",
+      "type": "string"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",
