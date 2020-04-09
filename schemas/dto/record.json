@@ -66,7 +66,14 @@
     },
     "state": {
       "description": "This field represents the actual state of a particular SRS record. Can be: ACTUAL, OLD, DRAFT, DELETED. ",
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "ACTUAL",
+        "OLD",
+        "DRAFT",
+        "DELETED"
+      ],
+      "default": "ACTUAL"
     },
     "metadata": {
       "description": "Metadata provided by the server",
