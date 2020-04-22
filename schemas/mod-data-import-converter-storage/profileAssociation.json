@@ -53,6 +53,10 @@
         "MATCH_PROFILE",
         "JOB_PROFILE"
       ]
+    },
+    "jobProfileId": {
+      "description": "Unique identifier of the job profile, it is used to distinguish associations when building a snapshot tree for particular job profile",
+      "$ref": "../common/uuid.json"
     }
   },
   "required": [
