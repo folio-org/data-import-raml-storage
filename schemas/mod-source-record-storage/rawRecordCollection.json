@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Raw record collection",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "rawRecords": {
+      "description": "List of raw records",
+      "type": "array",
+      "id": "rawRecordList",
+      "items": {
+        "type": "object",
+        "$ref": "rawRecord.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of raw records",
+      "type": "integer"
+    }
+  },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
+  "required": [
+    "rawRecords",
+    "totalRecords"
+  ]
+}
