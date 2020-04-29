@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Error record collection",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "errorRecords": {
+      "description": "List of error records",
+      "type": "array",
+      "id": "errorRecordList",
+      "items": {
+        "type": "object",
+        "$ref": "errorRecord.json"
+      }
+    },
+    "totalRecords": {
+      "description": "Total number of error records",
+      "type": "integer"
+    }
+  },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
+  "required": [
+    "errorRecords",
+    "totalRecords"
+  ]
+}
