@@ -1,0 +1,1288 @@
+[
+  {
+    "id": "d3cd3e1e-a18c-4f7c-b053-9aa50343394e",
+    "description": "Opps... something went wrong",
+    "content": {
+      "fields": [
+        {
+          "001": "in00000000002"
+        },
+        {
+          "005": "20200210110404.0"
+        },
+        {
+          "006": "m     o  d f      "
+        },
+        {
+          "007": "cr mn|||||||||"
+        },
+        {
+          "008": "200124c20189999dcu x w obb  f0    2eng c"
+        },
+        {
+          "010": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "   2020230732"
+              }
+            ]
+          }
+        },
+        {
+          "035": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "(OCoLC)on1137385866"
+              }
+            ]
+          }
+        },
+        {
+          "042": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "pcc"
+              }
+            ]
+          }
+        },
+        {
+          "043": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "n-us---"
+              }
+            ]
+          }
+        },
+        {
+          "040": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "GPO"
+              },
+              {
+                "b": "eng"
+              },
+              {
+                "e": "rda"
+              },
+              {
+                "e": "pn"
+              },
+              {
+                "c": "GPO"
+              },
+              {
+                "d": "MvI"
+              }
+            ]
+          }
+        },
+        {
+          "049": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "WWW"
+              }
+            ]
+          }
+        },
+        {
+          "074": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "0807-A-07 (online)"
+              }
+            ]
+          }
+        },
+        {
+          "086": {
+            "ind1": "0",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "LC 14.23:98-888/"
+              }
+            ]
+          }
+        },
+        {
+          "100": {
+            "ind1": "1",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "Davis, Christopher M.,"
+              },
+              {
+                "d": "1966-"
+              },
+              {
+                "e": "author."
+              }
+            ]
+          }
+        },
+        {
+          "245": {
+            "ind1": "1",
+            "ind2": "0",
+            "subfields": [
+              {
+                "a": "\"Fast-track\" or expedited procedures  :"
+              },
+              {
+                "b": "their purpose, elements, and implications  /"
+              },
+              {
+                "c": "Christopher M. Davis."
+              }
+            ]
+          }
+        },
+        {
+          "250": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "[Library of Congress public edition]."
+              }
+            ]
+          }
+        },
+        {
+          "264": {
+            "ind1": " ",
+            "ind2": "1",
+            "subfields": [
+              {
+                "a": "[Washington, D.C.] :"
+              },
+              {
+                "b": "Congressional Research Service,"
+              },
+              {
+                "c": "2018-"
+              }
+            ]
+          }
+        },
+        {
+          "300": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "1 online resource."
+              }
+            ]
+          }
+        },
+        {
+          "310": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "Updated irregularly"
+              }
+            ]
+          }
+        },
+        {
+          "336": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "text"
+              },
+              {
+                "b": "txt"
+              },
+              {
+                "2": "rdacontent"
+              }
+            ]
+          }
+        },
+        {
+          "337": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "computer"
+              },
+              {
+                "b": "c"
+              },
+              {
+                "2": "rdamedia"
+              }
+            ]
+          }
+        },
+        {
+          "338": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "online resource"
+              },
+              {
+                "b": "cr"
+              },
+              {
+                "2": "rdacarrier"
+              }
+            ]
+          }
+        },
+        {
+          "490": {
+            "ind1": "1",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "Report / Congressional Research Service ;"
+              },
+              {
+                "v": "98-888"
+              }
+            ]
+          }
+        },
+        {
+          "500": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "The CRS report home page provides access to all versions published since 2018 in accordance with P.L. 115-141; earliest version dated 2003."
+              }
+            ]
+          }
+        },
+        {
+          "504": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "Report includes bibliographical references."
+              }
+            ]
+          }
+        },
+        {
+          "588": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "Description based on contents viewed on Jan. 21, 2020; title from CRS report home page."
+              }
+            ]
+          }
+        },
+        {
+          "610": {
+            "ind1": "1",
+            "ind2": "0",
+            "subfields": [
+              {
+                "a": "United States."
+              },
+              {
+                "b": "Congress"
+              },
+              {
+                "x": "Rules and practice"
+              },
+              {
+                "x": "Fast-track procedure."
+              }
+            ]
+          }
+        },
+        {
+          "710": {
+            "ind1": "2",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "Library of Congress."
+              },
+              {
+                "b": "Congressional Research Service,"
+              },
+              {
+                "e": "issuing body."
+              }
+            ]
+          }
+        },
+        {
+          "773": {
+            "ind1": "0",
+            "ind2": "8",
+            "subfields": [
+              {
+                "i": "Contained in (work):"
+              },
+              {
+                "t": "CRS reports (Library of Congress. Congressional Research Service)"
+              },
+              {
+                "w": "(DLC) 2018231131"
+              },
+              {
+                "w": "(OCoLC)1052784408"
+              }
+            ]
+          }
+        },
+        {
+          "830": {
+            "ind1": " ",
+            "ind2": "0",
+            "subfields": [
+              {
+                "a": "CRS report ;"
+              },
+              {
+                "v": "98-888."
+              }
+            ]
+          }
+        },
+        {
+          "856": {
+            "ind1": "4",
+            "ind2": "0",
+            "subfields": [
+              {
+                "u": "https://purl.fdlp.gov/GPO/gpo130975"
+              }
+            ]
+          }
+        },
+        {
+          "922": {
+            "ind1": " ",
+            "ind2": " ",
+            "subfields": [
+              {
+                "a": "CRSREP"
+              }
+            ]
+          }
+        },
+        {
+          "999": {
+            "ind1": "f",
+            "ind2": "f",
+            "subfields": [
+              {
+                "s": "d3cd3e1e-a18c-4f7c-b053-9aa50343394e"
+              },
+              {
+                "i": "e50e9535-091c-451e-82b7-d078b7c4770f"
+              }
+            ]
+          }
+        }
+      ],
+      "leader": "01840nai a2200421 i 4500"
+    }
+  },
+  {
+    "id": "e567b8e2-a45b-45f1-a85a-6b6312bdf4d8",
+    "description": "Failed processing record",
+    "content": {
+      "fields": [
+        {
+          "001": "inst000000000023"
+        },
+        {
+          "003": "DE-601"
+        },
+        {
+          "005": "20180301091013.0"
+        },
+        {
+          "008": "180119s2018\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\000\\\\0\\\\eng\\\\d"
+        },
+        {
+          "016": {
+            "ind1": "7",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "243003-4"
+              },
+              {
+                "2": "DE-600"
+              }
+            ]
+          }
+        },
+        {
+          "035": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "(DE-599)GBV1011184508"
+              }
+            ]
+          }
+        },
+        {
+          "035": "1011184508"
+        },
+        {
+          "040": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "b": "ger"
+              },
+              {
+                "c": "GBVCP"
+              },
+              {
+                "e": "rda"
+              }
+            ]
+          }
+        },
+        {
+          "041": {
+            "ind1": "0",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "eng"
+              }
+            ]
+          }
+        },
+        {
+          "100": {
+            "ind1": "1",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Da, Gaofeng"
+              },
+              {
+                "e": "VerfasserIn"
+              },
+              {
+                "4": "aut"
+              },
+              {
+                "0": "(DE-601)1015051618"
+              },
+              {
+                "0": "(DE-588)1153556588"
+              }
+            ]
+          }
+        },
+        {
+          "245": {
+            "ind1": "1",
+            "ind2": "0",
+            "subfields": [
+              {
+                "a": "On the signature of complex system"
+              },
+              {
+                "b": "a decomposed approach"
+              },
+              {
+                "c": "Gaofeng Da, Ping Shing Chan, Maochao Xu"
+              }
+            ]
+          }
+        },
+        {
+          "336": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Text"
+              },
+              {
+                "b": "txt"
+              },
+              {
+                "2": "rdacontent"
+              }
+            ]
+          }
+        },
+        {
+          "337": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "ohne Hilfsmittel zu benutzen"
+              },
+              {
+                "b": "n"
+              },
+              {
+                "2": "rdamedia"
+              }
+            ]
+          }
+        },
+        {
+          "338": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Band"
+              },
+              {
+                "b": "nc"
+              },
+              {
+                "2": "rdacarrier"
+              }
+            ]
+          }
+        },
+        {
+          "700": {
+            "ind1": "1",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Chan, Ping Shing"
+              },
+              {
+                "e": "VerfasserIn"
+              },
+              {
+                "4": "aut"
+              },
+              {
+                "0": "(DE-601)718654811"
+              },
+              {
+                "0": "(DE-588)1023876256"
+              }
+            ]
+          }
+        },
+        {
+          "700": {
+            "ind1": "1",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Xu, Maochao"
+              },
+              {
+                "e": "VerfasserIn"
+              },
+              {
+                "4": "aut"
+              },
+              {
+                "0": "(DE-601)720932068"
+              },
+              {
+                "0": "(DE-588)1025070240"
+              }
+            ]
+          }
+        },
+        {
+          "773": {
+            "ind1": "0",
+            "ind2": "8",
+            "subfields": [
+              {
+                "i": "Enthalten in"
+              },
+              {
+                "t": "European journal of operational research : EJOR"
+              },
+              {
+                "d": "Amsterdam : Elsevier"
+              },
+              {
+                "g": "Vol. 265, No. 3 (2018), p. 1115-1123"
+              },
+              {
+                "q": "265:3<1115-1123"
+              },
+              {
+                "w": "(DE-601)129611131"
+              },
+              {
+                "x": "0377-2217"
+              }
+            ]
+          }
+        },
+        {
+          "900": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "GBV"
+              },
+              {
+                "b": "ZBW Kiel <206>"
+              },
+              {
+                "d": "!H:ls! Z 6556"
+              },
+              {
+                "x": "L"
+              },
+              {
+                "z": "LC"
+              },
+              {
+                "s": "206/1"
+              },
+              {
+                "c": "184.2008 -"
+              }
+            ]
+          }
+        },
+        {
+          "900": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "GBV"
+              },
+              {
+                "b": "UB Clausthal <104>"
+              },
+              {
+                "d": "!104/13!  CL 13"
+              },
+              {
+                "x": "N"
+              },
+              {
+                "z": "N"
+              },
+              {
+                "g": "lfdcl13"
+              },
+              {
+                "c": "2006 -"
+              },
+              {
+                "f": "Genauen Bestand bitte im Institut erfragen"
+              }
+            ]
+          }
+        },
+        {
+          "900": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "GBV"
+              },
+              {
+                "b": "TIB/UB Hannover <89>"
+              },
+              {
+                "d": "ZN 8146 Haus2"
+              },
+              {
+                "x": "L"
+              },
+              {
+                "z": "C"
+              }
+            ]
+          }
+        },
+        {
+          "900": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "GBV"
+              },
+              {
+                "b": "DNB <101>"
+              },
+              {
+                "d": "!101a! ZB 93727"
+              },
+              {
+                "x": "L"
+              },
+              {
+                "z": "C"
+              },
+              {
+                "s": "0101/001"
+              },
+              {
+                "g": "!MZLS! 10-n"
+              },
+              {
+                "c": "54.1992(1991),1u.3; 56.1992 -"
+              }
+            ]
+          }
+        },
+        {
+          "951": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "bwl"
+              },
+              {
+                "2": "26"
+              }
+            ]
+          }
+        },
+        {
+          "951": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "11"
+              },
+              {
+                "2": "30"
+              }
+            ]
+          }
+        },
+        {
+          "952": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "d": "265"
+              },
+              {
+                "j": "2018"
+              },
+              {
+                "e": "3"
+              },
+              {
+                "b": "16"
+              },
+              {
+                "c": "3"
+              },
+              {
+                "h": "1115-1123"
+              }
+            ]
+          }
+        },
+        {
+          "954": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "0": "ZBW Kiel <206>"
+              },
+              {
+                "a": "26"
+              },
+              {
+                "b": "892666773"
+              },
+              {
+                "c": "04"
+              },
+              {
+                "f": "H:ls"
+              },
+              {
+                "d": "Z 6556"
+              },
+              {
+                "e": "b"
+              },
+              {
+                "g": "Bestand: 184.2008 -"
+              },
+              {
+                "x": "206/1"
+              }
+            ]
+          }
+        },
+        {
+          "954": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "0": "UB Clausthal <104>"
+              },
+              {
+                "a": "30"
+              },
+              {
+                "b": "1174535881"
+              },
+              {
+                "c": "02"
+              },
+              {
+                "f": "104/13"
+              },
+              {
+                "d": " CL 13"
+              },
+              {
+                "e": "g"
+              },
+              {
+                "d": "lfdcl13"
+              },
+              {
+                "g": "Bestand: 2006 -"
+              },
+              {
+                "k": "Genauen Bestand bitte im Institut erfragen"
+              },
+              {
+                "x": "0104"
+              }
+            ]
+          }
+        },
+        {
+          "954": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "0": "TIB/UB Hannover <89>"
+              },
+              {
+                "a": "70"
+              },
+              {
+                "b": "13765989X"
+              },
+              {
+                "c": "01"
+              },
+              {
+                "d": "ZN 8146 Haus2"
+              },
+              {
+                "e": "f"
+              },
+              {
+                "g": "Bestand: 1.1977 - "
+              },
+              {
+                "x": "0089"
+              }
+            ]
+          }
+        },
+        {
+          "954": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "0": "DNB <101>"
+              },
+              {
+                "a": "267"
+              },
+              {
+                "b": "9001929018"
+              },
+              {
+                "c": "01"
+              },
+              {
+                "f": "101a"
+              },
+              {
+                "d": "ZB 93727"
+              },
+              {
+                "e": "f"
+              },
+              {
+                "f": "MZLS"
+              },
+              {
+                "d": "10-n"
+              },
+              {
+                "g": "Bestand: 54.1992(1991),1u.3; 56.1992 -"
+              },
+              {
+                "x": "0101/001"
+              }
+            ]
+          }
+        },
+        {
+          "999": {
+            "ind1": "f",
+            "ind2": "f",
+            "subfields": [
+              {
+                "s": "e567b8e2-a45b-45f1-a85a-6b6312bdf4d8"
+              },
+              {
+                "i": "54cc0262-76df-4cac-acca-b10e9bc5c79a"
+              }
+            ]
+          }
+        }
+      ],
+      "leader": "02026naa a2200373 c 4500"
+    }
+  },
+  {
+    "id": "ec53a386-9616-428b-92a9-e1f07756ea1f",
+    "description": "Failed processing record",
+    "content": {
+      "fields": [
+        {
+          "001": "inst000000000010"
+        },
+        {
+          "003": "DE-601"
+        },
+        {
+          "005": "20180615212835.0"
+        },
+        {
+          "007": "hu\\\\uuu\\\\\\\\\\\\uuuu"
+        },
+        {
+          "008": "171211s1993\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\000\\\\0\\\\eng\\\\d"
+        },
+        {
+          "035": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "(DE-599)GBV1008673218"
+              }
+            ]
+          }
+        },
+        {
+          "035": "1008673218"
+        },
+        {
+          "040": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "b": "ger"
+              },
+              {
+                "c": "GBVCP"
+              },
+              {
+                "e": "rda"
+              }
+            ]
+          }
+        },
+        {
+          "041": {
+            "ind1": "0",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "eng"
+              }
+            ]
+          }
+        },
+        {
+          "100": {
+            "ind1": "1",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Matwiejczyk-Montgomery, Marian Ann J."
+              },
+              {
+                "e": "VerfasserIn"
+              },
+              {
+                "4": "aut"
+              }
+            ]
+          }
+        },
+        {
+          "245": {
+            "ind1": "1",
+            "ind2": "0",
+            "subfields": [
+              {
+                "a": "Concepts of fashion 1921 - 1987"
+              },
+              {
+                "h": "microform"
+              },
+              {
+                "b": "a study of garments worn by selected winners of the Miss America Pageant"
+              },
+              {
+                "c": "Marian Ann J. Matwiejczyk-Montgomery"
+              }
+            ]
+          }
+        },
+        {
+          "264": {
+            "ind1": "3",
+            "ind2": "1",
+            "subfields": [
+              {
+                "a": "Ann Arbor, MI"
+              },
+              {
+                "b": "University Microfims International"
+              },
+              {
+                "c": "1993"
+              }
+            ]
+          }
+        },
+        {
+          "336": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Text"
+              },
+              {
+                "b": "txt"
+              },
+              {
+                "2": "rdacontent"
+              }
+            ]
+          }
+        },
+        {
+          "337": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Mikroform"
+              },
+              {
+                "b": "h"
+              },
+              {
+                "2": "rdamedia"
+              }
+            ]
+          }
+        },
+        {
+          "338": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Mikrofiche"
+              },
+              {
+                "b": "he"
+              },
+              {
+                "2": "rdacarrier"
+              }
+            ]
+          }
+        },
+        {
+          "502": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "b": "Dissertation"
+              },
+              {
+                "c": "New York University"
+              },
+              {
+                "d": "1993"
+              }
+            ]
+          }
+        },
+        {
+          "533": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "Mikrofiche-Ausgabe"
+              }
+            ]
+          }
+        },
+        {
+          "655": {
+            "ind1": "0",
+            "ind2": "7",
+            "subfields": [
+              {
+                "0": "(DE-588)4113937-9"
+              },
+              {
+                "a": "Hochschulschrift"
+              },
+              {
+                "2": "gnd-content"
+              }
+            ]
+          }
+        },
+        {
+          "900": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "a": "GBV"
+              },
+              {
+                "b": "PKB (Museen) Berlin"
+              },
+              {
+                "d": "!KB LIPP RARA! R-MF-Lipp Mc 101 f kl"
+              },
+              {
+                "x": "N"
+              },
+              {
+                "z": "N"
+              },
+              {
+                "s": "3181/011"
+              },
+              {
+                "g": "R-MF-Lipp:Mc:101:f:kl:"
+              }
+            ]
+          }
+        },
+        {
+          "954": {
+            "ind1": "\\\\",
+            "ind2": "\\\\",
+            "subfields": [
+              {
+                "0": "PKB (Museen) Berlin"
+              },
+              {
+                "a": "181"
+              },
+              {
+                "b": "1729698859"
+              },
+              {
+                "c": "10"
+              },
+              {
+                "f": "KB LIPP RARA"
+              },
+              {
+                "d": "R-MF-Lipp Mc 101 f kl"
+              },
+              {
+                "e": "i"
+              },
+              {
+                "d": "R-MF-Lipp:Mc:101:f:kl:"
+              },
+              {
+                "x": "3181/011"
+              }
+            ]
+          }
+        },
+        {
+          "999": {
+            "ind1": "f",
+            "ind2": "f",
+            "subfields": [
+              {
+                "s": "ec53a386-9616-428b-92a9-e1f07756ea1f"
+              },
+              {
+                "i": "5b1eb450-ff9f-412d-a9e7-887f6eaeb5b4"
+              }
+            ]
+          }
+        }
+      ],
+      "leader": "01227nam a2200277 ca4500"
+    }
+  }
+]
