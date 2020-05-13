@@ -1,0 +1,416 @@
+{
+  "id": "d3cd3e1e-a18c-4f7c-b053-9aa50343394e",
+  "description": "Opps... something went wrong",
+  "content": {
+    "fields": [
+      {
+        "001": "in00000000002"
+      },
+      {
+        "005": "20200210110404.0"
+      },
+      {
+        "006": "m     o  d f      "
+      },
+      {
+        "007": "cr mn|||||||||"
+      },
+      {
+        "008": "200124c20189999dcu x w obb  f0    2eng c"
+      },
+      {
+        "010": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "   2020230732"
+            }
+          ]
+        }
+      },
+      {
+        "035": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "(OCoLC)on1137385866"
+            }
+          ]
+        }
+      },
+      {
+        "042": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "pcc"
+            }
+          ]
+        }
+      },
+      {
+        "043": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "n-us---"
+            }
+          ]
+        }
+      },
+      {
+        "040": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "GPO"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "e": "pn"
+            },
+            {
+              "c": "GPO"
+            },
+            {
+              "d": "MvI"
+            }
+          ]
+        }
+      },
+      {
+        "049": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "WWW"
+            }
+          ]
+        }
+      },
+      {
+        "074": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "0807-A-07 (online)"
+            }
+          ]
+        }
+      },
+      {
+        "086": {
+          "ind1": "0",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "LC 14.23:98-888/"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "Davis, Christopher M.,"
+            },
+            {
+              "d": "1966-"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [
+            {
+              "a": "\"Fast-track\" or expedited procedures  :"
+            },
+            {
+              "b": "their purpose, elements, and implications  /"
+            },
+            {
+              "c": "Christopher M. Davis."
+            }
+          ]
+        }
+      },
+      {
+        "250": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "[Library of Congress public edition]."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": " ",
+          "ind2": "1",
+          "subfields": [
+            {
+              "a": "[Washington, D.C.] :"
+            },
+            {
+              "b": "Congressional Research Service,"
+            },
+            {
+              "c": "2018-"
+            }
+          ]
+        }
+      },
+      {
+        "300": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "1 online resource."
+            }
+          ]
+        }
+      },
+      {
+        "310": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "Updated irregularly"
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "text"
+            },
+            {
+              "b": "txt"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "computer"
+            },
+            {
+              "b": "c"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "online resource"
+            },
+            {
+              "b": "cr"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "490": {
+          "ind1": "1",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "Report / Congressional Research Service ;"
+            },
+            {
+              "v": "98-888"
+            }
+          ]
+        }
+      },
+      {
+        "500": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "The CRS report home page provides access to all versions published since 2018 in accordance with P.L. 115-141; earliest version dated 2003."
+            }
+          ]
+        }
+      },
+      {
+        "504": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "Report includes bibliographical references."
+            }
+          ]
+        }
+      },
+      {
+        "588": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "Description based on contents viewed on Jan. 21, 2020; title from CRS report home page."
+            }
+          ]
+        }
+      },
+      {
+        "610": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [
+            {
+              "a": "United States."
+            },
+            {
+              "b": "Congress"
+            },
+            {
+              "x": "Rules and practice"
+            },
+            {
+              "x": "Fast-track procedure."
+            }
+          ]
+        }
+      },
+      {
+        "710": {
+          "ind1": "2",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "Library of Congress."
+            },
+            {
+              "b": "Congressional Research Service,"
+            },
+            {
+              "e": "issuing body."
+            }
+          ]
+        }
+      },
+      {
+        "773": {
+          "ind1": "0",
+          "ind2": "8",
+          "subfields": [
+            {
+              "i": "Contained in (work):"
+            },
+            {
+              "t": "CRS reports (Library of Congress. Congressional Research Service)"
+            },
+            {
+              "w": "(DLC) 2018231131"
+            },
+            {
+              "w": "(OCoLC)1052784408"
+            }
+          ]
+        }
+      },
+      {
+        "830": {
+          "ind1": " ",
+          "ind2": "0",
+          "subfields": [
+            {
+              "a": "CRS report ;"
+            },
+            {
+              "v": "98-888."
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "0",
+          "subfields": [
+            {
+              "u": "https://purl.fdlp.gov/GPO/gpo130975"
+            }
+          ]
+        }
+      },
+      {
+        "922": {
+          "ind1": " ",
+          "ind2": " ",
+          "subfields": [
+            {
+              "a": "CRSREP"
+            }
+          ]
+        }
+      },
+      {
+        "999": {
+          "ind1": "f",
+          "ind2": "f",
+          "subfields": [
+            {
+              "s": "d3cd3e1e-a18c-4f7c-b053-9aa50343394e"
+            },
+            {
+              "i": "e50e9535-091c-451e-82b7-d078b7c4770f"
+            }
+          ]
+        }
+      }
+    ],
+    "leader": "01840nai a2200421 i 4500"
+  }
+}
