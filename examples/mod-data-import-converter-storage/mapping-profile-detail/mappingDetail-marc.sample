@@ -45,23 +45,25 @@
             "subfield":"a",
             "data":{
               "text":"Cataloged by John Doe"
-            }
+            },
+            "subaction":"ADD_SUBFIELD"
           },
           {
             "subfield":"b",
             "data":{
               "text":"Input by Jane Deer"
-            }
+            },
+            "subaction":"ADD_SUBFIELD"
           },
           {
             "subfield":"c",
             "data":{
               "text":"Reviewed by Susan Fawn"
-            }
+            },
+            "subaction":"ADD_SUBFIELD"
           }
         ]
-      },
-      "subaction":"ADD_SUBFIELD"
+      }
     },
     {
       "order":3,
@@ -75,12 +77,12 @@
             "subfield":"u",
             "data":{
               "text":"http://liproxy.smith.edu:2048/login?url="
-            }
+            },
+            "subaction":"INSERT",
+            "position":"BEFORE_STRING"
           }
         ]
-      },
-      "subaction":"INSERT",
-      "position":"BEFORE_STRING"
+      }
     },
     {
       "order":4,
@@ -94,11 +96,11 @@
             "subfield":"*",
             "data":{
               "text":"chic_rbw"
-            }
+            },
+            "subaction":"REMOVE"
           }
         ]
-      },
-      "subaction":"REMOVE"
+      }
     },
     {
       "order":5,
@@ -113,11 +115,11 @@
             "data":{
               "find":"http://",
               "replaceWith":"https://"
-            }
+            },
+            "subaction":"REPLACE"
           }
         ]
-      },
-      "subaction":"REPLACE"
+      }
     },
     {
       "order":6,
@@ -136,11 +138,11 @@
                 "indicator2":" ",
                 "subfield":" "
               }
-            }
+            },
+            "subaction":"CREATE_NEW_FIELD"
           }
         ]
-      },
-      "subaction":"CREATE_NEW_FIELD"
+      }
     },
     {
       "order":7,
@@ -159,11 +161,11 @@
                 "indicator2":" ",
                 "subfield":"w"
               }
-            }
+            },
+            "subaction":"ADD_TO_EXISTING_FIELD"
           }
         ]
-      },
-      "subaction":"ADD_TO_EXISTING_FIELD"
+      }
     }
   ]
 }

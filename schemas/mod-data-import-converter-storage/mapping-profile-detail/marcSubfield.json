@@ -7,13 +7,22 @@
   "properties": {
     "subfield": {
       "description": "Subfield",
-      "type": "string",
-      "pattern": "[a-f0-9*]{1}"
+      "type": "string"
     },
     "data": {
       "description" : "Subfield data",
       "type": "object",
       "$ref": "./marcData.json"
+    },
+    "subaction": {
+      "description": "Subaction on MARC field",
+      "type": "string",
+      "$ref": "./marcFieldSubactions.json"
+    },
+    "position": {
+      "description": "Position of the data in subfield, applicable for action EDIT, subaction INSERT",
+      "type": "string",
+      "$ref": "./marcSubfieldPositions.json"
     }
   },
   "required": [
