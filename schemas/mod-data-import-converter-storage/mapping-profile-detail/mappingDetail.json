@@ -20,6 +20,13 @@
       "items": {
         "$ref": "mappingRule.json"
       }
+    },
+    "marcMappingDetails": {
+      "description": "List of MARC mapping details, applicable only for MARC",
+      "type": "array",
+      "items": {
+        "$ref": "marcMappingDetail.json"
+      }
     }
   },
   "required": [

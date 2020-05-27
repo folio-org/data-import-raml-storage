@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "MARC data value",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "text": {
+      "description": "Applicable for actions ADD and EDIT, and subactions ADD_SUBFIELD, INSERT, REMOVE",
+      "type": "string"
+    },
+    "find": {
+      "description": "Find this value, applicable for action EDIT, subaction REPLACE",
+      "type": "string"
+    },
+    "replaceWith": {
+      "description": "Replace with this value, applicable for action EDIT, subaction REPLACE",
+      "type": "string"
+    },
+    "marcField": {
+      "description": "Applicable for action MOVE, subactions CREATE_NEW_FIELD, ADD_TO_EXISTING_FIELD",
+      "type": "object",
+      "$ref": "./marcField.json"
+    }
+  }
+}

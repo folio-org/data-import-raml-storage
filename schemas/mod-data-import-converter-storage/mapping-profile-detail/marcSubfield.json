@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "MARC subfield entity schema",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.MarcSubfield",
+  "additionalProperties": false,
+  "properties": {
+    "subfield": {
+      "description": "Subfield",
+      "type": "string"
+    },
+    "data": {
+      "description" : "Subfield data",
+      "type": "object",
+      "$ref": "./marcData.json"
+    },
+    "subaction": {
+      "description": "Subaction on MARC field",
+      "type": "string",
+      "$ref": "./marcFieldSubactions.json"
+    },
+    "position": {
+      "description": "Position of the data in subfield, applicable for action EDIT, subaction INSERT",
+      "type": "string",
+      "$ref": "./marcSubfieldPositions.json"
+    }
+  },
+  "required": [
+    "subfield"
+  ]
+}

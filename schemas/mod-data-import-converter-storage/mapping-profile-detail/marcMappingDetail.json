@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "MARC Mapping profile detail",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.MarcMappingDetail",
+  "additionalProperties": false,
+  "properties": {
+    "order": {
+      "description": "Order of the MARC mapping detail",
+      "type": "integer"
+    },
+    "action": {
+      "description": "Action on MARC field",
+      "type": "string",
+      "$ref": "./marcFieldActions.json"
+    },
+    "field": {
+      "description": "MARC fields",
+      "type": "object",
+      "$ref": "./marcField.json"
+    }
+  },
+  "required": [
+    "order",
+    "action",
+    "field"
+  ]
+}

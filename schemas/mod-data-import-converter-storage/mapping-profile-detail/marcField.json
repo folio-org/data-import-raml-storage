@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "MARC field entity schema",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.MarcField",
+  "additionalProperties": false,
+  "properties": {
+    "field": {
+      "description": "Field",
+      "type": "string"
+    },
+    "indicator1": {
+      "description": "Indicator 1",
+      "type": "string"
+    },
+    "indicator2": {
+      "description": "Indicator 2",
+      "type": "string"
+    },
+    "subfields": {
+      "description": "List of subfields",
+      "type": "array",
+      "items": {
+        "$ref": "./marcSubfield.json"
+      }
+    }
+  },
+  "required": [
+    "field"
+  ]
+}
