@@ -12,10 +12,6 @@
       "description": "Corresponding snapshot id, which is the same as jobExecutionId",
       "$ref": "../common/uuid.json"
     },
-    "matchedProfileId": {
-      "description": "Id of the matcher profile which is applied for the record",
-      "$ref": "../common/uuid.json"
-    },
     "matchedId": {
       "description": "Represents relations with another matched records, necessary for saving the history of applying changes for inventory/holding/etc records",
       "$ref": "../common/uuid.json"
