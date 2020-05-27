@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "List of possible positions for MARC subfields",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "BEFORE_STRING",
+    "AFTER_STRING",
+    "NEW_SUBFIELD"
+  ]
+}

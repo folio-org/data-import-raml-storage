@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "List of possible subactions for MARC fields",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "ADD_SUBFIELD",
+    "INSERT",
+    "REPLACE",
+    "REMOVE",
+    "CREATE_NEW_FIELD",
+    "ADD_TO_EXISTING_FIELD"
+  ]
+}

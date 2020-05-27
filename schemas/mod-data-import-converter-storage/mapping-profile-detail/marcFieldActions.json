@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "List of possible actions for MARC fields",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "ADD",
+    "DELETE",
+    "EDIT",
+    "MOVE"
+  ]
+}

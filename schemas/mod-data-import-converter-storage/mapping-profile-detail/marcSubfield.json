@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "MARC subfield entity schema",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.MarcSubfield",
+  "additionalProperties": false,
+  "properties": {
+    "subfield": {
+      "description": "Subfield",
+      "type": "string",
+      "pattern": "[a-f0-9*]{1}"
+    },
+    "data": {
+      "description" : "Subfield data",
+      "type": "object",
+      "$ref": "./marcData.json"
+    }
+  },
+  "required": [
+    "subfield"
+  ]
+}
