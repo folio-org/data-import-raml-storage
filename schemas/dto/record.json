@@ -71,6 +71,11 @@
       ],
       "default": "ACTUAL"
     },
+    "leaderRecordStatus": {
+      "description": "Single character representing MARC leader 05",
+      "type": "string",
+      "pattern": "^[a|c|d|n|p|o|s|x]{1}$"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",
