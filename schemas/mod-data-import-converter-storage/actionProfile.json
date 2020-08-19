@@ -30,12 +30,11 @@
       ]
     },
     "action": {
-      "description": "Action type. CREATE allowed for all record types. COMBINE allowed for Inventory, MARC, Invoice records only. REPLACE allowed for Inventory and MARC records only. DELETE allowed for all records types. MODIFY allowed for MARC records only",
+      "description": "Action type. CREATE allowed for all record types. UPDATE allowed for all record types except Orders, Invoices. DELETE allowed for all records types. MODIFY allowed for MARC records only",
       "type": "string",
       "enum": [
         "CREATE",
-        "COMBINE",
-        "REPLACE",
+        "UPDATE",
         "DELETE",
         "MODIFY"
       ]
