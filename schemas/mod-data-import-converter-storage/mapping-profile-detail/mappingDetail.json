@@ -27,6 +27,14 @@
       "items": {
         "$ref": "marcMappingDetail.json"
       }
+    },
+    "marcMappingOption": {
+      "description": "MARC field mapping option",
+      "type": "string",
+      "enum": [
+        "UPDATE",
+        "MODIFY"
+      ]
     }
   },
   "required": [
