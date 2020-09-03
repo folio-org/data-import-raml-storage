@@ -7,6 +7,10 @@
     "instanceId": {
       "description": "instance id",
       "$ref": "uuid.json"
+    },
+    "instanceHrid": {
+      "description": "instance hrid",
+      "$ref": "uuid.json"
     }
   }
 }
