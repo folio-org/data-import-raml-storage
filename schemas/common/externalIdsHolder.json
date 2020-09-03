@@ -10,7 +10,7 @@
     },
     "instanceHrid": {
       "description": "instance hrid",
-      "$ref": "uuid.json"
+      "type": "string"
     }
   }
 }
