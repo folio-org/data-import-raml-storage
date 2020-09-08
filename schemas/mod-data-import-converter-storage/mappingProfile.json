@@ -41,6 +41,14 @@
       "type": "object",
       "$ref": "../common/userInfo.json"
     },
+    "marcFieldProtectionSettings": {
+      "description": "MARC field protection settings",
+      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MarcFieldProtectionSetting>",
+      "items": {
+        "type": "object",
+        "$ref": "marc-field-protection/marcFieldProtectionSetting.json"
+      }
+    },
     "parentProfiles": {
       "description": "Associated parent profiles. Not required field that uses only for batch update/create",
       "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
