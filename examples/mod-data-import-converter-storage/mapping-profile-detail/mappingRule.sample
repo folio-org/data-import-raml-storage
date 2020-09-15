@@ -15,7 +15,7 @@
           "path": "instanceName1.fieldName3[].subfieldName1",
           "value": "$010|b",
           "booleanFieldAction": "ALL_TRUE",
-          "acceptedValues": [],
+          "acceptedValues": []
         },
         {
           "name": "subfieldName2",
@@ -24,15 +24,15 @@
           "acceptedValues": [
             {
               "id": "02b6bf0c-56fc-11ea-8e2d-0242ac130003",
-              "value": "value1",
+              "value": "value1"
             },
             {
               "id": "02b6c178-56fc-11ea-8e2d-0242ac130003",
-              "value": "value2",
+              "value": "value2"
             }
-          ],
+          ]
         }
-      ],
+      ]
     }
-  ],
+  ]
 }

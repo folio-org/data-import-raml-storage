@@ -18,13 +18,13 @@
         "userName": "@janedoe"
       },
       "metadata": {
-          "createdDate": "2019-01-01T11:550:09Z",
-          "createdByUserId": "",
-          "createdByUsername": "",
-          "updatedDate": "2019-01-12T14:21:11Z",
-          "updatedByUserId": "",
-          "updatedByUsername": ""
-        }
+        "createdDate": "2019-01-01T11:550:09Z",
+        "createdByUserId": "",
+        "createdByUsername": "",
+        "updatedDate": "2019-01-12T14:21:11Z",
+        "updatedByUserId": "",
+        "updatedByUsername": ""
+      }
     }
   ],
   "totalRecords": 1
