@@ -37,6 +37,11 @@
         "USER"
       ]
     },
+    "override": {
+      "description": "Indicates whether field can be overridden or not, always false for SYSTEM protection settings",
+      "type": "boolean",
+      "default": false
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",
