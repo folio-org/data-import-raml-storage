@@ -50,8 +50,7 @@
       "additionalProperties": false,
       "enum": [
         "CREATE",
-        "COMBINE",
-        "REPLACE",
+        "UPDATE",
         "DELETE",
         "MODIFY",
         "ERROR"
