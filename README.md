@@ -7,9 +7,15 @@ See the file "[LICENSE](LICENSE)" for more information.
 
 ## Introduction
 
-This repository contains json schemas and examples from mod-data-import, 
-mod-source-record-manager and mod-source-record-storage.
-It is utilized as a git submodule in each of mentioned repository as its "raml-storage" directory.
+This repository contains json schemas and examples for entities involved in data-import flow.
+It is utilized as a git submodule ("raml-storage" directory) in each of the following repositories:
+* [mod-source-record-storage](https://github.com/folio-org/mod-source-record-storage)
+* [mod-data-import-converter-storage](https://github.com/folio-org/mod-data-import-converter-storage)
+* [mod-source-record-manager](https://github.com/folio-org/mod-source-record-manager)
+* [mod-data-import](https://github.com/folio-org/mod-data-import)
+* [data-import-processing-core](https://github.com/folio-org/data-import-processing-core)
+* [mod-quick-marc](https://github.com/folio-org/mod-quick-marc)
+* [mod-marccat](https://github.com/folio-org/mod-marccat)
 
 ### Issue tracker
 
