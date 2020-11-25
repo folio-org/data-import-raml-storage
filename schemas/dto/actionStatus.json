@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Enum of action result statuses",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "CREATED",
+    "UPDATED",
+    "MULTIPLE",
+    "DISCARDED"
+  ]
+}
