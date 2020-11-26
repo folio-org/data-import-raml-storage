@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Information about affected entity by data import process",
+  "javaType": "org.folio.rest.jaxrs.model.ProcessedEntityInfo",
   "type": "object",
   "additionalProperties": false,
   "properties": {
