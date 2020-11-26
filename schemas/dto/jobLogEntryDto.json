@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Job summary log entry DTO schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "jobExecutionId": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "sourceRecordId": {
+      "description": "SRS record identifier, UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "sourceRecordOrder": {
+      "description": "Order of a record in imported file",
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceRecordTitle": {
+      "description": "Title from record",
+      "type": "string"
+    },
+    "sourceRecordActionStatus": {
+      "description": "Status of action performed above a record",
+      "$ref": "./actionStatus.json"
+    },
+    "instanceActionStatus": {
+      "description": "Status of action performed above instance, value MULTIPLE if multiple instances were affected",
+      "$ref": "./actionStatus.json"
+    },
+    "holdingsActionStatus": {
+      "description": "Status of action performed above holdings, value MULTIPLE if multiple holdings records were affected",
+      "$ref": "./actionStatus.json"
+    },
+    "itemActionStatus": {
+      "description": "Status of action performed above item, value MULTIPLE if multiple items were affected",
+      "$ref": "./actionStatus.json"
+    },
+    "orderActionStatus": {
+      "description": "Status of action performed above order, value MULTIPLE if multiple orders were affected",
+      "$ref": "./actionStatus.json"
+    },
+    "invoiceActionStatus": {
+      "description": "Status of action performed above invoice entity, value MULTIPLE if multiple invoice records were affected",
+      "$ref": "./actionStatus.json"
+    },
+    "error": {
+      "description": "Error message",
+      "type": "string"
+    }
+  },
+  "required": [
+    "jobExecutionId",
+    "sourceRecordId",
+    "sourceRecordOrder"
+  ]
+}
