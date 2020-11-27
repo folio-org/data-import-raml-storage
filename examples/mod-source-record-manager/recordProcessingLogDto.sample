@@ -1,0 +1,31 @@
+{
+  "jobExecutionId": "67dfac11-1caf-4470-9ad1-d533f6360bdd",
+  "sourceRecordId": "c9db5b04-e1d4-11e8-9f32-f2801f1b9fd1",
+  "sourceRecordOrder": 0,
+  "sourceRecordTitle": "Burn it down",
+  "sourceRecordActionStatus": "CREATED",
+  "relatedInstanceInfo": {
+    "actionStatus": "UPDATED",
+    "idList": [
+      "123fac11-1caf-4470-9ad1-d533f6360123"
+    ],
+    "hridList": [
+      "in00000000007"
+    ]
+  },
+  "relatedHoldingsInfo": {
+    "actionStatus": "CREATED",
+    "idList": [
+      "123fac11-1caf-4470-9ad1-d533f6360567"
+    ],
+    "hridList": [
+      "ho00000000001"
+    ]
+  },
+  "relatedItemInfo": {
+    "actionStatus": "DISCARDED",
+    "error": [
+      "Invalid status specified"
+    ]
+  }
+}

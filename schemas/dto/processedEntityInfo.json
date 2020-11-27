@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Information about affected entity by data import process",
+  "javaType": "org.folio.rest.jaxrs.model.ProcessedEntityInfo",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "actionStatus": {
+      "description": "Status of action performed above folio entity, value MULTIPLE if multiple entities of the same type were affected",
+      "$ref": "./actionStatus.json"
+    },
+    "idList": {
+      "description": "Id of entities which were affected during data import process",
+      "type": "array",
+      "items": {
+        "$ref": "../common/uuid.json"
+      }
+    },
+    "hridList": {
+      "description": "Human readable id of entities which were affected during data import process",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "error": {
+      "description": "Error message",
+      "type": "string"
+    }
+  }
+}
