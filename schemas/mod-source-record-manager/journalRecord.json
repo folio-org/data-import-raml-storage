@@ -68,6 +68,10 @@
       "description": "Error message",
       "type": "string"
     },
+    "title": {
+      "description": "Journal record title",
+      "type": "string"
+    },
     "actionDate": {
       "description": "Date and time when action was performed during record processing",
       "type": "string",
