@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Record processing log DTO schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "jobExecutionId": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "sourceRecordId": {
+      "description": "SRS record identifier, UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "sourceRecordOrder": {
+      "description": "Order of a record in imported file",
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceRecordTitle": {
+      "description": "Title from record",
+      "type": "string"
+    },
+    "sourceRecordActionStatus": {
+      "description": "Status of action performed above a record",
+      "$ref": "./actionStatus.json"
+    },
+    "error": {
+      "description": "Error message",
+      "type": "string"
+    },
+    "relatedInstanceInfo": {
+      "description": "Information about instance associated with source record",
+      "$ref": "processedEntityInfo.json"
+    },
+    "relatedHoldingsInfo": {
+      "description": "Information about holdings associated with source record",
+      "$ref": "processedEntityInfo.json"
+    },
+    "relatedItemInfo": {
+      "description": "Information about item associated with source record",
+      "$ref": "processedEntityInfo.json"
+    },
+    "relatedOrderInfo": {
+      "description": "Information about order associated with source record",
+      "$ref": "processedEntityInfo.json"
+    },
+    "relatedInvoiceInfo": {
+      "description": "Information about invoice associated with source record",
+      "$ref": "processedEntityInfo.json"
+    }
+  },
+  "required": [
+    "jobExecutionId",
+    "sourceRecordId",
+    "sourceRecordOrder"
+  ]
+}

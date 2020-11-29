@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Enum of action result statuses",
+  "javaType": "org.folio.rest.jaxrs.model.ActionStatus",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "CREATED",
+    "UPDATED",
+    "MULTIPLE",
+    "DISCARDED"
+  ]
+}
