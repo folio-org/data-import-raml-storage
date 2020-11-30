@@ -69,7 +69,7 @@
       "type": "string"
     },
     "title": {
-      "description": "Journal record title",
+      "description": "Title from source record",
       "type": "string"
     },
     "actionDate": {
