@@ -8,5 +8,6 @@
   "entityHrId": "",
   "actionType": "CREATE",
   "actionStatus": "COMPLETED",
+  "title": "Source record title"
   "actionDate": "2019-12-03T15:26:57.921+0000"
 }
