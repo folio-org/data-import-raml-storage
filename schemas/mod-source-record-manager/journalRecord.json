@@ -53,7 +53,7 @@
         "UPDATE",
         "DELETE",
         "MODIFY",
-        "ERROR"
+        "NON_MATCH"
       ]
     },
     "actionStatus": {
