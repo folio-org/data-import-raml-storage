@@ -5,7 +5,7 @@
   "additionalProperties": false,
   "properties": {
     "segments": {
-      "description": "Segments",
+      "description": "Segment list",
       "type": "array",
       "items": {
         "description": "Represents a segment structure",
@@ -13,9 +13,11 @@
         "additionalProperties": false,
         "properties": {
           "tag": {
+            "description": "Segment tag",
             "type": "string"
           },
           "dataElements": {
+            "description": "List of data elements",
             "type": "array",
             "items": {
               "description": "Represents a data element structure",
@@ -23,13 +25,15 @@
               "additionalProperties": false,
               "properties": {
                 "components": {
+                  "description": "List of components, for simple data element list size = 1, for composite data element list size > 1",
                   "type": "array",
                   "items": {
-                    "description": "EDIFACT component representation",
+                    "description": "Represents the smallest fraction of an EDIFACT data model and wraps a data string",
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
                       "data": {
+                        "description": "Component data",
                         "type": "string"
                       }
                     },
