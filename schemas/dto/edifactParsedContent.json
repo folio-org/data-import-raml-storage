@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Represents EDIFACT content structure",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "segments": {
+      "description": "Segments",
+      "type": "array",
+      "items": {
+        "description": "Represents a segment structure",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "tag": {
+            "type": "string"
+          },
+          "dataElements": {
+            "type": "array",
+            "items": {
+              "description": "Represents a data element structure",
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "components": {
+                  "type": "array",
+                  "items": {
+                    "description": "EDIFACT component representation",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "data": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "data"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "components"
+              ]
+            }
+          }
+        },
+        "required": [
+          "tag",
+          "dataElements"
+        ]
+      }
+    }
+  },
+  "required": [
+    "segments"
+  ]
+}
