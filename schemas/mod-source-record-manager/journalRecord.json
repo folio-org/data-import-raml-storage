@@ -53,7 +53,7 @@
         "UPDATE",
         "DELETE",
         "MODIFY",
-        "ERROR"
+        "NON_MATCH"
       ]
     },
     "actionStatus": {
@@ -66,6 +66,10 @@
     },
     "error": {
       "description": "Error message",
+      "type": "string"
+    },
+    "title": {
+      "description": "Title from source record",
       "type": "string"
     },
     "actionDate": {
