@@ -74,7 +74,7 @@
     "leaderRecordStatus": {
       "description": "Single character representing MARC leader 05",
       "type": "string",
-      "pattern": "^[a|c|d|n|p|o|s|x]{1}$"
+      "pattern": "^[a|c|d|n|p|o|s|u|x]{1}$"
     },
     "metadata": {
       "description": "Metadata provided by the server",
