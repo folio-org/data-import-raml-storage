@@ -3,5 +3,5 @@
   "description": "Record Type Enum",
   "type": "string",
   "additionalProperties": false,
-  "enum": [ "MARC" ]
+  "enum": [ "MARC", "EDIFACT" ]
 }
