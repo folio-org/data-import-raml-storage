@@ -1,0 +1,2090 @@
+{
+  "segments": [
+    {
+      "tag": "UNB",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "UNOA"
+            },
+            {
+              "data": "2"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "WSHEIN"
+            },
+            {
+              "data": "ZZ"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "CORN2385"
+            },
+            {
+              "data": "ZZ"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "201102"
+            },
+            {
+              "data": "0931"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "000000682"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "A"
+            },
+            {
+              "data": "AA"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNH",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "000000851"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "INVOIC"
+            },
+            {
+              "data": "D"
+            },
+            {
+              "data": "96A"
+            },
+            {
+              "data": "UN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "BGM",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "380"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "267908"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "DTM",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "137"
+            },
+            {
+              "data": "20201030"
+            },
+            {
+              "data": "102"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "TAX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "124"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "CUX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            },
+            {
+              "data": "USD"
+            },
+            {
+              "data": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "C"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "B29"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            },
+            {
+              "data": "POSTAGE AND HANDLING"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            },
+            {
+              "data": "34.40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LIN",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "0000-0000"
+            },
+            {
+              "data": "IS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "00011050"
+            },
+            {
+              "data": "SA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "PHILIP C. JESSUP INTERNATIONAL LAW "
+            },
+            {
+              "data": "MOOT COURT COMPETITION."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "QTY",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "47"
+            },
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "Volume 2020 (Volume 2020)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "203"
+            },
+            {
+              "data": "430.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PRI",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "CAL"
+            },
+            {
+              "data": "430.00"
+            },
+            {
+              "data": "CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "ON"
+            },
+            {
+              "data": "1ABS1626A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "A"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "C26"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LIN",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "0000-0000"
+            },
+            {
+              "data": "IS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "00014199"
+            },
+            {
+              "data": "SA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "USER'S GUIDE TO THE BLUEBOOK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "QTY",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "47"
+            },
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "21st Edition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "203"
+            },
+            {
+              "data": "18.95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PRI",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "CAL"
+            },
+            {
+              "data": "18.95"
+            },
+            {
+              "data": "CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "ON"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "A"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "C26"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNS",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "CNT",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            },
+            {
+              "data": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "86"
+            },
+            {
+              "data": "483.35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNT",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "40"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "000000851"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNH",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "000000852"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "INVOIC"
+            },
+            {
+              "data": "D"
+            },
+            {
+              "data": "96A"
+            },
+            {
+              "data": "UN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "BGM",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "380"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "267909"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "DTM",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "137"
+            },
+            {
+              "data": "20201030"
+            },
+            {
+              "data": "102"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "TAX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "124"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "CUX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            },
+            {
+              "data": "USD"
+            },
+            {
+              "data": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "C"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "B29"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            },
+            {
+              "data": "POSTAGE AND HANDLING"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            },
+            {
+              "data": "35.94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LIN",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "0000-0000"
+            },
+            {
+              "data": "IS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "00007110"
+            },
+            {
+              "data": "SA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "ISRAEL YEARBOOK ON HUMAN RIGHTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "QTY",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "47"
+            },
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "Volume 50 (Volume 50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "203"
+            },
+            {
+              "data": "258.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PRI",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "CAL"
+            },
+            {
+              "data": "258.00"
+            },
+            {
+              "data": "CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "ON"
+            },
+            {
+              "data": "2ABQ0068"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "A"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "C26"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LIN",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "0000-0000"
+            },
+            {
+              "data": "IS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "00007983"
+            },
+            {
+              "data": "SA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "LANDMARK LAW CASES & AMERICAN SOCIE"
+            },
+            {
+              "data": "TY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "QTY",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "47"
+            },
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "Campaign Finance Cases (ISBN #78700629879)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "203"
+            },
+            {
+              "data": "50.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PRI",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "CAL"
+            },
+            {
+              "data": "50.00"
+            },
+            {
+              "data": "CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "ON"
+            },
+            {
+              "data": "1APL8937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "A"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "C26"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LIN",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "0000-0000"
+            },
+            {
+              "data": "IS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PIA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "5"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "00008163"
+            },
+            {
+              "data": "SA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "LAW IN CONTEXT SERIES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "IMD",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "F"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "JTI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "QTY",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "47"
+            },
+            {
+              "data": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "Toward a New Legal Common Sense; Third Editio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "FTX",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LIN"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "203"
+            },
+            {
+              "data": "115.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "PRI",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "CAL"
+            },
+            {
+              "data": "115.00"
+            },
+            {
+              "data": "CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "ON"
+            },
+            {
+              "data": "1ALC5559"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "RFF",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "LI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "ALC",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "A"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": ""
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "C26"
+            },
+            {
+              "data": ""
+            },
+            {
+              "data": "28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNS",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "CNT",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            },
+            {
+              "data": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "MOA",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "86"
+            },
+            {
+              "data": "458.94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNT",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "54"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "000000852"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "UNZ",
+      "dataElements": [
+        {
+          "components": [
+            {
+              "data": "2"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "data": "000000674"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
