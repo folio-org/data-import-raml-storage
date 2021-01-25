@@ -20,6 +20,7 @@
       "description": "Describes type of records and format of record representation",
       "type": "string",
       "enum": [
+        "EDIFACT_RAW",
         "MARC_RAW",
         "MARC_JSON",
         "MARC_XML"

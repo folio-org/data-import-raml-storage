@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Job summary log entry DTO schema",
+  "javaType": "org.folio.rest.jaxrs.model.JobLogEntryDto",
   "type": "object",
   "additionalProperties": false,
   "properties": {
