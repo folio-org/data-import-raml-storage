@@ -4,6 +4,10 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "id": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
     "initialRecords": {
       "description": "List of raw records",
       "type": "array",
