@@ -1,0 +1,8 @@
+{
+    "leaderSearchExpression": "07='a' AND 017='7'",
+    "fieldsSearchExpression": "(245$a='Semantic web primer' OR 245$a='American Bar Association journal') AND (264$c='2015' OR 264$c='2016') AND 653$a='Politicians--Scotland--Biography'",
+    "suppressFromDiscovery": false,
+    "deleted": false,
+    "offset": 0,
+    "limit": 10
+}
