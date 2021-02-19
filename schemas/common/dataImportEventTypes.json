@@ -4,6 +4,7 @@
   "type": "string",
   "additionalProperties": false,
   "enum": [
+    "DI_EDIFACT_RECORD_CREATED",
     "DI_RAW_MARC_BIB_RECORDS_CHUNK_READ",
     "DI_MARC_BIB_FOR_UPDATE_RECEIVED",
     "DI_RAW_RECORDS_CHUNK_PARSED",
