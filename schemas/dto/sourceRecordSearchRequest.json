@@ -29,12 +29,12 @@
     "offset": {
       "id": "offset",
       "description": "Offset flag",
-      "type": "number"
+      "type": "integer"
     },
     "limit": {
       "id": "limit",
       "description": "Limit flag",
-      "type": "number"
+      "type": "integer"
     }
   }
 }
