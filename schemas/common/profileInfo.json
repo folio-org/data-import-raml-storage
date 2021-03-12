@@ -19,7 +19,6 @@
     }
   },
   "required": [
-    "id",
-    "name"
+    "id"
   ]
 }
