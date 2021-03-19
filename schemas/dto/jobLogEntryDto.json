@@ -15,8 +15,7 @@
     },
     "sourceRecordOrder": {
       "description": "Order of a record in imported file",
-      "type": "integer",
-      "minimum": 0
+      "type": "string"
     },
     "sourceRecordTitle": {
       "description": "Title from record",
