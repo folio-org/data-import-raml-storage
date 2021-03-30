@@ -48,6 +48,29 @@
     "relatedInvoiceInfo": {
       "description": "Information about invoice associated with source record",
       "$ref": "processedEntityInfo.json"
+    },
+    "relatedInvoiceLineInfo": {
+      "description": "Information about invoice line associated with source record",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "actionStatus": {
+          "description": "Status of action performed with invoice line",
+          "$ref": "./actionStatus.json"
+        },
+        "id": {
+          "description": "Invoice line identifier, UUID",
+          "$ref": "../common/uuid.json"
+        },
+        "fullInvoiceLineNumber": {
+          "description": "Consists of vendor invoice number and invoice line sequence number",
+          "type": "string"
+        },
+        "error": {
+          "description": "Error message",
+          "type": "string"
+        }
+      }
     }
   },
   "required": [
