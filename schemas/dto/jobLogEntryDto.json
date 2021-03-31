@@ -48,6 +48,10 @@
     "error": {
       "description": "Error message",
       "type": "string"
+    },
+    "invoiceLineJournalRecordId": {
+      "description": "UUID of journalRecord which keeps data of particular invoice line processing",
+      "$ref": "../common/uuid.json"
     }
   },
   "required": [
