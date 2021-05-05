@@ -1,6 +1,6 @@
 {
   "dataTypes": [
-    "MARC", "EDIFACT"
+    "MARC_BIB", "EDIFACT"
   ],
   "totalRecords": 2
 }

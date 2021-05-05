@@ -6,6 +6,6 @@
   "enum": [
     "Delimited",
     "EDIFACT",
-    "MARC"
+    "MARC_BIB"
   ]
 }
