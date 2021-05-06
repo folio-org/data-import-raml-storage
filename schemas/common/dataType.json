@@ -6,6 +6,8 @@
   "enum": [
     "Delimited",
     "EDIFACT",
-    "MARC"
+    "MARC_BIB",
+    "MARC_AUTHORITY",
+    "MARC_HOLDING"
   ]
 }

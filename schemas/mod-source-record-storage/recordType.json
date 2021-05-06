@@ -3,5 +3,10 @@
   "description": "Record Type Enum",
   "type": "string",
   "additionalProperties": false,
-  "enum": [ "MARC", "EDIFACT" ]
+  "enum": [
+    "MARC_BIB",
+    "MARC_AUTHORITY",
+    "MARC_HOLDING",
+    "EDIFACT"
+  ]
 }
