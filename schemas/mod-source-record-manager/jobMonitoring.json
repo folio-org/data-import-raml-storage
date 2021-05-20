@@ -16,9 +16,9 @@
       "type": "string",
       "format": "date-time"
     },
-    "notification": {
-      "description": "Notification sent to the consumer",
-      "type": "string"
+    "notificationSent": {
+      "description": "Indicates whether notification sent or not",
+      "type": "boolean"
     }
   }
 }
