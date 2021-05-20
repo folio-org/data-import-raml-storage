@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Job Monitoring Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "UUID",
+      "$ref": "../common/uuid.json"
+    },
+    "jobExecutionId": {
+      "description": "Corresponding jobExecution id",
+      "type": "string"
+    },
+    "lastEventTimestamp": {
+      "description": "Date and time when the last event occurred",
+      "type": "string",
+      "format": "date-time"
+    },
+    "notification": {
+      "description": "Notification sent to the consumer",
+      "type": "string"
+    }
+  }
+}
