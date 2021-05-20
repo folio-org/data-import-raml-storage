@@ -9,7 +9,7 @@
     },
     "jobExecutionId": {
       "description": "Corresponding jobExecution id",
-      "type": "string"
+      "$ref": "../common/uuid.json"
     },
     "lastEventTimestamp": {
       "description": "Date and time when the last event occurred",
