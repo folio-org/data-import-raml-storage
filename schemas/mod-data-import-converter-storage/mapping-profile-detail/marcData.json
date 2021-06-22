@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "MARC data value",
+  "javaType": "org.folio.rest.jaxrs.model.MarcData",
   "type": "object",
   "additionalProperties": false,
   "properties": {
