@@ -8,7 +8,7 @@
       "id" : "169ecbbf-f23d-4429-8812-7732d65b9309",
       "name" : "Update holdings",
       "deleted" : false,
-      "dataType" : "MARC_BIB",
+      "dataType" : "MARC",
       "metadata" : {
         "createdDate" : "2020-10-09T16:49:19.698+0000",
         "updatedDate" : "2020-10-09T16:49:19.698+0000",
