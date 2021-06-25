@@ -2,7 +2,7 @@
   "id": "448ae575-daec-49c1-8041-d64c8ed8e5b1",
   "name": "Load vendor order records",
   "description": "Ordered on vendor site; load MARC to create bib, holdings, item, and order; keep MARC",
-  "dataType": "MARC_BIB",
+  "dataType": "MARC",
   "tags": {
     "tagList": [
       "acq", "daily"

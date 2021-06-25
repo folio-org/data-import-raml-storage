@@ -4,7 +4,7 @@
       "id": "448ae575-daec-49c1-8041-d64c8ed8e5b1",
       "name": "Load vendor order records",
       "description": "Ordered on vendor site; load MARC to create bib, holdings, item, and order; keep MARC",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "acq", "daily"
@@ -29,7 +29,7 @@
       "id": "295e28b4-aea2-4458-9073-385a31e1da05",
       "name": "Load shelfready cataloging records",
       "description": "Overlay brief bibs, update holdings and item records, create invoice",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "cat", "weekly"
@@ -54,7 +54,7 @@
       "id": "bb689511-5365-4050-8084-a03d94728d88",
       "name": "Approval plan records",
       "description": "Create bibs, holdings, items, orders, and invoices",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "acq", "cat", "weekly"
@@ -79,7 +79,7 @@
       "id": "3e705998-9169-4f31-b048-90ffdcbd24c1",
       "name": "Load KB eResource records",
       "description": "Create, update, delete existing eContent bib records",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "monthly", "KB"
@@ -104,7 +104,7 @@
       "id": "15426802-bb0d-4dfb-8eee-90f64fed0cf1",
       "name": "ETL Bib records",
       "description": "Reload bib records that were exported and updated outside of FOLIO",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": []
       },
@@ -127,7 +127,7 @@
       "id": "87e4ad58-d677-43dd-8b04-9795741b2103",
       "name": "Loading authority records",
       "description": "Load new and updated MARC authority records",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "cat", "monthly"
@@ -152,7 +152,7 @@
       "id": "72af7eb7-d7e2-4d16-93ac-682b9a58a94c",
       "name": "DDA discovery records",
       "description": "Load DDA discovery MARC records to create bib and holdings",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "weekly", "DDA"
@@ -227,7 +227,7 @@
       "id": "828a787c-bcf3-4c28-891a-9e6f3ba5068b",
       "name": "Load MARC, then throw away",
       "description": "Ordered on vendor site; load MARC to create bib, holdings, item, and order; then discard MARC",
-      "dataType": "MARC_BIB",
+      "dataType": "MARC",
       "tags": {
         "tagList": [
           "acq", "daily"
