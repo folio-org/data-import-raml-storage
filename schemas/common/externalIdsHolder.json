@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Contains identifiers of external entities (instance, holding)",
+  "description": "Contains identifiers of external entities (instance, holdings)",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -10,6 +10,14 @@
     },
     "instanceHrid": {
       "description": "instance hrid",
+      "type": "string"
+    },
+    "holdingsId": {
+      "description": "holdings id",
+      "$ref": "uuid.json"
+    },
+    "holdingsHrid": {
+      "description": "holdings hrid",
       "type": "string"
     }
   }
