@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Job Execution Schema",
+  "description": "Job Execution Dto Schema",
   "type": "object",
   "javaType": "org.folio.rest.jaxrs.model.JobExecutionDto",
   "properties": {
