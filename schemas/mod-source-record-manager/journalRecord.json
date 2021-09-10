@@ -54,6 +54,7 @@
         "UPDATE",
         "DELETE",
         "MODIFY",
+        "MATCH",
         "NON_MATCH"
       ]
     },
