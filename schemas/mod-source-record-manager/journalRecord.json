@@ -6,15 +6,15 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "jobExecutionId": {
       "description": "UUID",
-      "$ref": "../common/uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "sourceId": {
       "description": "SRS record identifier, UUID",
-      "$ref": "../common/uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "sourceRecordOrder": {
       "description": "Order of the record in imported file",
@@ -39,7 +39,7 @@
     },
     "entityId": {
       "description": "UUID",
-      "$ref": "../common/uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "entityHrId": {
       "description": "Entity human readable id",

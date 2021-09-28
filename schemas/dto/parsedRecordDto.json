@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "externalIdsHolder": {
       "description": "Container for identifiers of external entities",

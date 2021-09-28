@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "content": {
       "description": "Parsed record content, e.g. MARC record"

@@ -13,7 +13,7 @@
       "description": "Id of entities which were affected during data import process",
       "type": "array",
       "items": {
-        "$ref": "../common/uuid.schema"
+        "$ref": "../../raml-util/schemas/uuid.schema"
       }
     },
     "hridList": {

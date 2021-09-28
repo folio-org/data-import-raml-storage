@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "Unique JobProfile identifier",
-      "$ref": "uuid.schema"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "name": {
       "description": "Job Profile name",
