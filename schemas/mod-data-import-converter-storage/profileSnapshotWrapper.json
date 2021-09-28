@@ -7,11 +7,11 @@
   "properties": {
     "id": {
       "description": "Snapshot wrapper unique identifier",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "profileId": {
       "description": "Profile unique identifier",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "contentType": {
       "description": "Type of the content",

@@ -6,7 +6,7 @@
   "properties": {
     "jobExecutionId": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "jobExecutionResultLogs": {
       "description": "Set of action logs",

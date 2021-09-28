@@ -7,7 +7,7 @@
   "properties": {
     "id": {
       "description": "MARC field protection setting id",
-      "$ref": "../../common/uuid.json"
+      "$ref": "../../common/uuid.schema"
     },
     "field": {
       "description": "Field",

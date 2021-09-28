@@ -6,15 +6,15 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "jobExecutionId": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "sourceId": {
       "description": "SRS record identifier, UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "sourceRecordOrder": {
       "description": "Order of the record in imported file",
@@ -39,7 +39,7 @@
     },
     "entityId": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "entityHrId": {
       "description": "Entity human readable id",

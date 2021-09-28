@@ -5,11 +5,11 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "jobExecutionId": {
       "description": "Corresponding jobExecution id",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "lastEventTimestamp": {
       "description": "Date and time when the last event occurred",

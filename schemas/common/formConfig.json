@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "uuid.json"
+      "$ref": "uuid.schema"
     },
     "formName": {
       "description": "Name of corresponding form",

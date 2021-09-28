@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "Unique identifier",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "name": {
       "description": "Mapping Profile name",

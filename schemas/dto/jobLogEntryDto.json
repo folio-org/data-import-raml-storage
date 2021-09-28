@@ -7,11 +7,11 @@
   "properties": {
     "jobExecutionId": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "sourceRecordId": {
       "description": "SRS record identifier, UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "sourceRecordOrder": {
       "description": "Order of a record in imported file",
@@ -51,7 +51,7 @@
     },
     "invoiceLineJournalRecordId": {
       "description": "UUID of journalRecord which keeps data of particular invoice line processing",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     }
   },
   "required": [

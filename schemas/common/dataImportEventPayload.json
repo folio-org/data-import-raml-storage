@@ -31,7 +31,7 @@
     },
     "jobExecutionId": {
       "description": "Corresponding jobExecution id",
-      "$ref": "../common/uuid.json"
+      "$ref": "uuid.schema"
     },
     "tenant": {
       "description": "Tenant id",

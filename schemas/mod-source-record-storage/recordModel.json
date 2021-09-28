@@ -6,15 +6,15 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "snapshotId": {
       "description": "Corresponding snapshot id, which is the same as jobExecutionId",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "matchedId": {
       "description": "Represents relations with another matched records, necessary for saving the history of applying changes for inventory/holding/etc records",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "generation": {
       "description": "Generation from the last record with the same matchedId incremented by 1. Starts from 0.",
@@ -28,15 +28,15 @@
     },
     "rawRecordId": {
       "description": "Reference to the corresponding raw record",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "parsedRecordId": {
       "description": "Reference to the corresponding parsed record",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "errorRecordId": {
       "description": "Reference to the corresponding error record",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "externalIdsHolder": {
       "description": "Container for identifiers of external entities",

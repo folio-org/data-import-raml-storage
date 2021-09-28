@@ -6,11 +6,11 @@
   "properties": {
     "jobExecutionId": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "sourceRecordId": {
       "description": "SRS record identifier, UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../common/uuid.schema"
     },
     "sourceRecordOrder": {
       "description": "Order of a record in imported file",
@@ -60,7 +60,7 @@
         },
         "id": {
           "description": "Invoice line identifier, UUID",
-          "$ref": "../common/uuid.json"
+          "$ref": "../common/uuid.schema"
         },
         "fullInvoiceLineNumber": {
           "description": "Consists of vendor invoice number and invoice line sequence number",
