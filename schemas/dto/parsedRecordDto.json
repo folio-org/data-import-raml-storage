@@ -44,15 +44,15 @@
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
     },
-    "version": {
+    "qmRecordVersion": {
       "type": "string",
-      "description": "version of the resource"
+      "description": "Quick marc record version of the resource"
     }
   },
   "required": [
     "id",
     "recordType",
-    "version",
+    "qmRecordVersion",
     "parsedRecord"
   ]
 }
