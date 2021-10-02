@@ -43,11 +43,16 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
+    },
+    "version": {
+      "type": "string",
+      "description": "version of the resource"
     }
   },
   "required": [
     "id",
     "recordType",
+    "version",
     "parsedRecord"
   ]
 }
