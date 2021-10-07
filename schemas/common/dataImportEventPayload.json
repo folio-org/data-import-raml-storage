@@ -31,7 +31,7 @@
     },
     "jobExecutionId": {
       "description": "Corresponding jobExecution id",
-      "$ref": "../common/uuid.json"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "tenant": {
       "description": "Tenant id",

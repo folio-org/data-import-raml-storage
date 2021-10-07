@@ -6,7 +6,7 @@
   "properties": {
     "instanceId": {
       "description": "instance id",
-      "$ref": "uuid.json"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "instanceHrid": {
       "description": "instance hrid",
@@ -14,7 +14,7 @@
     },
     "holdingsId": {
       "description": "holdings id",
-      "$ref": "uuid.json"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "holdingsHrid": {
       "description": "holdings hrid",
