@@ -45,6 +45,7 @@
       "enum": [
         "INSTANCE",
         "HOLDINGS",
+        "AUTHORITY",
         "ITEM",
         "ORDER",
         "INVOICE",
