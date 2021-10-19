@@ -43,11 +43,16 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
+    },
+    "relatedRecordVersion": {
+      "type": "string",
+      "description": "Related record (instance, holdings) version for optimistic locking needs"
     }
   },
   "required": [
     "id",
     "recordType",
+    "relatedRecordVersion",
     "parsedRecord"
   ]
 }
