@@ -6,7 +6,7 @@
   "properties": {
     "id": {
       "description": "UUID",
-      "$ref": "../common/uuid.json"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "initialRecords": {
       "description": "List of raw records",
