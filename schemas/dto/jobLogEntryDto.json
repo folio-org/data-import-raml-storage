@@ -17,6 +17,18 @@
       "description": "Order of a record in imported file",
       "type": "string"
     },
+    "sourceRecordType": {
+      "description": "Type of entity",
+      "type": "string",
+      "$ref": "recordType.json"
+    },
+    "holdingsRecordHridList": {
+      "description": "Human readable id of entities imported via data import process",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "sourceRecordTitle": {
       "description": "Title from record",
       "type": "string"
