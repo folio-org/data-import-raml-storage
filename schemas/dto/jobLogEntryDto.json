@@ -22,7 +22,7 @@
       "type": "string",
       "$ref": "recordType.json"
     },
-    "holdingsSourceRecordHridList": {
+    "holdingsRecordHridList": {
       "description": "Human readable id of entities imported via data import process",
       "type": "array",
       "items": {
