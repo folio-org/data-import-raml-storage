@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Record Type Schema",
+  "description": "Record Type Schema",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "INSTANCE",
+    "HOLDINGS",
+    "ITEM",
+    "ORDER",
+    "INVOICE",
+    "MARC_BIBLIOGRAPHIC",
+    "MARC_HOLDINGS",
+    "MARC_AUTHORITY",
+    "EDIFACT"
+  ]
+}
