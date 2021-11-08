@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Contains identifiers of external entities (instance, holdings)",
+  "description": "Contains identifiers of external entities (instance, holdings, authority)",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -18,6 +18,14 @@
     },
     "holdingsHrid": {
       "description": "holdings hrid",
+      "type": "string"
+    },
+    "authorityId": {
+      "description": "authority id",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "authorityHrid": {
+      "description": "authority hrid",
       "type": "string"
     }
   }
