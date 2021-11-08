@@ -12,6 +12,7 @@
     "DELIMITED",
     "INSTANCE",
     "HOLDINGS",
+    "AUTHORITY",
     "ITEM",
     "ORDER",
     "INVOICE",
