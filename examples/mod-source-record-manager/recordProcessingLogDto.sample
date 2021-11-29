@@ -27,5 +27,11 @@
     "error": [
       "Invalid status specified"
     ]
+  },
+  "relatedAuthorityInfo": {
+    "actionStatus": "CREATED",
+    "idList": [
+      "ecc0d911-018a-4e60-a791-898ecf74cb3b"
+    ]
   }
 }
