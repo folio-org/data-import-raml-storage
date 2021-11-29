@@ -49,6 +49,10 @@
       "description": "Status of action performed above item, value MULTIPLE if multiple items were affected",
       "$ref": "./actionStatus.json"
     },
+    "authorityActionStatus": {
+      "description": "Status of action performed above authority",
+      "$ref": "./actionStatus.json"
+    },
     "orderActionStatus": {
       "description": "Status of action performed above order, value MULTIPLE if multiple orders were affected",
       "$ref": "./actionStatus.json"
