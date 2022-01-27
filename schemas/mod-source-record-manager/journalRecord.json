@@ -39,7 +39,15 @@
       ]
     },
     "entityId": {
-      "description": "UUID",
+      "description": "entity UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "instanceId": {
+      "description": "instance UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "holdingsId": {
+      "description": "holdings UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "entityHrId": {

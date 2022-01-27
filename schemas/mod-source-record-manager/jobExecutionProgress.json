@@ -4,13 +4,9 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "id": {
-      "description": "UUID",
-      "$ref": "../../raml-util/schemas/uuid.schema"
-    },
     "jobExecutionId": {
       "description": "Corresponding jobExecution id",
-      "type": "string"
+      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "currentlySucceeded": {
       "description": "Current number of successfully processed records",
