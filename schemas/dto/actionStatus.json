@@ -8,6 +8,7 @@
     "CREATED",
     "UPDATED",
     "MULTIPLE",
-    "DISCARDED"
+    "DISCARDED",
+    "DELETED"
   ]
 }
