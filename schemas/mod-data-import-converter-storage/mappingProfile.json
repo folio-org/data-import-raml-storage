@@ -69,6 +69,11 @@
       "description": "Mapping details with mapping rules",
       "$ref": "mapping-profile-detail/mappingDetail.json"
     },
+    "hidden": {
+      "description": "Flag indicates that the Mapping Profile will be visible on UI",
+      "type": "boolean",
+      "default": "false"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",

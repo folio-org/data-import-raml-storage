@@ -80,6 +80,11 @@
         "$ref": "./profileSnapshotWrapper.json"
       }
     },
+    "hidden": {
+      "description": "Flag indicates that the Action Profile will be visible on UI",
+      "type": "boolean",
+      "default": "false"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",

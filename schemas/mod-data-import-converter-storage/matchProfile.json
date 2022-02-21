@@ -65,6 +65,11 @@
         "$ref": "./profileSnapshotWrapper.json"
       }
     },
+    "hidden": {
+      "description": "Flag indicates that the Match Profile will be visible on UI",
+      "type": "boolean",
+      "default": "false"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",
