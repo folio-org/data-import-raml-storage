@@ -70,7 +70,7 @@
       "$ref": "mapping-profile-detail/mappingDetail.json"
     },
     "hidden": {
-      "description": "Flag indicates that the Mapping Profile will be visible on UI",
+      "description": "Flag indicates that the Mapping Profile will be hidden on UI",
       "type": "boolean",
       "default": "false"
     },

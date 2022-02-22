@@ -81,7 +81,7 @@
       }
     },
     "hidden": {
-      "description": "Flag indicates that the Action Profile will be visible on UI",
+      "description": "Flag indicates that the Action Profile will be hidden on UI",
       "type": "boolean",
       "default": "false"
     },
