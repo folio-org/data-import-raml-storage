@@ -60,6 +60,11 @@
         "$ref": "./profileSnapshotWrapper.json"
       }
     },
+    "hidden": {
+      "description": "Flag indicates that the Job Profile will be hidden on UI",
+      "type": "boolean",
+      "default": "false"
+    },
     "metadata": {
       "description": "Metadata provided by the server",
       "type": "object",
