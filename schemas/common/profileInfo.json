@@ -16,6 +16,12 @@
       "description": "Data type",
       "type": "string",
       "$ref": "./dataType.json"
+    },
+    "hidden": {
+      "description": "Indicates that job should be hidden in data-import log",
+      "type": "boolean",
+      "default": false,
+      "example": false
     }
   },
   "required": [
