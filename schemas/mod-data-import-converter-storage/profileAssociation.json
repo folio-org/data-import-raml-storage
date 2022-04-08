@@ -32,7 +32,7 @@
     "triggered": {
       "description": "Boolean flag identifies if the 'detail' profile has triggered by the 'master' profile",
       "type": "boolean",
-      "default": "false"
+      "default": false
     },
     "masterProfileType": {
       "description": "Type of master profile",

@@ -83,7 +83,7 @@
     "hidden": {
       "description": "Flag indicates that the Action Profile will be hidden on UI",
       "type": "boolean",
-      "default": "false"
+      "default": false
     },
     "metadata": {
       "description": "Metadata provided by the server",
