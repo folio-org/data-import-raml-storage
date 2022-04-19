@@ -45,6 +45,10 @@
       "description": "Okapi URL",
       "type": "string"
     },
+    "correlationId": {
+      "description": "Id intended to track events related to the same action",
+      "type": "string"
+    },
     "context": {
       "description": "HashMap with objects. Key - entity type, Value - object in json representation",
       "javaType": "java.util.HashMap<String, String>"
