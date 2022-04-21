@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Describes entity processing summary of the certain entity type",
+  "javaType": "org.folio.rest.jaxrs.model.EntityProcessingSummary",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "totalCreatedEntities": {
+      "description": "Total number of created entities",
+      "type": "integer"
+    },
+    "totalUpdatedEntities": {
+      "description": "Total number of updated entities",
+      "type": "integer"
+    },
+    "totalDiscardedEntities": {
+      "description": "Total number of discarded entities",
+      "type": "integer"
+    },
+    "totalErrors": {
+      "description": "Total errors number during entity processing",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "jobExecutionId"
+  ]
+}
