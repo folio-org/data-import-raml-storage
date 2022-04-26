@@ -21,8 +21,5 @@
       "description": "Total errors number during entity processing",
       "type": "integer"
     }
-  },
-  "required": [
-    "jobExecutionId"
-  ]
+  }
 }
