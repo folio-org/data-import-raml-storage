@@ -14,7 +14,7 @@
       "type": "integer"
     },
     "totalDiscardedEntities": {
-      "description": "Total number of discarded entities",
+      "description": "Total number of discarded entities, consists of total errors and number of occurrences that entity does not match",
       "type": "integer"
     },
     "totalErrors": {
