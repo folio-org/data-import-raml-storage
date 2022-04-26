@@ -1,40 +1,46 @@
 {
-  "jobExecutionId" : "e71eea3e-08f9-4cff-812b-3cd60c2fac9d",
-  "totalErrors" : 0,
-  "sourceRecordSummary" : {
-    "totalCreatedEntities" : 1,
-    "totalUpdatedEntities" : 0,
-    "totalDiscardedEntities" : 0,
-    "totalErrors" : 0
+  "jobExecutionId": "e71eea3e-08f9-4cff-812b-3cd60c2fac9d",
+  "totalErrors": 0,
+  "sourceRecordSummary": {
+    "totalCreatedEntities": 1,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
   },
-  "instanceSummary" : {
-    "totalCreatedEntities" : 1,
-    "totalUpdatedEntities" : 0,
-    "totalDiscardedEntities" : 0,
-    "totalErrors" : 0
+  "instanceSummary": {
+    "totalCreatedEntities": 1,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
   },
-  "holdingSummary" : {
-    "totalCreatedEntities" : 1,
-    "totalUpdatedEntities" : 0,
-    "totalDiscardedEntities" : 0,
-    "totalErrors" : 0
+  "holdingSummary": {
+    "totalCreatedEntities": 1,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
   },
-  "itemSummary" : {
-    "totalCreatedEntities" : 1,
-    "totalUpdatedEntities" : 0,
-    "totalDiscardedEntities" : 0,
-    "totalErrors" : 0
+  "itemSummary": {
+    "totalCreatedEntities": 1,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
   },
-  "orderSummary" : {
-    "totalCreatedEntities" : 0,
-    "totalUpdatedEntities" : 0,
-    "totalDiscardedEntities" : 0,
-    "totalErrors" : 0
+  "authoritySummary": {
+    "totalCreatedEntities": 0,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
   },
-  "invoiceSummary" : {
-    "totalCreatedEntities" : 0,
-    "totalUpdatedEntities" : 0,
-    "totalDiscardedEntities" : 0,
-    "totalErrors" : 0
+  "orderSummary": {
+    "totalCreatedEntities": 0,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
+  },
+  "invoiceSummary": {
+    "totalCreatedEntities": 0,
+    "totalUpdatedEntities": 0,
+    "totalDiscardedEntities": 0,
+    "totalErrors": 0
   }
 }

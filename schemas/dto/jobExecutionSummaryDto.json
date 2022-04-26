@@ -28,6 +28,10 @@
       "description": "Item processing summary",
       "$ref": "./entityProcessingSummary.json"
     },
+    "authoritySummary": {
+      "description": "Authority processing summary",
+      "$ref": "./entityProcessingSummary.json"
+    },
     "orderSummary": {
       "description": "Order processing summary",
       "$ref": "./entityProcessingSummary.json"
