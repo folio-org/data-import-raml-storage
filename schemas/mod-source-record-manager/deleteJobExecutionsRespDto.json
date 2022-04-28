@@ -9,7 +9,7 @@
       "type": "array",
       "items": {
         "description": "Key Value Pair",
-        "$ref": "../../raml-util/schemas/keyvaluepair.schema"
+        "$ref": "jobexecutionlogdeletionpair.schema"
       }
     }
   }
