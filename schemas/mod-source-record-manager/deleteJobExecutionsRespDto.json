@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Response status of soft delete JobExecution entities",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "job_execution_log_details": {
+      "description": "Details of job execution entities processed for soft deletion",
+      "type": "array",
+      "items": {
+        "description": "Key Value Pair",
+        "$ref": "../../raml-util/schemas/keyvaluepair.schema"
+      }
+    }
+  }
+}
