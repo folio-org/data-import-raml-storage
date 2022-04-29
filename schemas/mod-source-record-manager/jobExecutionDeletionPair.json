@@ -4,11 +4,11 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "job_execution_id": {
+    "jobExecutionId": {
       "description": "Unique identifier",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
-    "is_deleted": {
+    "isDeleted": {
       "description": "JobExecution deletion status",
       "type": "boolean"
     }

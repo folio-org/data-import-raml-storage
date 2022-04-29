@@ -4,12 +4,12 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "job_execution_log_details": {
+    "jobExecutionDetails": {
       "description": "Details of job execution entities processed for soft deletion",
       "type": "array",
       "items": {
-        "description": "Key Value Pair",
-        "$ref": "jobexecutionlogdeletionpair.schema"
+        "description": "Job Execution Deletion Key Value Pair",
+        "$ref": "jobExecutionDeletionPair.json"
       }
     }
   }
