@@ -88,6 +88,10 @@
     "userId": {
       "description": "ID of the user who created the JobExecution",
       "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "isDeleted": {
+      "description": "JobExecution deletion status",
+      "type": "boolean"
     }
   },
   "required": [
