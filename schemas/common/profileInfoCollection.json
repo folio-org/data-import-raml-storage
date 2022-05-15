@@ -7,7 +7,7 @@
     "jobProfilesInfo": {
       "description": "List of related Job Profiles",
       "type": "array",
-      "id": "jobProfileInfoList",
+      "id": "profileInfoList",
       "items": {
         "type": "object",
         "$ref": "profileInfo.json"
@@ -18,6 +18,9 @@
       "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "jobProfilesInfo",
     "totalRecords"
