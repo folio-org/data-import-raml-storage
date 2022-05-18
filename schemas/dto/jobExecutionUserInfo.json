@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Job Execution unique user info",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "userId": {
+      "description": "Unique JobProfile identifier",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "job_user_first_name": {
+      "description": "Job Profile name",
+      "type": "string"
+    },
+    "job_user_last_name": {
+      "description": "Job Profile name",
+      "type": "string"
+    }
+  },
+  "required": [
+    "userId"
+  ]
+}
