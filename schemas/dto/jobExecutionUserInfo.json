@@ -5,15 +5,15 @@
   "additionalProperties": false,
   "properties": {
     "userId": {
-      "description": "Unique JobProfile identifier",
+      "description": "Unique userId identifier",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
-    "job_user_first_name": {
-      "description": "Job Profile name",
+    "jobUserFirstName": {
+      "description": "User first name for jobs.",
       "type": "string"
     },
-    "job_user_last_name": {
-      "description": "Job Profile name",
+    "jobUserLastName": {
+      "description": "User last name for jobs.",
       "type": "string"
     }
   },
