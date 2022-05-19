@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Job Execution unique user info",
+  "javaType": "org.folio.rest.jaxrs.model.JobExecutionUserInfo",
   "type": "object",
   "additionalProperties": false,
   "properties": {
