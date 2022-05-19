@@ -5,7 +5,7 @@
   "additionalProperties": false,
   "properties": {
     "jobExecutionUsersInfo": {
-      "description": "List of Job Execution unique user info",
+      "description": "List of Job Execution unique users info",
       "type": "array",
       "id": "entries",
       "items": {
@@ -21,7 +21,7 @@
     "totalRecords"
   ],
   "required": [
-    "entries",
+    "jobExecutionUsersInfo",
     "totalRecords"
   ]
 }
