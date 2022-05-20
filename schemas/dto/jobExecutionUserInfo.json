@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "userId": {
-      "description": "Unique userId identifier",
+      "description": "Unique user identifier",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "jobUserFirstName": {
