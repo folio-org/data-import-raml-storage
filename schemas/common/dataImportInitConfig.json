@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Payload for data-import initialization",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "jobExecutionId": {
+      "description": "UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "totalRecords": {
+      "description": "Total number of records",
+      "type": "integer"
+    }
+  },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
+  "required": [
+    "jobExecutionId",
+    "totalRecords"
+  ]
+}
