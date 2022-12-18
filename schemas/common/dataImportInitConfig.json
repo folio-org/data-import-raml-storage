@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Job execution log dto schema",
+  "description": "Payload for data-import initialization",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -8,16 +8,16 @@
       "description": "UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
-    "jobExecutionResultLogs": {
-      "description": "Set of action logs",
-      "type": "array",
-      "items": {
-        "$ref": "./actionLog.json"
-      }
+    "totalRecords": {
+      "description": "Total number of records",
+      "type": "integer"
     }
   },
+  "excludedFromEqualsAndHashCode": [
+    "totalRecords"
+  ],
   "required": [
     "jobExecutionId",
-    "actionLogs"
+    "totalRecords"
   ]
 }

@@ -11,6 +11,7 @@
     "RUNNING",
     "RUNNING_COMPLETE",
     "ERROR",
-    "DISCARDED"
+    "DISCARDED",
+    "CANCELLED"
   ]
 }
