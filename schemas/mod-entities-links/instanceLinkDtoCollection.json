@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Collection of instance links",
+  "properties": {
+    "links": {
+      "description": "Collection of instance links",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Unique generated identifier for the link",
+            "type": "integer"
+          },
+          "authorityId": {
+            "description": "ID of the Authority record",
+            "$ref": "../../raml-util/schemas/uuid.schema"
+          },
+          "authorityNaturalId": {
+            "description": "Natural ID of the Authority record",
+            "type": "string"
+          },
+          "instanceId": {
+            "description": "ID of the Instance record",
+            "$ref": "../../raml-util/schemas/uuid.schema"
+          },
+          "bibRecordTag": {
+            "description": "Tag of the bib record field",
+            "type": "string",
+            "pattern": "^[0-9]{3}$"
+          },
+          "bibRecordSubfields": {
+            "description": "Subfields of the bib record field",
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "totalRecords": {
+      "description": "Total amount of links",
+      "type": "integer",
+      "readonly": true
+    }
+  },
+  "required": [
+    "authorityId",
+    "authorityNaturalId",
+    "instanceId",
+    "bibRecordTag",
+    "bibRecordSubfields"
+  ]
+}
