@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "jobId": {
-      "description": "Quick marc authority job id, UUID",
+      "description": "Authority update job id, UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "linkIds": {
