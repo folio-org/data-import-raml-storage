@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "jobId": {
-      "description": "Authority update job id, UUID",
+      "description": "Linked bib update job id, UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "linkIds": {
