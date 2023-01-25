@@ -35,7 +35,8 @@
         "MARC_BIBLIOGRAPHIC",
         "MARC_HOLDINGS",
         "MARC_AUTHORITY",
-        "EDIFACT"
+        "EDIFACT",
+        "PO_LINE"
       ]
     },
     "entityId": {
@@ -47,6 +48,10 @@
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "holdingsId": {
+      "description": "holdings UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "orderId": {
       "description": "holdings UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
