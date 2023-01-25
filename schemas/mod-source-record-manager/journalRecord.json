@@ -52,7 +52,7 @@
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "orderId": {
-      "description": "holdings UUID",
+      "description": "order UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "entityHrId": {
