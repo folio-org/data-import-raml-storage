@@ -57,6 +57,10 @@
       "description": "Status of action performed above order, value MULTIPLE if multiple orders were affected",
       "$ref": "./actionStatus.json"
     },
+    "poLineActionStatus": {
+      "description": "Status of action performed above poLine, value MULTIPLE if multiple poLine were affected",
+      "$ref": "./actionStatus.json"
+    },
     "invoiceActionStatus": {
       "description": "Status of action performed above invoice entity, value MULTIPLE if multiple invoice records were affected",
       "$ref": "./actionStatus.json"

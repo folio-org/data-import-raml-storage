@@ -49,6 +49,10 @@
       "description": "Information about order associated with source record",
       "$ref": "processedEntityInfo.json"
     },
+    "relatedPoLineInfo": {
+      "description": "Information about poLine associated with source record",
+      "$ref": "processedEntityInfo.json"
+    },
     "relatedInvoiceInfo": {
       "description": "Information about invoice associated with source record",
       "$ref": "processedEntityInfo.json"
