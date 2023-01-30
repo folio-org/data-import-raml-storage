@@ -54,7 +54,7 @@
       "$ref": "./actionStatus.json"
     },
     "poLineActionStatus": {
-      "description": "Status of action performed above poLine, value MULTIPLE if multiple poLine were affected",
+      "description": "Status of action performed above poLine",
       "$ref": "./actionStatus.json"
     },
     "invoiceActionStatus": {
