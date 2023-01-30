@@ -36,10 +36,6 @@
       "description": "Order processing summary",
       "$ref": "./entityProcessingSummary.json"
     },
-    "poLineSummary": {
-      "description": "PoLine processing summary",
-      "$ref": "./entityProcessingSummary.json"
-    },
     "invoiceSummary": {
       "description": "Invoice processing summary",
       "$ref": "./entityProcessingSummary.json"
