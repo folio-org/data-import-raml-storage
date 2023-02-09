@@ -33,5 +33,16 @@
     "idList": [
       "ecc0d911-018a-4e60-a791-898ecf74cb3b"
     ]
-  }
+  },
+    "relatedPoLineInfo": {
+        "actionStatus": "DISCARDED",
+        "idList": [
+            "d9f5d3ec-9aaf-493b-88c7-d7a630016673"
+        ],
+        "hridList": [
+            ""
+        ],
+        "error": "",
+        "orderId": ""
+    }
 }
