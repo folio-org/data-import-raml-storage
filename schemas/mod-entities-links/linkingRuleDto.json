@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Field to filed linking rule",
+  "description": "Field to filed linking rule",
+  "properties": {
+    "id": {
+      "description": "Unique generated identifier for the linking rule",
+      "type": "integer"
+    },
+    "bibField": {
+      "type": "string"
+    },
+    "authorityField": {
+      "type": "string"
+    },
+    "authoritySubfields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1
+      }
+    },
+    "subfieldModifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1
+          }
+        }
+      }
+    },
+    "bibRecordTag": {
+      "type": "string"
+    },
+    "bibRecordSubfields": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+        "type": "string"
+      }
+    },
+    "subfieldValidation": {
+      "type": "object",
+      "properties": {
+        "existence": {
+          "type": "array",
+          "description": "Specify if subfield should exist or not",
+          "items": {
+            "type": "string",
+            "additionalProperties": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}
