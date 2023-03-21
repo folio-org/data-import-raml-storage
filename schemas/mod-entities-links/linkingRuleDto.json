@@ -9,13 +9,16 @@
       "type": "integer"
     },
     "bibField": {
-      "type": "string"
+      "type": "string",
+      "description": "Bibliographic field"
     },
     "authorityField": {
-      "type": "string"
+      "type": "string",
+      "description": "Authority field"
     },
     "authoritySubfields": {
       "type": "array",
+      "description": "Authority sub field",
       "items": {
         "type": "string",
         "minLength": 1,
@@ -24,16 +27,19 @@
     },
     "subfieldModifications": {
       "type": "array",
+      "description": "Sub field modifications array",
       "items": {
         "type": "object",
         "properties": {
           "source": {
             "type": "string",
+            "description": "Authority subfield",
             "minLength": 1,
             "maxLength": 1
           },
           "target": {
             "type": "string",
+            "description": "Instance subfield",
             "minLength": 1,
             "maxLength": 1
           }
@@ -41,10 +47,12 @@
       }
     },
     "bibRecordTag": {
-      "type": "string"
+      "type": "string",
+      "description": "Bibliographic record tag"
     },
     "bibRecordSubfields": {
       "type": "array",
+      "description": "Bibliographic record sub fields array",
       "minItems": 1,
       "maxItems": 100,
       "items": {
@@ -53,6 +61,7 @@
     },
     "subfieldValidation": {
       "type": "object",
+      "description": "Sub field validation",
       "properties": {
         "existence": {
           "type": "array",
