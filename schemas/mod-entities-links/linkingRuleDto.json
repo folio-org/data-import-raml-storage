@@ -5,8 +5,8 @@
   "description": "Field to filed linking rule",
   "properties": {
     "id": {
-      "description": "Unique generated identifier for the linking rule",
-      "type": "integer"
+      "type": "integer",
+      "description": "Unique generated identifier for the linking rule"
     },
     "bibField": {
       "type": "string",
