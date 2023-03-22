@@ -41,6 +41,7 @@
   "required": [
     "authorityId",
     "authorityNaturalId",
-    "instanceId"
+    "instanceId",
+    "linkingRuleId"
   ]
 }
