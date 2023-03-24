@@ -49,22 +49,6 @@
     "bibRecordTag": {
       "type": "string",
       "description": "Bibliographic record tag"
-    },
-    "subfieldValidation": {
-      "type": "object",
-      "description": "Sub field validation",
-      "properties": {
-        "existence": {
-          "type": "array",
-          "description": "Specify if subfield should exist or not",
-          "items": {
-            "type": "string",
-            "additionalProperties": {
-              "type": "boolean"
-            }
-          }
-        }
-      }
     }
   }
 }
