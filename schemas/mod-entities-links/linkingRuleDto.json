@@ -50,15 +50,6 @@
       "type": "string",
       "description": "Bibliographic record tag"
     },
-    "bibRecordSubfields": {
-      "type": "array",
-      "description": "Bibliographic record sub fields array",
-      "minItems": 1,
-      "maxItems": 100,
-      "items": {
-        "type": "string"
-      }
-    },
     "subfieldValidation": {
       "type": "object",
       "description": "Sub field validation",
