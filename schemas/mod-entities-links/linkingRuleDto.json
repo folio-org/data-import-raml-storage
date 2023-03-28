@@ -61,10 +61,6 @@
           }
         }
       }
-    },
-    "bibRecordTag": {
-      "type": "string",
-      "description": "Bibliographic record tag"
     }
   }
 }
