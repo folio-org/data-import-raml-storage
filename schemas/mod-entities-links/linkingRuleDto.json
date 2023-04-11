@@ -54,8 +54,7 @@
           "type": "array",
           "description": "Specify if subfield should exist or not",
           "items": {
-            "existingJavaType" : "java.util.Map<String,Boolean>",
-            "type" : "object"
+            "javaType": "java.util.Map<String, Boolean>"
           }
         }
       }
