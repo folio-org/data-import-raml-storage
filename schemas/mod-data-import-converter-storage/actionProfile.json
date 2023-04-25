@@ -86,7 +86,7 @@
       "default": false
     },
     "remove9Subfields": {
-      "description": "Flag indicates that 9 subfield should be removed from all fields for Action Profile",
+      "description": "Flag indicates that 9 subfield should be removed from all linkable MARC bib fields for Action Profile",
       "type": "boolean",
       "default": false
     },
