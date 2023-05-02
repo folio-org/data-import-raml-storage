@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Describes entity to fetch exact fields of parsed records by external IDs",
+  "javaType": "org.folio.rest.jaxrs.model.FetchParsedRecordsBatchRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "conditions": {
+      "description": "Conditions for fetching records by external IDs",
+      "type": "object",
+      "properties": {
+        "idType": {
+          "description": "External id type",
+          "type": "string"
+        },
+        "ids": {
+          "type": "array",
+          "items": {
+            "description": "External id",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "data": {
+      "description": "Array of requested fields",
+      "type": "array",
+      "items": {
+        "description": "Fields range",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "description": "Segment tag to equal",
+            "type": "string"
+          },
+          "from": {
+            "description": "Segment tag to range from",
+            "type": "string"
+          },
+          "to": {
+            "description": "Segment tag to range to",
+            "type": "string"
+          }
+        },
+        "oneOf": [
+          {"required": [ "field" ]},
+          {"anyOf": [
+              {"required": [ "from" ]},
+              {"required": [ "to" ]}
+            ]
+          }
+        ]
+      }
+    },
+    "recordType": {
+      "description": "Type of record, e.g. MARC",
+      "type": "string",
+      "$ref": "../mod-source-record-storage/recordType.json"
+    }
+  },
+  "required": [
+    "conditions",
+    "recordType",
+    "data"
+  ]
+}
