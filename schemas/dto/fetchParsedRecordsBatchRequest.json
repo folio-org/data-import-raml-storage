@@ -26,8 +26,8 @@
       "description": "Array of requested fields",
       "type": "array",
       "items": {
-        "description": "Fields range",
         "type": "object",
+        "description": "Fields to provide",
         "additionalProperties": false,
         "properties": {
           "field": {
@@ -43,14 +43,10 @@
             "type": "string"
           }
         },
-        "oneOf": [
-          {"required": [ "field" ]},
-          {"anyOf": [
-              {"required": [ "from" ]},
-              {"required": [ "to" ]}
-            ]
-          }
-        ]
+        "dependentRequired": {
+          "from": ["to"],
+          "to": ["from"]
+        }
       }
     },
     "recordType": {
