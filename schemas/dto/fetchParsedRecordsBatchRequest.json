@@ -27,13 +27,9 @@
       "type": "array",
       "items": {
         "type": "object",
-        "description": "Fields to provide",
+        "description": "Fields range to provide",
         "additionalProperties": false,
         "properties": {
-          "field": {
-            "description": "Segment tag to equal",
-            "type": "string"
-          },
           "from": {
             "description": "Segment tag to range from",
             "type": "string"
@@ -43,10 +39,7 @@
             "type": "string"
           }
         },
-        "dependentRequired": {
-          "from": ["to"],
-          "to": ["from"]
-        }
+        "required": ["from", "to"]
       }
     },
     "recordType": {
