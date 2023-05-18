@@ -50,7 +50,6 @@
   },
   "required": [
     "conditions",
-    "recordType",
-    "data"
+    "recordType"
   ]
 }
