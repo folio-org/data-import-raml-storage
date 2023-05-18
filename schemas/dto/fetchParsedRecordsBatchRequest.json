@@ -27,7 +27,8 @@
       "type": "array",
       "items": {
         "type": "object",
-        "description": "Fields range to provide",
+        "javaType": "org.folio.rest.jaxrs.model.FieldRange",
+        "description": "Field range to provide",
         "additionalProperties": false,
         "properties": {
           "from": {
