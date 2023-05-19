@@ -15,6 +15,7 @@
         },
         "ids": {
           "type": "array",
+          "description": "List of external ids",
           "items": {
             "description": "External id",
             "type": "string"
