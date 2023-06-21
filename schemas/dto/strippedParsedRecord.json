@@ -24,6 +24,7 @@
       "type": "string",
       "enum": [
         "ACTUAL",
+        "OLD",
         "IN_PROGRESS",
         "ERROR"
       ],
