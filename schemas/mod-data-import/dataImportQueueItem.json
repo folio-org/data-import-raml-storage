@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "File Extension Schema",
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "Unique identifier",
+        "$ref": "../../raml-util/schemas/uuid.schema"
+      },
+      "jobExecutionId": {
+        "description": "job execution Id",
+        "$ref": "../../raml-util/schemas/uuid.schema"
+      },
+      "uploadDefinitionId": {
+        "description": "upload Definition Id",
+        "$ref": "../../raml-util/schemas/uuid.schema"
+      },
+      "size": {
+        "description": "Size of the file",
+        "type": "integer"
+      },
+      "originalSize": {
+        "description": "original size of the file",
+        "type": "integer"
+      },
+      "filePath": {
+        "description": "location of the file in storage",
+        "type": "string"
+      },
+      "timestamp": {
+        "description": "time that the object was created",
+        "type": "string"
+      }
+    },
+    "required": [
+      "jobExecutionId",
+      "uploadDefinitionId",
+      "size",
+      "originalSize",
+      "filePath",
+      "timestamp"
+
+    ]
+  }
