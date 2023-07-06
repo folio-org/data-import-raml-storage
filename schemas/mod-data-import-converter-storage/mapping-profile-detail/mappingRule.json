@@ -13,6 +13,11 @@
       "description": "Indicates whether field should be mapped and be available on UI",
       "type": "string"
     },
+    "required": {
+      "description": "Indicates whether field is required and should be validated",
+      "type": "boolean",
+      "default": false
+    },
     "path": {
       "description": "JSON path to set mapped value",
       "type": "string"

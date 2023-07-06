@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Collection of instance links",
+  "properties": {
+    "links": {
+      "description": "Collection of instance links",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Unique generated identifier for the link",
+            "type": "integer"
+          },
+          "authorityId": {
+            "description": "ID of the Authority record",
+            "$ref": "../../raml-util/schemas/uuid.schema"
+          },
+          "authorityNaturalId": {
+            "description": "Natural ID of the Authority record",
+            "type": "string"
+          },
+          "instanceId": {
+            "description": "ID of the Instance record",
+            "$ref": "../../raml-util/schemas/uuid.schema"
+          },
+          "linkingRuleId": {
+            "description": "ID of a Linking Rule",
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "totalRecords": {
+      "description": "Total amount of links",
+      "type": "integer",
+      "readonly": true
+    }
+  },
+  "required": [
+    "authorityId",
+    "authorityNaturalId",
+    "instanceId",
+    "linkingRuleId"
+  ]
+}
