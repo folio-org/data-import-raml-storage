@@ -21,7 +21,7 @@
         "type": "integer"
       },
       "originalSize": {
-        "description": "original size of the file",
+        "description": "size of the parent file if it exists",
         "type": "integer"
       },
       "filePath": {
