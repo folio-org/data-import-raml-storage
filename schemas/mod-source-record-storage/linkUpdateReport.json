@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Link update report",
+  "type": "object",
+  "properties": {
+    "jobId": {
+      "description": "Linked bib update job id, UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "instanceId": {
+      "description": "Instance id, UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "linkIds": {
+      "description": "All bib-related link ids",
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "failCause": {
+      "description": "Marc bib record",
+      "type": "string"
+    },
+    "status": {
+      "description": "Link update status",
+      "type": "string",
+      "enum": [
+        "SUCCESS",
+        "FAIL"
+      ]
+    },
+    "tenant": {
+      "description": "Tenant id",
+      "type": "string"
+    },
+    "ts": {
+      "description": "Timestamp",
+      "type": "string"
+    }
+  }
+}

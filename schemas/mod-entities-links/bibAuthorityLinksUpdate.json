@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Links event body",
+  "properties": {
+    "jobId": {
+      "description": "Links update job ID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "authorityId": {
+      "description": "Authority ID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "type": {
+      "description": "Event operation type",
+      "type": "string",
+      "enum": [
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    "updateTargets": {
+      "description": "MARC Bibs' related instance IDs that are required change grouped by MARC Bib's linked field",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "description": "MARC Bib's field that required change",
+            "type": "string"
+          },
+          "links": {
+            "description": "Authority to instance links",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "linkId": {
+                  "description": "Link ID",
+                  "type": "integer"
+                },
+                "instanceId": {
+                  "description": "Instance ID",
+                  "$ref": "../../raml-util/schemas/uuid.schema"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "subfieldsChanges": {
+      "description": "Subfields to change in MARC bib fields",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "description": "MARC bib field",
+            "type": "string"
+          },
+          "subfields": {
+            "description": "MARC bib field's subfield that should be changed",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "description": "Subfield code",
+                  "type": "string"
+                },
+                "value": {
+                  "description": "Subfield value. If empty - then remove",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tenant": {
+      "description": "Tenant id",
+      "type": "string"
+    },
+    "ts": {
+      "description": "Timestamp",
+      "type": "string"
+    }
+  }
+}

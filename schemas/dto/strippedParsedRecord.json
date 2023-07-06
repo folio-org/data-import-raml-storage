@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Stripped parsed record DTO Schema",
+  "javaType": "org.folio.rest.jaxrs.model.StrippedParsedRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "externalIdsHolder": {
+      "description": "Container for identifiers of external entities",
+      "type": "object",
+      "$ref": "../common/externalIdsHolder.json"
+    },
+    "recordType": {
+      "description": "Type of record, e.g. MARC",
+      "type": "string",
+      "$ref": "../mod-source-record-storage/recordType.json"
+    },
+    "recordState": {
+      "description": "State of source record in QM workflow",
+      "type": "string",
+      "enum": [
+        "ACTUAL",
+        "OLD",
+        "IN_PROGRESS",
+        "ERROR"
+      ],
+      "default": "ACTUAL"
+    },
+    "parsedRecord": {
+      "description": "Parsed record",
+      "type": "object",
+      "$ref": "../mod-source-record-storage/parsedRecord.json"
+    }
+  },
+  "required": [
+    "id",
+    "recordType",
+    "parsedRecord"
+  ]
+}
