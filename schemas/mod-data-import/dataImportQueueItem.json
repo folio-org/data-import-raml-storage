@@ -17,11 +17,11 @@
         "$ref": "../../raml-util/schemas/uuid.schema"
       },
       "size": {
-        "description": "Size of the file",
+        "description": "Size of the file in records",
         "type": "integer"
       },
       "originalSize": {
-        "description": "size of the parent file if it exists",
+        "description": "size of the parent file if it exists in records",
         "type": "integer"
       },
       "filePath": {
