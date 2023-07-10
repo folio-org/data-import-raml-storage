@@ -16,6 +16,7 @@
     "ITEM",
     "ORDER",
     "INVOICE",
-    "STATIC_VALUE"
+    "STATIC_VALUE",
+    "PO_LINE"
   ]
 }

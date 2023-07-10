@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Marc bib update event, caused by linked authority update, schema",
+  "type": "object",
+  "properties": {
+    "jobId": {
+      "description": "Linked bib update job id, UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "linkIds": {
+      "description": "All bib-related link ids",
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "record": {
+      "description": "Marc bib record",
+      "$ref": "../dto/record.json"
+    },
+    "type": {
+      "description": "Marc bib event type",
+      "type": "string",
+      "enum": [
+        "UPDATE"
+      ]
+    },
+    "tenant": {
+      "description": "Tenant id",
+      "type": "string"
+    },
+    "ts": {
+      "description": "Timestamp",
+      "type": "string"
+    }
+  }
+}
