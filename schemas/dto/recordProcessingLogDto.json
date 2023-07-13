@@ -35,11 +35,17 @@
     },
     "relatedHoldingsInfo": {
       "description": "Information about holdings associated with source record",
-      "$ref": "processedEntityInfo.json"
+      "type": "array",
+      "items": {
+        "$ref": "processedHoldingsInfo.json"
+      }
     },
     "relatedItemInfo": {
       "description": "Information about item associated with source record",
-      "$ref": "processedEntityInfo.json"
+      "type": "array",
+      "items": {
+        "$ref": "processedItemInfo.json"
+      }
     },
     "relatedAuthorityInfo": {
       "description": "Information about authority associated with source record",

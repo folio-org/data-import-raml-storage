@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Information about affected holdings by data import process",
+  "javaType": "org.folio.rest.jaxrs.model.ProcessedHoldingsInfo",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "actionStatus": {
+      "description": "Status of action performed above folio entity",
+      "$ref": "./actionStatus.json"
+    },
+    "id": {
+      "description": "UUID of the entity affected during data import process",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "hrid": {
+      "description": "Human readable id of the entity affected during data import process",
+      "type": "string"
+    },
+    "permanentLocationId": {
+      "description": "Holdings permanent location",
+      "type": "string"
+    },
+    "error": {
+      "description": "Error message",
+      "type": "string"
+    }
+  }
+}

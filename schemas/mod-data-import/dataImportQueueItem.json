@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "File Extension Schema",
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "jobExecutionId": {
+      "description": "job execution Id",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "uploadDefinitionId": {
+      "description": "upload Definition Id",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "tenant": {
+      "description": "The tenant which this chunk and job belong to",
+      "type": "string"
+    },
+    "size": {
+      "description": "Size of the file",
+      "type": "integer"
+    },
+    "originalSize": {
+      "description": "size of the parent file if it exists",
+      "type": "integer"
+    },
+    "filePath": {
+      "description": "location of the file in storage",
+      "type": "string"
+    },
+    "timestamp": {
+      "description": "time that the object was created",
+      "type": "string"
+    },
+    "partNumber": {
+      "description": "the sequential number of the part, starting at 1",
+      "type": "integer",
+      "minimum": 1
+    },
+    "processing": {
+      "description": "if this chunk is currently being processed (if false, this chunk is waiting to be processed)",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "jobExecutionId",
+    "uploadDefinitionId",
+    "tenant",
+    "size",
+    "originalSize",
+    "filePath",
+    "timestamp",
+    "partNumber",
+    "processing"
+  ]
+}
