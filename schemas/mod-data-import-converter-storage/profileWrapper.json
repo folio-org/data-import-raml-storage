@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "This schema represents wrapper of profile",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "Unique identifier",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "profileType": {
+      "description": "Type of profile",
+      "$ref": "profileType.json"
+    },
+    "profileId": {
+      "description": "Unique identifier of the profile",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    }
+  },
+  "required": [
+    "profileId"
+  ]
+}

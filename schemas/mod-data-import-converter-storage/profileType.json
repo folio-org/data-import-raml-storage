@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Enum of profile types",
+  "javaType": "org.folio.rest.jaxrs.model.ProfileType",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "ACTION_PROFILE",
+    "MAPPING_PROFILE",
+    "MATCH_PROFILE",
+    "JOB_PROFILE"
+  ]
+}
