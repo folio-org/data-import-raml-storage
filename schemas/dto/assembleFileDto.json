@@ -1,0 +1,28 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Request to assemble parts of a file into the result",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"tags": {
+			"description": "Information about files to upload",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"key": {
+			"description": "Storage key for the object",
+			"type": "string"
+		},
+		"uploadId": {
+			"description": "ID of the upload info object",
+			"$ref": "../../raml-util/schemas/uuid.schema"
+		}
+	},
+	"required": [
+		"tags",
+		"key",
+		"uploadId"
+	]
+}
