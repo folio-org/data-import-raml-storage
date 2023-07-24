@@ -17,7 +17,7 @@
 		},
 		"uploadId": {
 			"description": "ID of the upload info object",
-			"$ref": "../../raml-util/schemas/uuid.schema"
+			"type": "string"
 		}
 	},
 	"required": [
