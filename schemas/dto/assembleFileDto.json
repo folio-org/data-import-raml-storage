@@ -16,7 +16,7 @@
 			"type": "string"
 		},
 		"uploadId": {
-			"description": "ID of the upload info object",
+			"description": "ID of the upload taken from /data-import/uploadUrl",
 			"type": "string"
 		}
 	},
