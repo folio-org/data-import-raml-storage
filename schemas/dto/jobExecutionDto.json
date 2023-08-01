@@ -97,6 +97,10 @@
       "description": "The total number of chunk jobs for COMPOSITE jobs",
       "type": "integer",
       "default": 1
+    },
+    "compositeDetails": {
+      "description": "",
+      "$ref": "JobExecutionCompositeDetailsDto.json"
     }
   },
   "required": [

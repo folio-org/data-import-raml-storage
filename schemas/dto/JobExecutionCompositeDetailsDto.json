@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.JobExecutionCompositeDetailsDto",
+  "properties": {
+    "newState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "fileUploadedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "parsingInProgressState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "parsingFinishedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "processingInProgressState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "processingFinishedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "commitInProgressState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "committedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "errorState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "discardedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    },
+    "cancelledState": {
+      "$ref": "JobExecutionCompositeDetailDto.json"
+    }
+  }
+}

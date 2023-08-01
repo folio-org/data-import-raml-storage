@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.JobExecutionCompositeDetailDto",
+  "properties": {
+    "chunksCount": {
+      "type": "integer"
+    },
+    "totalRecordsCount": {
+      "type": "integer"
+    },
+    "currentlyProcessedCount": {
+      "type": "integer"
+    }
+  }
+}
