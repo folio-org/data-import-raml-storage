@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "This schema represents m2m association between profiles. One kind of 'master' profiles can be associated to another kind of 'detail' profiles",
+  "description": "This schema represents m2m association between profiles. One kind of 'master' profiles wrapper can be associated to another kind of 'detail' profiles wrapper",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -8,12 +8,12 @@
       "description": "Unique identifier",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
-    "masterProfileId": {
-      "description": "Unique identifier of the 'master' profile",
+    "masterWrapperId": {
+      "description": "Unique identifier of the 'master' profile wrapper",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
-    "detailProfileId": {
-      "description": "Unique identifier of the 'detail' profile",
+    "detailWrapperId": {
+      "description": "Unique identifier of the 'detail' profile wrapper",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "order": {
@@ -35,16 +35,8 @@
       "$ref": "profileType.json"
     },
     "detailProfileType": {
-      "description": "Type of detail profile",
+      "description": "Type of master profile",
       "$ref": "profileType.json"
-    },
-    "masterWrapperId": {
-      "description": "Unique identifier of the 'master' wrapper profile",
-      "$ref": "../../raml-util/schemas/uuid.schema"
-    },
-    "detailWrapperId": {
-      "description": "Unique identifier of the 'detail' wrapper profile",
-      "$ref": "../../raml-util/schemas/uuid.schema"
     },
     "jobProfileId": {
       "description": "Unique identifier of the job profile, it is used to distinguish associations when building a snapshot tree for particular job profile",
