@@ -20,12 +20,8 @@
       "description": "The tenant which this chunk and job belong to",
       "type": "string"
     },
-    "size": {
-      "description": "Size of the file",
-      "type": "integer"
-    },
     "originalSize": {
-      "description": "size of the parent file if it exists",
+      "description": "size of the original/parent file, in records",
       "type": "integer"
     },
     "filePath": {
