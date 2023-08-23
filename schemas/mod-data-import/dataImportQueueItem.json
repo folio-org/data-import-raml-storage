@@ -16,6 +16,10 @@
       "description": "upload Definition Id",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
+    "jobProfileId": {
+      "description": "the ID of the job profile being used to process this queue item",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
     "tenant": {
       "description": "The tenant which this chunk and job belong to",
       "type": "string"
