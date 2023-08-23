@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Enum of reactTo types",
+  "javaType": "org.folio.rest.jaxrs.model.ReactToType",
+  "type": "string",
+  "additionalProperties": false,
+  "enum": [
+    "MATCH",
+    "NON_MATCH"
+  ]
+}
