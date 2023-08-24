@@ -30,7 +30,8 @@
     },
     "timestamp": {
       "description": "time that the object was created",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "partNumber": {
       "description": "the sequential number of the part, starting at 1",
