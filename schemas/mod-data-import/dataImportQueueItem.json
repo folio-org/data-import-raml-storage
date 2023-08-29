@@ -45,6 +45,10 @@
     "okapiUrl": {
       "description": "The Okapi URL originally provided in the x-okapi-url header",
       "type": "string"
+    },
+    "dataType": {
+      "description": "The dataType from the original job profile, e.g. MARC",
+      "type": "string"
     }
   },
   "required": [
@@ -57,6 +61,7 @@
     "timestamp",
     "partNumber",
     "processing",
-    "okapiUrl"
+    "okapiUrl",
+    "dataType"
   ]
 }
