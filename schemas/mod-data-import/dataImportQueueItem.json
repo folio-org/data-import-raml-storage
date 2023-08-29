@@ -41,6 +41,10 @@
     "processing": {
       "description": "if this chunk is currently being processed (if false, this chunk is waiting to be processed)",
       "type": "boolean"
+    },
+    "okapiUrl": {
+      "description": "The Okapi URL originally provided in the x-okapi-url header",
+      "type": "string"
     }
   },
   "required": [
@@ -52,6 +56,7 @@
     "filePath",
     "timestamp",
     "partNumber",
-    "processing"
+    "processing",
+    "okapiUrl"
   ]
 }
