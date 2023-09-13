@@ -102,7 +102,7 @@
       "description": "",
       "$ref": "JobExecutionCompositeDetailsDto.json"
     },
-    "totalRecords": {
+    "totalRecordsInFile": {
       "description": "The total number of records in the source file for COMPOSITE_PARENT jobs",
       "type": "integer",
       "default": 0
