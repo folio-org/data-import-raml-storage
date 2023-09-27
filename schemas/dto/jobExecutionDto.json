@@ -99,6 +99,7 @@
       "default": 1
     },
     "compositeDetails": {
+      "description": "The statuses of this execution's children; applicable only for COMPOSITE_PARENT jobs",
       "$ref": "JobExecutionCompositeDetailsDto.json"
     },
     "totalRecordsInFile": {

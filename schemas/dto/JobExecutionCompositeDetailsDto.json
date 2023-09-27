@@ -5,37 +5,48 @@
   "javaType": "org.folio.rest.jaxrs.model.JobExecutionCompositeDetailsDto",
   "properties": {
     "newState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status NEW"
     },
     "fileUploadedState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status FILE_UPLOADED"
     },
     "parsingInProgressState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PARSING_IN_PROGRESS"
     },
     "parsingFinishedState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PARSING_FINISHED"
     },
     "processingInProgressState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PROCESSING_IN_PROGRESS"
     },
     "processingFinishedState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PROCESSING_FINISHED"
     },
     "commitInProgressState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status COMMIT_IN_PROGRESS"
     },
     "committedState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status COMMITTED"
     },
     "errorState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status ERROR"
     },
     "discardedState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status DISCARDED"
     },
     "cancelledState": {
-      "$ref": "JobExecutionCompositeDetailDto.json"
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status CANCELLED"
     }
   }
 }
