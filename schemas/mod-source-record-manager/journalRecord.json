@@ -55,6 +55,10 @@
       "description": "order UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
+    "permanentLocationId": {
+      "description": "permanent location UUID inside Holdings entity",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
     "entityHrId": {
       "description": "Entity human readable id",
       "type": "string"
