@@ -99,7 +99,6 @@
       "default": 1
     },
     "compositeDetails": {
-      "description": "",
       "$ref": "JobExecutionCompositeDetailsDto.json"
     },
     "totalRecordsInFile": {
@@ -116,9 +115,5 @@
     "uiStatus",
     "userId"
   ],
-  "excludedFromEqualsAndHashCode": [
-    "hrId",
-    "progress",
-    "runBy"
-  ]
+  "excludedFromEqualsAndHashCode": ["hrId", "progress", "runBy"]
 }

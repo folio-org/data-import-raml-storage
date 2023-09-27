@@ -1,17 +1,20 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "",
+  "description": "How many composite children (chunks) are in each state, how many records these chunks represent, and those records' status.",
   "type": "object",
   "javaType": "org.folio.rest.jaxrs.model.JobExecutionCompositeDetailDto",
   "properties": {
     "chunksCount": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Number of chunks in this state"
     },
     "totalRecordsCount": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Number of total records in this state"
     },
     "currentlyProcessedCount": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Number of processed records in this state"
     }
   }
 }

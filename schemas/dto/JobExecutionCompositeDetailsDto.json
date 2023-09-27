@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "",
+  "description": "An enumeration of how many composite children a job execution has in each state. Only applicable for COMPOSITE_PARENT jobs.",
   "type": "object",
   "javaType": "org.folio.rest.jaxrs.model.JobExecutionCompositeDetailsDto",
   "properties": {
