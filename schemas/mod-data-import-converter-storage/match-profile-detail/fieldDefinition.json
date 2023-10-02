@@ -10,7 +10,8 @@
     },
     "value": {
       "description": "Field or subfield name in record",
-      "type": "string"
+      "type": "string",
+      "default": ""
     }
   },
   "required": [
