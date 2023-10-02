@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "An enumeration of how many composite children a job execution has in each state. Only applicable for COMPOSITE_PARENT jobs.",
+  "type": "object",
+  "javaType": "org.folio.rest.jaxrs.model.JobExecutionCompositeDetailsDto",
+  "properties": {
+    "newState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status NEW"
+    },
+    "fileUploadedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status FILE_UPLOADED"
+    },
+    "parsingInProgressState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PARSING_IN_PROGRESS"
+    },
+    "parsingFinishedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PARSING_FINISHED"
+    },
+    "processingInProgressState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PROCESSING_IN_PROGRESS"
+    },
+    "processingFinishedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status PROCESSING_FINISHED"
+    },
+    "commitInProgressState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status COMMIT_IN_PROGRESS"
+    },
+    "committedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status COMMITTED"
+    },
+    "errorState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status ERROR"
+    },
+    "discardedState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status DISCARDED"
+    },
+    "cancelledState": {
+      "$ref": "JobExecutionCompositeDetailDto.json",
+      "description": "The number of children with status CANCELLED"
+    }
+  }
+}

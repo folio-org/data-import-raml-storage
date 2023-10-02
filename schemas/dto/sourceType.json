@@ -5,6 +5,7 @@
   "additionalProperties": false,
   "enum": [
     "FILES",
-    "ONLINE"
+    "ONLINE",
+    "COMPOSITE"
   ]
 }

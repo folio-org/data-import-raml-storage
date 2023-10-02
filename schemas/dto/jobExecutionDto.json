@@ -22,7 +22,9 @@
       "enum": [
         "CHILD",
         "PARENT_SINGLE",
-        "PARENT_MULTIPLE"
+        "PARENT_MULTIPLE",
+        "COMPOSITE_PARENT",
+        "COMPOSITE_CHILD"
       ]
     },
     "jobProfileInfo": {
@@ -85,6 +87,25 @@
     "userId": {
       "description": "ID of the user who created the JobExecution",
       "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "jobPartNumber": {
+      "description": "The order number of the chunk job for COMPOSITE jobs",
+      "type": "integer",
+      "default": 1
+    },
+    "totalJobParts": {
+      "description": "The total number of chunk jobs for COMPOSITE jobs",
+      "type": "integer",
+      "default": 1
+    },
+    "compositeDetails": {
+      "description": "The statuses of this execution's children; applicable only for COMPOSITE_PARENT jobs",
+      "$ref": "JobExecutionCompositeDetailsDto.json"
+    },
+    "totalRecordsInFile": {
+      "description": "The total number of records in the source file for COMPOSITE_PARENT jobs",
+      "type": "integer",
+      "default": 0
     }
   },
   "required": [
@@ -95,9 +116,5 @@
     "uiStatus",
     "userId"
   ],
-  "excludedFromEqualsAndHashCode": [
-    "hrId",
-    "progress",
-    "runBy"
-  ]
+  "excludedFromEqualsAndHashCode": ["hrId", "progress", "runBy"]
 }

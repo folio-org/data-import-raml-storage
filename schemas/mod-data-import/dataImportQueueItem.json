@@ -20,12 +20,8 @@
       "description": "The tenant which this chunk and job belong to",
       "type": "string"
     },
-    "size": {
-      "description": "Size of the file",
-      "type": "integer"
-    },
     "originalSize": {
-      "description": "size of the parent file if it exists",
+      "description": "size of the original/parent file, in records",
       "type": "integer"
     },
     "filePath": {
@@ -34,7 +30,8 @@
     },
     "timestamp": {
       "description": "time that the object was created",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "partNumber": {
       "description": "the sequential number of the part, starting at 1",
@@ -44,6 +41,14 @@
     "processing": {
       "description": "if this chunk is currently being processed (if false, this chunk is waiting to be processed)",
       "type": "boolean"
+    },
+    "okapiUrl": {
+      "description": "The Okapi URL originally provided in the x-okapi-url header",
+      "type": "string"
+    },
+    "dataType": {
+      "description": "The dataType from the original job profile, e.g. MARC",
+      "type": "string"
     }
   },
   "required": [
@@ -55,6 +60,8 @@
     "filePath",
     "timestamp",
     "partNumber",
-    "processing"
+    "processing",
+    "okapiUrl",
+    "dataType"
   ]
 }
