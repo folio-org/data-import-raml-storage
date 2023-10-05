@@ -77,7 +77,7 @@
       ]
     },
     "actionStatus": {
-      "description": "Type of action",
+      "description": "Status of action",
       "type": "string",
       "enum": [
         "COMPLETED",
@@ -96,6 +96,10 @@
       "description": "Date and time when action was performed during record processing",
       "type": "string",
       "format": "date-time"
+    },
+    "tenantId": {
+      "description": "Id of tenant in which action was performed over entity. Mostly used to save the Id of the central tenant in which the record/entity was updated by data import on member tenant",
+      "type": "string"
     }
   },
   "required": [
