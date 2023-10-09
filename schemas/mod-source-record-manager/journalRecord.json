@@ -98,7 +98,7 @@
       "format": "date-time"
     },
     "tenantId": {
-      "description": "Id of tenant in which action was performed over entity. Mostly used to save the Id of the central tenant in which the record/entity was updated by data import on member tenant",
+      "description": "Id of tenant in which action was performed over entity. Mostly used to save the Id of the central tenant in which the record/entity was updated by data import initiated on member tenant",
       "type": "string"
     }
   },

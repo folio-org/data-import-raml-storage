@@ -29,6 +29,10 @@
       "description": "Error message",
       "type": "string"
     },
+    "sourceRecordTenantId": {
+      "description": "Error message",
+      "type": "string"
+    },
     "relatedInstanceInfo": {
       "description": "Information about instance associated with source record",
       "$ref": "processedEntityInfo.json"
