@@ -30,7 +30,7 @@
       "type": "string"
     },
     "sourceRecordTenantId": {
-      "description": "Error message",
+      "description": "Id of tenant in which action was performed over record",
       "type": "string"
     },
     "relatedInstanceInfo": {
