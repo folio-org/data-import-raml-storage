@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Incoming Record Data Model",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "UUID",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "jobExecutionId": {
+      "description": "Job execution id",
+      "$ref": "../../raml-util/schemas/uuid.schema"
+    },
+    "recordType": {
+      "description": "Type of record, e.g. MARC",
+      "type": "string",
+      "$ref": "../mod-source-record-storage/recordType.json"
+    },
+    "order": {
+      "description": "Order of the record in imported file",
+      "type": "integer",
+      "minimum": 0
+    },
+    "rawRecordContent": {
+      "description": "Raw record content",
+      "type": "string"
+    },
+    "parsedRecordContent": {
+      "description": "Parsed record content",
+      "type": "string"
+    }
+  },
+  "required": [
+    "jobExecutionId",
+    "recordType",
+    "rawRecordContent",
+    "parsedRecordContent"
+  ]
+}
