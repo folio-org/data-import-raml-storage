@@ -49,6 +49,10 @@
     "dataType": {
       "description": "The dataType from the original job profile, e.g. MARC",
       "type": "string"
+    },
+    "okapiToken": {
+      "description": "The original module-level permission token granted by Okapi for the originating user",
+      "$ref": "../../raml-util/schemas/uuid.schema"
     }
   },
   "required": [
@@ -62,6 +66,7 @@
     "partNumber",
     "processing",
     "okapiUrl",
-    "dataType"
+    "dataType",
+    "okapiToken"
   ]
 }
