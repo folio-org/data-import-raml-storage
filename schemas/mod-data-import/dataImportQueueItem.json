@@ -52,7 +52,7 @@
     },
     "okapiToken": {
       "description": "The original module-level permission token granted by Okapi for the originating user",
-      "$ref": "../../raml-util/schemas/uuid.schema"
+      "type": "string"
     }
   },
   "required": [
