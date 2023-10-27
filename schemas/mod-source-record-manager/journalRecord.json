@@ -73,7 +73,8 @@
         "DELETE",
         "MODIFY",
         "MATCH",
-        "NON_MATCH"
+        "NON_MATCH",
+        "PARSE"
       ]
     },
     "actionStatus": {
