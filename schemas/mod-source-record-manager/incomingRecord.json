@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Incoming Record Data Model",
+  "javaType": "org.folio.rest.jaxrs.model.IncomingRecord",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -27,14 +28,7 @@
       "type": "string"
     },
     "parsedRecordContent": {
-      "description": "Parsed record content",
-      "type": "string"
+      "description": "Parsed record content"
     }
-  },
-  "required": [
-    "jobExecutionId",
-    "recordType",
-    "rawRecordContent",
-    "parsedRecordContent"
-  ]
+  }
 }
