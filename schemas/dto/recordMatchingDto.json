@@ -97,13 +97,13 @@
       ]
     },
     "limit": {
-      "description": "Part of a value to compare",
+      "description": "Limitation of the number of elements returned in the response",
       "type": "integer",
       "minimum": 1,
       "default": 1000
     },
     "offset": {
-      "description": "Part of a value to compare",
+      "description": "Offset to skip over a number of elements",
       "type": "integer",
       "minimum": 0,
       "default": 0
