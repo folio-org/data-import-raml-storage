@@ -37,12 +37,12 @@
           "indicator1": {
             "description": "MARC field indicator1 to match. Value can be a lowercase alphabetic, numeric, blank, or * meaning a wildcard",
             "type": "string",
-            "pattern": "^[a-z0-9|\\s|*]?$"
+            "pattern": "^[a-z0-9\\s*]?$"
           },
           "indicator2": {
             "description": "MARC field indicator2 to match. Value can be a lowercase alphabetic, numeric, blank, or * meaning a wildcard",
             "type": "string",
-            "pattern": "^[a-z0-9|\\s|*]?$"
+            "pattern": "^[a-z0-9\\s*]?$"
           },
           "subfield": {
             "description": "MARC subfield to match, allowed value can be ASCII lowercase alphabetic or numeric character",

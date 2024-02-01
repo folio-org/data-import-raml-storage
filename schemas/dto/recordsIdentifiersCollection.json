@@ -4,12 +4,13 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "identifiersPairs": {
+    "identifiers": {
       "description": "List of pairs of records identifiers",
       "type": "array",
       "items": {
         "additionalProperties": false,
         "type": "object",
+        "javaType": "org.folio.rest.jaxrs.model.RecordIdentifiersDto",
         "properties": {
           "recordId": {
             "description": "MARC record UUID",
