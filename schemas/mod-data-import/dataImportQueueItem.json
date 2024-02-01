@@ -49,6 +49,14 @@
     "dataType": {
       "description": "The dataType from the original job profile, e.g. MARC",
       "type": "string"
+    },
+    "okapiToken": {
+      "description": "The original module-level permission token granted by Okapi for the originating user",
+      "type": "string"
+    },
+    "okapiPermissions": {
+      "description": "The original module-level x-okapi-permission header, as provided by Okapi",
+      "type": "string"
     }
   },
   "required": [
@@ -62,6 +70,8 @@
     "partNumber",
     "processing",
     "okapiUrl",
-    "dataType"
+    "dataType",
+    "okapiToken",
+    "okapiPermissions"
   ]
 }

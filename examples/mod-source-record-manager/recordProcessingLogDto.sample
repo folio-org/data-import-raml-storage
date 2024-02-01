@@ -4,6 +4,7 @@
   "sourceRecordOrder": 0,
   "sourceRecordTitle": "Burn it down",
   "sourceRecordActionStatus": "CREATED",
+  "sourceRecordTenantId": "mobius",
   "relatedInstanceInfo": {
     "actionStatus": "UPDATED",
     "idList": [

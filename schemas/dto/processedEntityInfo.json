@@ -26,6 +26,10 @@
     "error": {
       "description": "Error message",
       "type": "string"
+    },
+    "tenantId": {
+      "description": "Id of tenant in which action was performed over entity",
+      "type": "string"
     }
   }
 }
