@@ -107,6 +107,11 @@
       "type": "integer",
       "minimum": 0,
       "default": 0
+    },
+    "returnTotalRecordsCount": {
+      "description": "Indicates whether it is needed to return total count of records matching the specified filters",
+      "type": "boolean",
+      "default": true
     }
   },
   "required": [
