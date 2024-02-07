@@ -1,0 +1,29 @@
+{
+  "logicalOperator": "AND",
+  "recordType": "MARC_BIB",
+  "filters": [
+    {
+      "values": [
+        "(OCoLC)on1000535936",
+        "oclc1234567"
+      ],
+      "field": "035",
+      "indicator1": "",
+      "indicator2": "*",
+      "subfield": "a",
+      "matchType": "EXACTLY_MATCHES"
+    },
+    {
+      "values": [
+        "biology"
+      ],
+      "field": "650",
+      "indicator1": "",
+      "indicator2": "",
+      "subfield": "a",
+      "matchType": "EXACTLY_MATCHES"
+    }
+  ],
+  "limit": 5,
+  "offset": 0
+}
