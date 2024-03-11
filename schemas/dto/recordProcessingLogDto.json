@@ -9,7 +9,7 @@
       "description": "UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
-    "incomingRecordId ": {
+    "incomingRecordId": {
       "description": "Incoming record identifier, UUID",
       "$ref": "../../raml-util/schemas/uuid.schema"
     },
