@@ -17,8 +17,7 @@
     "suppressFromDiscovery": {
       "id": "suppressFromDiscovery",
       "description": "Flag to search by the records that are suppressed from discovery",
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "deleted": {
       "id": "deleted",
