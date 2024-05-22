@@ -25,6 +25,9 @@
       "description": "Non-match also used when there is no match profile in the job",
       "$ref": "reactToType.json"
     },
+    "detail": {
+      "description": "Detail profile content (plain Object)"
+    },
     "triggered": {
       "description": "Boolean flag identifies if the 'detail' profile has triggered by the 'master' profile",
       "type": "boolean",

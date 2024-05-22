@@ -19,16 +19,11 @@
     },
     "contentType": {
       "description": "Type of the content",
-      "type": "string",
-      "$ref": "profileSnapshotType.json"
+      "$ref": "profileType.json"
     },
     "reactTo": {
       "description": "Non-match also used when there is no match profile in the job",
-      "type": "string",
-      "enum": [
-        "MATCH",
-        "NON_MATCH"
-      ]
+      "$ref": "reactToType.json"
     },
     "content": {
       "description": "Profile content (plain Object)"
