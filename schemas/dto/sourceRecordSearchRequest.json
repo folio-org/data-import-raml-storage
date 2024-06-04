@@ -22,8 +22,7 @@
     "deleted": {
       "id": "deleted",
       "description": "Flag to search by deleted records",
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "offset": {
       "id": "offset",
