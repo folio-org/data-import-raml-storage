@@ -72,6 +72,10 @@
               "CONTAINS"
             ]
           },
+          "qualifierValue": {
+            "description": "Value for the qualifier",
+            "type": "string"
+          },
           "comparisonPartType": {
             "description": "Part of a value to compare",
             "type": "string",
