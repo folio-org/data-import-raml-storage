@@ -13,7 +13,6 @@
     "reactTo": "NON-MATCH",
     "action": "CREATE",
     "folioRecord": "INSTANCE",
-    "deleted": false,
     "userInfo": {
       "firstName": "DIKU",
       "lastName": "ADMINISTRATOR",
