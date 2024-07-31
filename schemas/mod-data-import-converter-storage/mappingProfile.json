@@ -31,11 +31,6 @@
       "type": "string",
       "$ref": "./entityType.json"
     },
-    "deleted": {
-      "description": "Flag indicates that the Mapping Profile marked as deleted",
-      "type": "boolean",
-      "default": false
-    },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Mapping Profile",
       "type": "object",

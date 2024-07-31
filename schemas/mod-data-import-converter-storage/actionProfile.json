@@ -54,11 +54,6 @@
         "MARC_AUTHORITY"
       ]
     },
-    "deleted": {
-      "description": "Flag indicates that the Action Profile marked as deleted",
-      "type": "boolean",
-      "default": false
-    },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Action Profile",
       "type": "object",
