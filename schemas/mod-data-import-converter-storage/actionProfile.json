@@ -51,7 +51,8 @@
         "INVOICE",
         "MARC_BIBLIOGRAPHIC",
         "MARC_HOLDINGS",
-        "MARC_AUTHORITY"
+        "MARC_AUTHORITY",
+        "MARC_AUTHORITY_EXTENDED"
       ]
     },
     "userInfo": {
