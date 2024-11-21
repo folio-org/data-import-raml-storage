@@ -26,7 +26,8 @@
         "ACTUAL",
         "OLD",
         "IN_PROGRESS",
-        "ERROR"
+        "ERROR",
+        "DELETED"
       ],
       "default": "ACTUAL"
     },
