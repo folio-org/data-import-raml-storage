@@ -39,11 +39,6 @@
         "$ref": "match-profile-detail/matchDetail.json"
       }
     },
-    "deleted": {
-      "description": "Flag indicates that the Match Profile marked as deleted",
-      "type": "boolean",
-      "default": false
-    },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Match Profile",
       "type": "object",

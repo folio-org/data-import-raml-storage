@@ -10,7 +10,6 @@
           "acq", "daily"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -35,7 +34,6 @@
           "cat", "weekly"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -60,7 +58,6 @@
           "acq", "cat", "weekly"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -85,7 +82,6 @@
           "monthly", "KB"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -108,7 +104,6 @@
       "tags": {
         "tagList": []
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -133,7 +128,6 @@
           "cat", "monthly"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -158,7 +152,6 @@
           "weekly", "DDA"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -183,7 +176,6 @@
           "acq"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -208,7 +200,6 @@
           "acq"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
@@ -233,7 +224,6 @@
           "acq", "daily"
         ]
       },
-      "deleted": false,
       "userInfo": {
         "firstName": "DIKU",
         "lastName": "ADMINISTRATOR",
