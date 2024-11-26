@@ -15,5 +15,6 @@
       "to": "999"
     }
   ],
-  "recordType": "MARC_AUTHORITY"
+  "recordType": "MARC_AUTHORITY",
+  "includeDeleted": "false"
 }

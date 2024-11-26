@@ -48,6 +48,11 @@
       "description": "Type of record, e.g. MARC",
       "type": "string",
       "$ref": "../mod-source-record-storage/recordType.json"
+    },
+    "includeDeleted": {
+      "id": "includeDeleted",
+      "description": "Flag to include deleted records",
+      "type": "boolean"
     }
   },
   "required": [
