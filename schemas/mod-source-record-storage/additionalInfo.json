@@ -7,6 +7,11 @@
       "description": "Flag indicates if the record is displayed during a search",
       "type": "boolean",
       "default": false
+    },
+    "deleted": {
+      "description": "Flag indicates if the record is set for deletion",
+      "type": "boolean",
+      "default": false
     }
   }
 }
