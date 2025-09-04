@@ -27,6 +27,10 @@
       "type": "boolean",
       "default": false
     },
+    "generation": {
+      "description": "Generation of the record. Starts from 0.",
+      "type": "integer"
+    },
     "order": {
       "description": "Order of the record in imported file",
       "type": "integer",
