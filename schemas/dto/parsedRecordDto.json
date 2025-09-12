@@ -23,16 +23,6 @@
       "type": "object",
       "$ref": "../mod-source-record-storage/parsedRecord.json"
     },
-    "recordState": {
-      "description": "State of source record in QM workflow",
-      "type": "string",
-      "enum": [
-        "ACTUAL",
-        "IN_PROGRESS",
-        "ERROR"
-      ],
-      "default": "ACTUAL"
-    },
     "additionalInfo": {
       "description": "Auxiliary data which is not related to MARC type record",
       "type": "object",
@@ -43,10 +33,6 @@
       "type": "object",
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
-    },
-    "relatedRecordVersion": {
-      "type": "string",
-      "description": "Related record (instance, holdings) version for optimistic locking needs"
     }
   },
   "required": [
