@@ -57,6 +57,10 @@
     "okapiPermissions": {
       "description": "The original module-level x-okapi-permission header, as provided by Okapi",
       "type": "string"
+    },
+    "okapiRequestId": {
+      "description": "The Okapi Request Id originally provided in the x-okapi-request-id header",
+      "type": "string"
     }
   },
   "required": [
