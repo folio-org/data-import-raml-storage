@@ -46,6 +46,10 @@
       "description": "The Okapi URL originally provided in the x-okapi-url header",
       "type": "string"
     },
+    "requestId": {
+      "description": "The Okapi Request Id originally provided in the x-okapi-request-id header",
+      "type": "string"
+    },
     "dataType": {
       "description": "The dataType from the original job profile, e.g. MARC",
       "type": "string"
