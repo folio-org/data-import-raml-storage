@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaType": "org.folio.rest.jaxrs.model.MatchProfile",
   "description": "Match Profile schema",
   "type": "object",
   "additionalProperties": false,
@@ -18,45 +19,38 @@
     },
     "tags": {
       "description": "Set of tags assigned to the current Match Profile",
-      "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
     "incomingRecordType": {
       "description": "Incoming record type",
-      "type": "string",
       "$ref": "entityType.json"
     },
     "existingRecordType": {
       "description": "Existing record type to match",
-      "type": "string",
       "$ref": "entityType.json"
     },
     "matchDetails": {
       "description": "Match profile details list",
       "type": "array",
       "items": {
-        "type": "object",
         "$ref": "match-profile-detail/matchDetail.json"
       }
     },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Match Profile",
-      "type": "object",
       "$ref": "../common/userInfo.json"
     },
     "parentProfiles": {
       "description": "Associated parent profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
-        "type": "object",
         "$ref": "./profileSnapshotWrapper.json"
       }
     },
     "childProfiles": {
       "description": "Associated children profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
-        "type": "object",
         "$ref": "./profileSnapshotWrapper.json"
       }
     },

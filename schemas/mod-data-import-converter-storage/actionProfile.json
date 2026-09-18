@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaType": "org.folio.rest.jaxrs.model.ActionProfile",
   "description": "Action Profile schema",
   "type": "object",
   "additionalProperties": false,
@@ -18,7 +19,6 @@
     },
     "tags": {
       "description": "Set of tags assigned to the current Action Profile",
-      "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
     "reactTo": {
@@ -57,23 +57,22 @@
     },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Action Profile",
-      "type": "object",
       "$ref": "../common/userInfo.json"
     },
     "parentProfiles": {
       "description": "Associated parent profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
         "type": "object",
-        "$ref": "./profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotWrapper.json"
       }
     },
     "childProfiles": {
       "description": "Associated children profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
         "type": "object",
-        "$ref": "./profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotWrapper.json"
       }
     },
     "hidden": {

@@ -10,22 +10,20 @@
     },
     "profile": {
       "description": "Action Profile object",
-      "javaType": "org.folio.rest.jaxrs.model.ActionProfile"
+      "$ref": "actionProfile.json"
     },
     "addedRelations": {
       "description": "Action profile added relations",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "profileAssociation.json"
+        "$ref": "profileAssociationRecord.json"
       }
     },
     "deletedRelations": {
       "description": "Action profile deleted relations",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "profileAssociation.json"
+        "$ref": "profileAssociationRecord.json"
       }
     }
   },

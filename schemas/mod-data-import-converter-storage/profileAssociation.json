@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaType": "org.folio.rest.jaxrs.model.ProfileAssociation",
   "description": "This schema represents m2m association between profiles. One kind of 'master' profiles can be associated to another kind of 'detail' profiles",
   "type": "object",
   "additionalProperties": false,

@@ -7,9 +7,7 @@
     "mappingProfiles": {
       "description": "List of Mapping Profiles",
       "type": "array",
-      "id": "mappingProfileList",
       "items": {
-        "type": "object",
         "$ref": "mappingProfile.json"
       }
     },

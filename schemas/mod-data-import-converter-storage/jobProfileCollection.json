@@ -7,9 +7,7 @@
     "jobProfiles": {
       "description": "List of Job Profiles",
       "type": "array",
-      "id": "jobProfileList",
       "items": {
-        "type": "object",
         "$ref": "jobProfile.json"
       }
     },

@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaType": "org.folio.rest.jaxrs.model.MappingProfile",
   "description": "Mapping Profile schema",
   "type": "object",
   "additionalProperties": false,
@@ -18,18 +19,15 @@
     },
     "tags": {
       "description": "Set of tags assigned to the current Mapping Profile",
-      "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
     "incomingRecordType": {
       "description": "Incoming record type",
-      "type": "string",
-      "$ref": "./entityType.json"
+      "$ref": "entityType.json"
     },
     "existingRecordType": {
       "description": "FOLIO record type to mapping",
-      "type": "string",
-      "$ref": "./entityType.json"
+      "$ref": "entityType.json"
     },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Mapping Profile",
@@ -38,26 +36,23 @@
     },
     "marcFieldProtectionSettings": {
       "description": "MARC field protection settings",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.MarcFieldProtectionSetting>",
+      "type": "array",
       "items": {
-        "type": "object",
         "$ref": "marc-field-protection/marcFieldProtectionSetting.json"
       }
     },
     "parentProfiles": {
       "description": "Associated parent profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "./profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotWrapper.json"
       }
     },
     "childProfiles": {
       "description": "Associated children profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "./profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotWrapper.json"
       }
     },
     "mappingDetails": {
@@ -71,13 +66,13 @@
     },
     "metadata": {
       "description": "Metadata provided by the server",
-      "type": "object",
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
     }
   },
   "required": [
     "name",
-    "incomingRecordType"
+    "incomingRecordType",
+    "existingRecordType"
   ]
 }

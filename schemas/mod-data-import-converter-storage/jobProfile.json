@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaType": "org.folio.rest.jaxrs.model.JobProfile",
   "description": "Job Profile schema",
   "additionalProperties": false,
   "type": "object",
@@ -18,7 +19,6 @@
     },
     "dataType": {
       "description": "Data type",
-      "type": "string",
       "$ref": "../common/dataType.json"
     },
     "reactTo": {
@@ -31,28 +31,24 @@
     },
     "tags": {
       "description": "Set of tags assigned to the current Job Profile",
-      "type": "object",
       "$ref": "../../raml-util/schemas/tags.schema"
     },
     "userInfo": {
       "description": "First name, last name and username of the user, who updated the Job Profile",
-      "type": "object",
       "$ref": "../common/userInfo.json"
     },
     "parentProfiles": {
       "description": "Associated parent profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "./profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotWrapper.json"
       }
     },
     "childProfiles": {
       "description": "Associated children profiles. Not required field that uses only for batch update/create",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileSnapshotWrapper>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "./profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotWrapper.json"
       }
     },
     "hidden": {
@@ -62,7 +58,6 @@
     },
     "metadata": {
       "description": "Metadata provided by the server",
-      "type": "object",
       "$ref": "../../raml-util/schemas/metadata.schema",
       "readonly": true
     }
