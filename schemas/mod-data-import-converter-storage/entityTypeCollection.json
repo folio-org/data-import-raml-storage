@@ -7,7 +7,6 @@
     "entityTypes": {
       "description": "Set of entity types",
       "type": "array",
-      "id": "entityTypeList",
       "items": {
         "type": "string"
       }

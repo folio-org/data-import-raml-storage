@@ -7,9 +7,7 @@
     "profileAssociations": {
       "description": "List of Profile associations",
       "type": "array",
-      "id": "profileAssociationList",
       "items": {
-        "type": "object",
         "$ref": "profileAssociation.json"
       }
     },

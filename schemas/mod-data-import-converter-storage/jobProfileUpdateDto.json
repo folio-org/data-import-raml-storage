@@ -10,22 +10,20 @@
     },
     "profile": {
       "description": "Job Profile object",
-      "javaType": "org.folio.rest.jaxrs.model.JobProfile"
+      "$ref": "jobProfile.json"
     },
     "addedRelations": {
       "description": "Job profile added relations",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "profileAssociation.json"
+        "$ref": "profileAssociationRecord.json"
       }
     },
     "deletedRelations": {
       "description": "Job profile deleted relations",
-      "javaType": "java.util.List<org.folio.rest.jaxrs.model.ProfileAssociation>",
+      "type": "array",
       "items": {
-        "type": "object",
-        "$ref": "profileAssociation.json"
+        "$ref": "profileAssociationRecord.json"
       }
     }
   },

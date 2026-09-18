@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "This schema describes Job Profile snapshot entity",
-  "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotWrapper",
+  "description": "This schema describes a Job Profile snapshot submitted for import; unlike profileSnapshotWrapper, contentType and content are required here since a real snapshot must carry real content",
+  "javaType": "org.folio.rest.jaxrs.model.ProfileSnapshotImport",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -37,10 +37,14 @@
       "description": "Set of children profile snapshots",
       "type": "array",
       "items": {
-        "$ref": "profileSnapshotWrapper.json"
+        "$ref": "profileSnapshotImport.json"
       }
     }
   },
+  "required": [
+    "contentType",
+    "content"
+  ],
   "excludedFromEqualsAndHashCode": [
     "content"
   ]
