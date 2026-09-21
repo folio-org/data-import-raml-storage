@@ -8,5 +8,6 @@
     "DELETE",
     "EDIT",
     "MOVE"
-  ]
+  ],
+  "default": "ADD"
 }
